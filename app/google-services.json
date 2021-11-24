@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1086813778720",
+    "project_id": "new-scoop-up",
+    "storage_bucket": "new-scoop-up.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086813778720:android:c3421f3bbb10b931849d45",
+        "android_client_info": {
+          "package_name": "com.cite.newscoopup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086813778720-muob0hm6oafc0fcr7nj5bocde3fhe0t6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM5T9xLwEsycNFR663XwCQogL1lqjDzww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086813778720-muob0hm6oafc0fcr7nj5bocde3fhe0t6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cite.newscoopup">
+    <!-- permissions for internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_20"
+        android:label="Scoop Up"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewScoopUp">
+        <activity
+            android:name=".AboutUsActivity"
+            android:exported="false"
+            android:label="About Us"/>
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false"
+            android:label="View Profile"/>
+        <activity
+            android:name=".LoadingActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditNewsActivity"
+            android:exported="false"
+            android:label="Edit News" />
+        <activity
+            android:name=".AddNewsActivity"
+            android:exported="false"
+            android:label="Add News" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="Scoop Up" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:label="Registration" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="Dashboard" />
+    </application>
+
+</manifest>

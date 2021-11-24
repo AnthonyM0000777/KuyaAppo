@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/idRLBSheet"
+    android:background="@color/black_shade_1"
+    android:padding="4dp">
+
+
+    <!--text view for displaying course name-->
+    <TextView
+        android:id="@+id/idTVNewsName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:padding="4dp"
+        android:text="News Name"
+        android:fontFamily="@font/medium"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/idIVNews"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/idTVNewsName"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:padding="4dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/idTVNewsDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVNewsName"
+        android:layout_margin="4dp"
+        android:layout_toEndOf="@id/idIVNews"
+        android:layout_toRightOf="@id/idIVNews"
+        android:padding="3dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/medium"
+        android:text="Description"
+        android:textColor="@color/black" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idIVNews"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/idBtnEditNews"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:text="Edit News"
+            android:textSize="17sp"
+            android:fontFamily="@font/bold"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/idBtnVIewDetails"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:textSize="17sp"
+            android:text="View More"
+            android:fontFamily="@font/bold"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</RelativeLayout>

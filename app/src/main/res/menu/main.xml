@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item android:id="@+id/idMore"
+            android:icon="@drawable/ic_baseline_dehaze_24"
+            app:showAsAction="always"
+            android:title="">
+
+        <menu>
+            <item android:id="@+id/idEdtDashboard"
+                android:title="Dashboard"
+                android:icon="@drawable/ic_baseline_dashboard_24"
+                app:showAsAction="ifRoom"/>
+
+            <item android:id="@+id/idEdtProfile"
+                android:title="View Profile"
+                android:icon="@drawable/ic_baseline_person_24"
+                app:showAsAction="ifRoom"/>
+
+            <item android:id="@+id/idEdtAbout"
+                android:title="About Us"
+                android:icon="@drawable/ic_baseline_info_24"
+                app:showAsAction="ifRoom"/>
+
+            <item android:id="@+id/idEdtLogout"
+                android:title="Log Out"
+                android:icon="@drawable/ic_baseline_login_24"
+                app:showAsAction="ifRoom"/>
+
+
+
+        </menu>
+
+    </item>
+</menu>
