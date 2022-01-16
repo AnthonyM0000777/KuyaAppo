@@ -7,13 +7,14 @@
             android:title="">
 
         <menu>
+
             <item android:id="@+id/idEdtDashboard"
                 android:title="Dashboard"
                 android:icon="@drawable/ic_baseline_dashboard_24"
                 app:showAsAction="ifRoom"/>
 
             <item android:id="@+id/idEdtProfile"
-                android:title="View Profile"
+                android:title="Profile"
                 android:icon="@drawable/ic_baseline_person_24"
                 app:showAsAction="ifRoom"/>
 
@@ -21,6 +22,22 @@
                 android:title="About Us"
                 android:icon="@drawable/ic_baseline_info_24"
                 app:showAsAction="ifRoom"/>
+
+            <item android:id="@+id/idSortAtoZ"
+                android:title="Sort by z - a"
+                android:icon="@drawable/ic_baseline_sort_24"
+                app:showAsAction="ifRoom"/>
+
+            <item android:id="@+id/idSortZtoA"
+                android:title="Sort by a - z"
+                android:icon="@drawable/ic_baseline_sort_24"
+                app:showAsAction="ifRoom"/>
+
+          <!--  <item android:id="@+id/idSortDate"
+                android:title="Sort by Date"
+                android:icon="@drawable/ic_baseline_sort_24"
+                app:showAsAction="ifRoom"/>-->
+
 
             <item android:id="@+id/idEdtLogout"
                 android:title="Log Out"

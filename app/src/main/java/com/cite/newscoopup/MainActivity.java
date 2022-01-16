@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -31,31 +32,38 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class MainActivity extends AppCompatActivity implements NewsRVAdapter.NewsClickInterface {
 
     private FloatingActionButton addNewsFAB;
-    FirebaseDatabase firebaseDatabase;
-    DatabaseReference databaseReference;
+    private FirebaseDatabase firebaseDatabase;
+    private DatabaseReference databaseReference;
     private RecyclerView newsRV;
     private FirebaseAuth mAuth;
     private ProgressBar loadingPB;
     private ArrayList<NewsRVModal> newsRVModalArrayList;
     private NewsRVAdapter newsRVAdapter;
     private RelativeLayout homeRL;
+    private String newsID,post;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
         setContentView (R.layout.activity_main);
 
+       // mAuth = FirebaseAuth.getInstance ();
+        //newsID = mAuth.getCurrentUser ().getUid ();
+
         newsRV = findViewById (R.id.idRVNews);
         homeRL = findViewById (R.id.idRLBSheet);
         loadingPB = findViewById (R.id.idPBLoading);
         addNewsFAB = findViewById (R.id.idFABAddNews);
         firebaseDatabase = FirebaseDatabase.getInstance ();
-        mAuth = FirebaseAuth.getInstance ();
         newsRVModalArrayList = new ArrayList<> ();
+
+       //databaseReference = FirebaseDatabase.getInstance ().getReference().child ("News");
         databaseReference = firebaseDatabase.getReference ("News");
         addNewsFAB.setOnClickListener (new View.OnClickListener () {
             @Override
@@ -64,9 +72,24 @@ public class MainActivity extends AppCompatActivity implements NewsRVAdapter.New
                 startActivity (i);
             }
         });
-        newsRVAdapter = new NewsRVAdapter (newsRVModalArrayList, this, this :: onNewsClick);
+
+       /* newsRVAdapter =  new NewsRVAdapter (newsRVModalArrayList, this, this :: onNewsClick);
         newsRV.setLayoutManager (new LinearLayoutManager (this));
-        newsRV.setAdapter (newsRVAdapter);
+        newsRV.setAdapter (newsRVAdapter);*/
+
+        //LinearLayoutManager layoutManager = new LinearLayoutManager (this);
+       // layoutManager.setReverseLayout(true);
+       // layoutManager.setStackFromEnd (true);
+        //newsRV.setLayoutManager (layoutManager);
+
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        layoutManager.setReverseLayout (true);
+        layoutManager.setStackFromEnd (true);
+        newsRV.setLayoutManager (layoutManager);
+
+        newsRVAdapter = new NewsRVAdapter (newsRVModalArrayList, this, this :: onNewsClick);
+        //newsRV.setLayoutManager(new LinearLayoutManager(this));
+        newsRV.setAdapter(newsRVAdapter);
         getNews ();
     }
 
@@ -118,15 +141,18 @@ public class MainActivity extends AppCompatActivity implements NewsRVAdapter.New
     }
 
     private void displayBottomSheet(NewsRVModal newsRVModal) {
+
         final BottomSheetDialog bottomSheetTeachersDialog = new BottomSheetDialog (this);
         View layout = LayoutInflater.from (this).inflate (R.layout.bottom_sheet_layout, homeRL);
         bottomSheetTeachersDialog.setContentView (layout);
         bottomSheetTeachersDialog.setCancelable (false);
         bottomSheetTeachersDialog.setCanceledOnTouchOutside (true);
         bottomSheetTeachersDialog.show ();
+        TextView newsUploadTV = layout.findViewById (R.id.idTVUploadBy);
         TextView newsNameTV = layout.findViewById (R.id.idTVNewsName);
         TextView newsDescTV = layout.findViewById (R.id.idTVNewsDesc);
         ImageView newsIV = layout.findViewById (R.id.idIVNews);
+        newsUploadTV.setText (newsRVModal.getNewsUpload ());
         newsNameTV.setText (newsRVModal.getNewsName ());
         newsDescTV.setText (newsRVModal.getNewsDescription ());
         Picasso.get ().load (newsRVModal.getNewsImg ()).into (newsIV);
@@ -156,6 +182,7 @@ public class MainActivity extends AppCompatActivity implements NewsRVAdapter.New
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId ();
         switch (id) {
+
             case R.id.idEdtDashboard:
                 startActivity (new Intent (MainActivity.this, MainActivity.class));
                 this.finish ();
@@ -171,6 +198,28 @@ public class MainActivity extends AppCompatActivity implements NewsRVAdapter.New
                 startActivity (new Intent (MainActivity.this, AboutUsActivity.class));
                 this.finish ();
                 return true;
+
+
+            case R.id.idSortAtoZ:
+                Collections.sort (newsRVModalArrayList, NewsRVModal.NewsAZComparator);
+                Toast.makeText (MainActivity.this, "Sorted by z - a", Toast.LENGTH_SHORT).show ();
+                newsRVAdapter.notifyDataSetChanged ();
+                // this.finish ();
+                return true;
+
+            case R.id.idSortZtoA:
+                Collections.sort (newsRVModalArrayList, NewsRVModal.NewsZAComparator);
+                Toast.makeText (MainActivity.this, "Sorted by a - z", Toast.LENGTH_SHORT).show ();
+                newsRVAdapter.notifyDataSetChanged ();
+                // this.finish ();
+                return true;
+
+           /* case R.id.idSortDate:
+                Collections.sort (newsRVModalArrayList, NewsRVModal.NewsZAComparator);
+                Toast.makeText (MainActivity.this, "Sorted by Date", Toast.LENGTH_SHORT).show ();
+                newsRVAdapter.notifyDataSetChanged ();
+                // this.finish ();
+                return true;*/
 
             case R.id.idEdtLogout:
                 Toast.makeText (MainActivity.this, "Log out successful", Toast.LENGTH_SHORT).show ();

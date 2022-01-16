@@ -3,12 +3,19 @@ package com.cite.newscoopup;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-public class NewsRVModal implements Parcelable {
+import java.util.Comparator;
+import java.util.Map;
+
+public class NewsRVModal implements Parcelable{
+
     private String newsName;
     private String newsDescription;
     private String newsImg;
     private String newsLink;
+    private String newsUpload;
     private String newsID;
+    private String newsDate;
+    private String uid;
 
 
     public String getNewsID() {
@@ -26,11 +33,38 @@ public class NewsRVModal implements Parcelable {
 
     protected NewsRVModal(Parcel in) {
         newsName = in.readString();
-        newsID = in.readString();
         newsDescription = in.readString();
         newsImg = in.readString();
         newsLink = in.readString();
+        newsUpload = in.readString ();
+        newsID = in.readString();
+        newsDate = in.readString ();
+        uid = in.readString ();
+
     }
+
+    public static Comparator<NewsRVModal> NewsAZComparator = new Comparator<NewsRVModal> () {
+        @Override
+        public int compare(NewsRVModal p1, NewsRVModal p2) {
+            return p1.getNewsName ().compareTo (p2.getNewsName ());
+        }
+    };
+
+    public static Comparator<NewsRVModal> NewsZAComparator = new Comparator<NewsRVModal> () {
+        @Override
+        public int compare(NewsRVModal p1, NewsRVModal p2) {
+            return p2.getNewsName ().compareTo (p1.getNewsName ());
+        }
+    };
+
+    /*public static Comparator<NewsRVModal> NewsDateAscendingComparator = new Comparator<NewsRVModal> () {
+        @Override
+        public int compare(NewsRVModal p1, NewsRVModal p2) {
+            return p1.getNewsDate ().compareTo (p2.getNewsDate ());
+        }
+    };*/
+
+
 
     public static final Creator<NewsRVModal> CREATOR = new Creator<NewsRVModal>() {
         @Override
@@ -77,13 +111,37 @@ public class NewsRVModal implements Parcelable {
         this.newsLink = newsLink;
     }
 
+    public String getNewsUpload(){
+        return newsUpload;
+    }
 
-    public NewsRVModal(String newsID, String newsName, String newsDescription, String newsImg, String newsLink) {
+    public void setNewsUploadBy(String newsUploadBy) {
+        this.newsUpload = newsUpload;
+    }
+
+    public  String getNewsDate(){
+        return  newsDate;
+    }
+    public void setNewsDate(String newsDate){
+        this.newsDate = newsDate;
+    }
+
+    public String getUid(){
+        return uid;
+    }
+    public void setUid(String uid){
+        this.uid = uid;
+    }
+
+    public NewsRVModal(String newsID,String newsName, String newsDescription, String newsImg, String newsLink, String newsUpload, String newsDate, String uid ) {
         this.newsName = newsName;
-        this.newsID = newsID;
         this.newsDescription = newsDescription;
         this.newsImg = newsImg;
         this.newsLink = newsLink;
+        this.newsUpload = newsUpload;
+        this.newsID = newsID;
+        this.newsDate = newsDate;
+        this.uid = uid;
     }
 
     @Override
@@ -94,9 +152,12 @@ public class NewsRVModal implements Parcelable {
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(newsName);
-        dest.writeString(newsID);
         dest.writeString(newsDescription);
         dest.writeString(newsImg);
         dest.writeString(newsLink);
+        dest.writeString(newsUpload);
+        dest.writeString(newsID);
+        dest.writeString (newsDate);
+        dest.writeString (uid);
     }
 }

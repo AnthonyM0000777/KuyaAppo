@@ -21,14 +21,15 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class EditProfileActivity extends AppCompatActivity {
-    private TextView userNameEdt, pwdEdt, nameEdt;
+    private TextView userNameEdt, pwdEdt, nameEdt, postbtn;
     private Button logoutBtn;
     private ProgressBar loadingPB;
     private TextView loginTV;
     private FirebaseAuth mAuth;
     private FirebaseUser user;
-    private DatabaseReference reference;
-    private String userID;
+    private DatabaseReference reference, postRef;
+    private String userID, newsIDD;
+    private int countPost = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,11 +42,36 @@ public class EditProfileActivity extends AppCompatActivity {
         //logoutBtn = findViewById (R.id.idBtnLogout);
         loadingPB = findViewById (R.id.idPBLoading);
         loginTV = findViewById (R.id.idTVLogin);
+
+        //mAuth = FirebaseAuth.getInstance ();
+
+        postbtn = (Button) findViewById (R.id.post_news);
+
+        postRef = FirebaseDatabase.getInstance ().getReference ().child ("News");
         mAuth = FirebaseAuth.getInstance ();
+        newsIDD = mAuth.getCurrentUser ().getUid ();
 
         user = FirebaseAuth.getInstance ().getCurrentUser ();
         reference = FirebaseDatabase.getInstance ().getReference ("Users");
         userID = user.getUid ();
+
+        postRef.orderByChild ("uid").startAt (newsIDD)
+                .endAt (newsIDD + "\uf8ff").addValueEventListener (new ValueEventListener () {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                if(snapshot.exists ()){
+                    countPost = (int) snapshot.getChildrenCount ();
+                    postbtn.setText("You have" +Integer.toString(countPost)+ " news uploads.");
+                }else {
+                    postbtn.setText("0 Upload");
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
 
         reference.child (userID).addListenerForSingleValueEvent (new ValueEventListener () {
             @Override
@@ -54,11 +80,10 @@ public class EditProfileActivity extends AppCompatActivity {
 
                 if(userProfile!=null){
                     String userName = userProfile.userName;
-                    String pwd = userProfile.pwd;
+
                     String fullName = userProfile.fullName;
 
                     userNameEdt.setText (userName);
-                    pwdEdt.setText (pwd);
                     nameEdt.setText (fullName);
 
                 }

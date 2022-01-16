@@ -5,22 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".EditProfileActivity"
-    android:background="@drawable/tt">
+    android:background="@drawable/pa">
+
 
     <TextView
         android:id="@+id/pi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="180dp"
         android:fontFamily="@font/bold"
+        android:gravity="center_horizontal"
         android:text="Profile"
         android:textAlignment="center"
         android:textColor="@color/black_shade_2"
         android:textSize="30dp"
         android:textStyle="bold"
-        android:gravity="center_horizontal"
         tools:ignore="MissingConstraints" />
-
 
     <TextView
         android:id="@+id/idEdtName"
@@ -31,9 +31,9 @@
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="240dp"
         android:layout_marginEnd="40dp"
-        android:background="@drawable/button_back"
+        android:background="@drawable/pbf"
         android:drawableStart="@drawable/ic_baseline_person_24"
         android:drawableLeft="@drawable/ic_baseline_person_24"
         android:drawablePadding="7dp"
@@ -57,7 +57,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="20dp"
-        android:background="@drawable/button_back"
+        android:background="@drawable/pbf"
         android:drawableStart="@drawable/ic_baseline_email_24"
         android:drawableLeft="@drawable/ic_baseline_email_24"
         android:drawablePadding="7dp"
@@ -71,29 +71,24 @@
         android:textSize="20sp"
         tools:ignore="MissingConstraints" />
 
-
-    <TextView
-        android:id="@+id/idEdtPwd"
-        style="@style/TextInputLayout"
-        android:layout_width="320dp"
+    <Button
+        android:id="@+id/post_news"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/idEdtUserName"
+        android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="20dp"
-        android:background="@drawable/button_back"
-        android:drawableStart="@drawable/ic_baseline_lock_24"
-        android:drawableLeft="@drawable/ic_baseline_lock_24"
-        android:drawablePadding="7dp"
-        android:fontFamily="@font/medium"
-        android:hint="Password"
-        android:importantForAutofill="no"
-        android:inputType="textPassword"
-        android:padding="15dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="355dp"
+        android:layout_marginEnd="40dp"
+        android:text="Uploaded News"
+        android:textAllCaps="false"
         android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        android:textSize="20sp" />
+        android:textSize="16sp"
+        android:fontFamily="@font/medium"
+        app:backgroundTint="#FFFFFF" />
+
+
 
 
     <ProgressBar

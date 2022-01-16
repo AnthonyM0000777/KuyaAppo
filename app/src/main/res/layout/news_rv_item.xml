@@ -24,14 +24,87 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/idIVNews"
-            android:layout_margin="3dp"
-            android:padding="4dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:fontFamily="@font/medium"
+            android:padding="3dp"
             android:text="News Name"
             android:textColor="@color/black"
-            android:textSize="17sp"
-            android:fontFamily="@font/medium"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
+        <!--name upload-->
+        <!--   <TextView
+              android:id="@+id/idTVNewsUploadBy"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/idTVNewsName"
+              android:layout_marginStart="83dp"
+              android:layout_marginLeft="3dp"
+              android:layout_marginEnd="3dp"
+              android:layout_marginRight="3dp"
+              android:layout_marginBottom="3dp"
+              android:fontFamily="@font/medium"
+              android:padding="2dp"
+              android:text="Upload By"
+              android:textColor="@color/black"
+              android:textSize="13sp"
+              android:textStyle="italic"/>
+
+          <TextView
+              android:id="@+id/idTVNewsUploadByName"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/idTVNewsName"
+              android:layout_marginStart="5dp"
+              android:layout_marginLeft="3dp"
+              android:layout_marginEnd="3dp"
+              android:layout_marginRight="3dp"
+              android:layout_marginBottom="3dp"
+              android:fontFamily="@font/medium"
+              android:padding="2dp"
+              android:text="Uploaded By:"
+              android:textColor="@color/black"
+              android:textSize="13sp"
+              android:textStyle="italic" />-->
+
+  <!--date upload-->
+      <!-- <TextView
+            android:id="@+id/idTVNewsDateName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTVNewsName"
+            android:layout_marginStart="77dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/thin"
+            android:padding="2dp"
+            android:text=":Date Uploaded"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="italic"/>-->
+
+        <TextView
+            android:id="@+id/idTVNewsDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTVNewsName"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/medium"
+            android:padding="2dp"
+            android:text="Date upload"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="italic" />
 
     </RelativeLayout>
 

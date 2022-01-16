@@ -1,6 +1,7 @@
 package com.cite.newscoopup;
 
 import android.annotation.SuppressLint;
+import android.content.ClipData;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,12 +17,14 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class NewsRVAdapter extends RecyclerView.Adapter<NewsRVAdapter.ViewHolder> {
     private ArrayList<NewsRVModal> newsRVModalArrayList;
     private Context context;
     private NewsClickInterface newsClickInterface;
     int lastPos = -1;
+
 
     public NewsRVAdapter(ArrayList<NewsRVModal> newsRVModalArrayList, Context context, NewsClickInterface newsClickInterface) {
         this.newsRVModalArrayList = newsRVModalArrayList;
@@ -39,6 +42,7 @@ public class NewsRVAdapter extends RecyclerView.Adapter<NewsRVAdapter.ViewHolder
     @Override
     public void onBindViewHolder(@NonNull NewsRVAdapter.ViewHolder holder, @SuppressLint("RecyclerView") int position) {
         NewsRVModal newsRVModal = newsRVModalArrayList.get(position);
+        holder.newsDate.setText (newsRVModal.getNewsDate());
         holder.newsTV.setText(newsRVModal.getNewsName());
         Picasso.get().load(newsRVModal.getNewsImg()).into(holder.newsIV);
         setAnimation(holder.itemView, position);
@@ -49,6 +53,7 @@ public class NewsRVAdapter extends RecyclerView.Adapter<NewsRVAdapter.ViewHolder
             }
         });
     }
+
 
     private void setAnimation(View itemView, int position) {
         if (position > lastPos) {
@@ -63,14 +68,14 @@ public class NewsRVAdapter extends RecyclerView.Adapter<NewsRVAdapter.ViewHolder
         return newsRVModalArrayList.size();
     }
 
-
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
+        private TextView newsDate, newsTV;
         private ImageView newsIV;
-        private TextView newsTV;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
+            newsDate = itemView.findViewById (R.id.idTVNewsDate);
             newsIV = itemView.findViewById(R.id.idIVNews);
             newsTV = itemView.findViewById(R.id.idTVNewsName);
         }

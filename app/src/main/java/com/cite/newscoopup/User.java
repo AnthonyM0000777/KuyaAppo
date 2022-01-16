@@ -1,14 +1,18 @@
 package com.cite.newscoopup;
 
-public class User {
-    public String fullName,userName,pwd;
+import android.os.Parcel;
 
-    public User(){
+public class User {
+    public String fullName, userName;
+
+    public User() {
 
     }
-    public User(String fullName,String userName, String pwd){
+
+    public User(String fullName, String userName) {
         this.fullName = fullName;
         this.userName = userName;
-        this.pwd = pwd;
     }
+
+
 }

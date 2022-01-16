@@ -122,6 +122,33 @@
                     android:textSize="17sp" />
             </com.google.android.material.textfield.TextInputLayout>
 
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/idTILNewsUploadBy"
+                style="@style/TextInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="Uploaded By"
+                android:padding="5dp"
+                android:textColorHint="@color/black_shade_2"
+                app:hintTextColor="@color/black_shade_2">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/idEdtNewsUploadBy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:importantForAutofill="no"
+                    android:inputType="textImeMultiLine|textMultiLine"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="17sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
             <Button
                 android:id="@+id/idBtnAddNews"
                 android:layout_width="match_parent"

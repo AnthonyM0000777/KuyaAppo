@@ -19,7 +19,7 @@
         <activity
             android:name=".EditProfileActivity"
             android:exported="false"
-            android:label="View Profile"/>
+            android:label="Profile"/>
         <activity
             android:name=".LoadingActivity"
             android:exported="true"
@@ -40,12 +40,10 @@
             android:label="Add News" />
         <activity
             android:name=".LoginActivity"
-            android:exported="false"
-            android:label="Scoop Up" />
+            android:exported="false"/>
         <activity
             android:name=".RegisterActivity"
-            android:exported="false"
-            android:label="Registration" />
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="false"

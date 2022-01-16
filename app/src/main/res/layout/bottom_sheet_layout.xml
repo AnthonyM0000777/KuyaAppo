@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/idRLBSheet"
     android:background="@color/black_shade_1"
     android:padding="4dp">
@@ -39,14 +40,57 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/idTVNewsName"
-        android:layout_margin="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
         android:layout_toEndOf="@id/idIVNews"
         android:layout_toRightOf="@id/idIVNews"
-        android:padding="3dp"
-        android:textSize="16sp"
         android:fontFamily="@font/medium"
+        android:padding="3dp"
         android:text="Description"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/nameUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVNewsDesc"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/medium"
+        android:padding="3dp"
+        android:text="Uploaded By:"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/idTVUploadBy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVNewsDesc"
+        android:layout_marginStart="83dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/medium"
+        android:padding="3dp"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+
 
 
     <LinearLayout
@@ -55,7 +99,7 @@
         android:layout_below="@id/idIVNews"
         android:orientation="horizontal"
         android:weightSum="2"
-        android:paddingTop="10dp">
+        android:paddingTop="30dp">
 
         <Button
             android:id="@+id/idBtnEditNews"

@@ -5,20 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AboutUsActivity"
-    android:background="@drawable/tt">
+    android:background="@drawable/pa">
 
     <TextView
         android:id="@+id/us"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="180dp"
         android:fontFamily="@font/bold"
+        android:gravity="center_horizontal"
         android:text="Developer Informations"
         android:textAlignment="center"
         android:textColor="@color/black_shade_2"
         android:textSize="30dp"
-        android:textStyle="bold"
-        android:gravity="center_horizontal" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/desc"
@@ -28,11 +28,11 @@
         android:layout_centerVertical="true"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/bold"
-        android:text="Dennis Yares"
+        android:gravity="center_horizontal"
+        android:text="Anthony Magat"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="19sp"
-        android:gravity="center_horizontal" />
+        android:textSize="19sp" />
 
     <TextView
         android:id="@+id/desc0"
@@ -41,7 +41,7 @@
         android:layout_below="@id/desc"
         android:layout_centerVertical="true"
         android:fontFamily="@font/medium"
-        android:text="Technical Writer"
+        android:text="Programmer"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:gravity="center_horizontal" />
@@ -54,7 +54,7 @@
         android:layout_centerVertical="true"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/bold"
-        android:text="Anthony Magat"
+        android:text="Dennis Yares"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="19sp"
@@ -67,7 +67,7 @@
         android:layout_below="@id/desc1"
         android:layout_centerVertical="true"
         android:fontFamily="@font/medium"
-        android:text="Programmer"
+        android:text="Technical Writer"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:gravity="center_horizontal" />

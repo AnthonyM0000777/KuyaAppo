@@ -74,7 +74,7 @@ public class RegisterActivity extends AppCompatActivity {
                                 Intent i = new Intent(RegisterActivity.this, LoginActivity.class);
                                 startActivity(i);
                                 finish();*/
-                                User user = new User (fullName, userName, pwd);
+                                User user = new User (fullName, userName);
                                 FirebaseDatabase.getInstance ().getReference ("Users")
                                         .child (FirebaseAuth.getInstance ().getCurrentUser ().getUid ())
                                         .setValue (user).addOnCompleteListener (new OnCompleteListener<Void> () {

@@ -5,7 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:background="@color/black">
+    android:background="@color/black_shade_1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="190dp"
+        android:fontFamily="@font/bold"
+        android:gravity="center_horizontal"
+        android:text="Log in"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="28dp" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/idEdtUserName"
@@ -15,7 +29,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="250dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/t_back"
         android:fontFamily="@font/medium"
@@ -64,9 +78,9 @@
         android:layout_centerInParent="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="49dp"
-        android:fontFamily="@font/bold"
         android:layout_marginEnd="20dp"
         android:background="@drawable/button_back"
+        android:fontFamily="@font/bold"
         android:text="Log in"
         android:textAllCaps="false"
         android:textColor="@color/white"
@@ -78,12 +92,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/idBtnLogin"
         android:layout_marginTop="20dp"
-        android:gravity="center"
         android:fontFamily="@font/thin"
+        android:gravity="center"
         android:text="New User ? Register Here"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="17sp" />
 
 
