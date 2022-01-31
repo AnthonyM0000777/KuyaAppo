@@ -106,6 +106,41 @@
             android:textSize="10sp"
             android:textStyle="italic" />
 
+
+        <TextView
+            android:id="@+id/nameUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTVNewsDate"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/medium"
+            android:padding="2dp"
+            android:text="Uploaded By:"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/idTVUploadBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTVNewsDate"
+            android:layout_marginStart="62dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/medium"
+            android:padding="2dp"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>

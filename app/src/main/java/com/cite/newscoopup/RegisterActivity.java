@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class RegisterActivity extends AppCompatActivity {
-    private TextInputEditText nameEdt,userNameEdt, passwordEdt, confirmPwdEdt;
+    private TextInputEditText nameEdt, userNameEdt, passwordEdt, confirmPwdEdt;
     private TextView loginTV;
     private Button registerBtn;
     private FirebaseAuth mAuth;
@@ -30,6 +30,7 @@ public class RegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
         setContentView (R.layout.activity_register);
+
 
         nameEdt = findViewById (R.id.idEdtName);
         userNameEdt = findViewById(R.id.idEdtUserName);

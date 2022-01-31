@@ -12,10 +12,11 @@ public class NewsRVModal implements Parcelable{
     private String newsDescription;
     private String newsImg;
     private String newsLink;
-    private String newsUpload;
+    //private String newsUpload;
     private String newsID;
     private String newsDate;
     private String uid;
+    private String uploader;
 
 
     public String getNewsID() {
@@ -36,13 +37,14 @@ public class NewsRVModal implements Parcelable{
         newsDescription = in.readString();
         newsImg = in.readString();
         newsLink = in.readString();
-        newsUpload = in.readString ();
+        //newsUpload = in.readString ();
         newsID = in.readString();
         newsDate = in.readString ();
         uid = in.readString ();
+        uploader = in.readString ();
 
     }
-
+//sortng method
     public static Comparator<NewsRVModal> NewsAZComparator = new Comparator<NewsRVModal> () {
         @Override
         public int compare(NewsRVModal p1, NewsRVModal p2) {
@@ -111,13 +113,13 @@ public class NewsRVModal implements Parcelable{
         this.newsLink = newsLink;
     }
 
-    public String getNewsUpload(){
-        return newsUpload;
-    }
+    //public String getNewsUpload(){
+     //   return newsUpload;
+   // }
 
-    public void setNewsUploadBy(String newsUploadBy) {
-        this.newsUpload = newsUpload;
-    }
+    //public void setNewsUploadBy(String newsUploadBy) {
+     //   this.newsUpload = newsUpload;
+    //}
 
     public  String getNewsDate(){
         return  newsDate;
@@ -133,15 +135,23 @@ public class NewsRVModal implements Parcelable{
         this.uid = uid;
     }
 
-    public NewsRVModal(String newsID,String newsName, String newsDescription, String newsImg, String newsLink, String newsUpload, String newsDate, String uid ) {
+    public String getUploader(){
+        return uploader;
+    }
+    public void setUploader(String uploader){
+        this.uploader = uploader;
+    }
+
+    public NewsRVModal(String newsID,String newsName, String newsDescription, String newsImg, String newsLink, String newsDate, String uid, String uploader ) {
         this.newsName = newsName;
         this.newsDescription = newsDescription;
         this.newsImg = newsImg;
         this.newsLink = newsLink;
-        this.newsUpload = newsUpload;
+        //this.newsUpload = newsUpload;
         this.newsID = newsID;
         this.newsDate = newsDate;
         this.uid = uid;
+        this.uploader = uploader;
     }
 
     @Override
@@ -155,9 +165,10 @@ public class NewsRVModal implements Parcelable{
         dest.writeString(newsDescription);
         dest.writeString(newsImg);
         dest.writeString(newsLink);
-        dest.writeString(newsUpload);
+       // dest.writeString(newsUpload);
         dest.writeString(newsID);
         dest.writeString (newsDate);
         dest.writeString (uid);
+        dest.writeString (uploader);
     }
 }

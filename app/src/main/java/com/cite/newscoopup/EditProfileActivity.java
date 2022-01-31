@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -22,7 +23,6 @@ import com.google.firebase.database.ValueEventListener;
 
 public class EditProfileActivity extends AppCompatActivity {
     private TextView userNameEdt, pwdEdt, nameEdt, postbtn;
-    private Button logoutBtn;
     private ProgressBar loadingPB;
     private TextView loginTV;
     private FirebaseAuth mAuth;
@@ -30,6 +30,7 @@ public class EditProfileActivity extends AppCompatActivity {
     private DatabaseReference reference, postRef;
     private String userID, newsIDD;
     private int countPost = 0;
+    private Button uploadBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,36 +43,38 @@ public class EditProfileActivity extends AppCompatActivity {
         //logoutBtn = findViewById (R.id.idBtnLogout);
         loadingPB = findViewById (R.id.idPBLoading);
         loginTV = findViewById (R.id.idTVLogin);
+        //uploadBtn = findViewById (R.id.ViewUpload);
+
 
         //mAuth = FirebaseAuth.getInstance ();
 
-        postbtn = (Button) findViewById (R.id.post_news);
+        postbtn = (TextView) findViewById (R.id.post_news);
 
-        postRef = FirebaseDatabase.getInstance ().getReference ().child ("News");
-        mAuth = FirebaseAuth.getInstance ();
-        newsIDD = mAuth.getCurrentUser ().getUid ();
+       // postRef = FirebaseDatabase.getInstance ().getReference ().child ("News");
+      //  mAuth = FirebaseAuth.getInstance ();
+       // newsIDD = mAuth.getCurrentUser ().getUid ();
 
         user = FirebaseAuth.getInstance ().getCurrentUser ();
         reference = FirebaseDatabase.getInstance ().getReference ("Users");
         userID = user.getUid ();
 
-        postRef.orderByChild ("uid").startAt (newsIDD)
-                .endAt (newsIDD + "\uf8ff").addValueEventListener (new ValueEventListener () {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                if(snapshot.exists ()){
-                    countPost = (int) snapshot.getChildrenCount ();
-                    postbtn.setText("You have" +Integer.toString(countPost)+ " news uploads.");
-                }else {
-                    postbtn.setText("0 Upload");
-                }
-            }
+       // postRef.orderByChild ("uid").startAt (newsIDD)
+         //       .endAt (newsIDD + "\uf8ff").addValueEventListener (new ValueEventListener () {
+         //   @Override
+           // public void onDataChange(@NonNull DataSnapshot snapshot) {
+            //    if(snapshot.exists ()){
+             //      countPost = (int) snapshot.getChildrenCount ();
+               //     postbtn.setText("You have" +Integer.toString(countPost)+ " news uploads.");
+              //  }else {
+                //    postbtn.setText("0 Upload");
+              //  }
+          //  }
 
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
+           // @Override
+            //public void onCancelled(@NonNull DatabaseError error) {
 
-            }
-        });
+         //   }
+       // });
 
         reference.child (userID).addListenerForSingleValueEvent (new ValueEventListener () {
             @Override
@@ -94,6 +97,14 @@ public class EditProfileActivity extends AppCompatActivity {
                 Toast.makeText (EditProfileActivity.this, "Something wrong", Toast.LENGTH_SHORT).show ();
             }
         });
+
+       // uploadBtn.setOnClickListener (new View.OnClickListener () {
+         //   @Override
+          //  public void onClick(View v) {
+           //     Intent i = new Intent (EditProfileActivity.this, ViewUpload.class);
+            //    startActivity (i);
+          //  }
+       // });
     }
 
 
@@ -116,6 +127,25 @@ public class EditProfileActivity extends AppCompatActivity {
                 startActivity (new Intent (EditProfileActivity.this, EditProfileActivity.class));
                 this.finish ();
                 return true;
+
+            //view upload
+            case R.id.idEdtView:
+                startActivity (new Intent (EditProfileActivity.this, ViewUpload.class));
+                this.finish ();
+                return true;
+
+            case R.id.idEdtSorting:
+                //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
+                //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
+                ///this.finish ();
+                return true;
+
+            case R.id.idEdtProfile1:
+                //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
+                //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
+                ///this.finish ();
+                return true;
+
 
 
             case R.id.idEdtAbout:

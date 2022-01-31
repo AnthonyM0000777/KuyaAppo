@@ -13,13 +13,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NewScoopUp">
         <activity
+            android:name=".ViewUpload"
+            android:exported="false"
+            android:label="Uploads"/>
+        <activity
             android:name=".AboutUsActivity"
             android:exported="false"
-            android:label="About Us"/>
+            android:label="About Us" />
         <activity
             android:name=".EditProfileActivity"
             android:exported="false"
-            android:label="Profile"/>
+            android:label="Profile" />
         <activity
             android:name=".LoadingActivity"
             android:exported="true"
@@ -40,10 +44,10 @@
             android:label="Add News" />
         <activity
             android:name=".LoginActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".RegisterActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false"

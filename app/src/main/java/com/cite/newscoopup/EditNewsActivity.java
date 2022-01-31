@@ -56,7 +56,7 @@ public class EditNewsActivity extends AppCompatActivity {
         newsDescEdt = findViewById(R.id.idEdtNewsDescription1);
         newsImgEdt = findViewById(R.id.idEdtNewsImageLink1);
         newsLinkEdt = findViewById(R.id.idEdtNewsLink1);
-        newsUploadEdt = findViewById (R.id.idEdtNewsUploadBy1);
+        //newsUploadEdt = findViewById (R.id.idEdtNewsUploadBy1);
         deleteNewsBtn = findViewById(R.id.idBtnDeleteNews1);
         loadingPB = findViewById(R.id.idPBLoading);
         firebaseDatabase = FirebaseDatabase.getInstance();
@@ -66,7 +66,7 @@ public class EditNewsActivity extends AppCompatActivity {
             newsImgEdt.setText(newsRVModal.getNewsImg());
             newsLinkEdt.setText(newsRVModal.getNewsLink());
             newsDescEdt.setText(newsRVModal.getNewsDescription());
-            newsUploadEdt.setText(newsRVModal.getNewsUpload());
+            //newsUploadEdt.setText(newsRVModal.getNewsUpload());
             newsID = newsRVModal.getNewsID();
         }
 
@@ -84,14 +84,14 @@ public class EditNewsActivity extends AppCompatActivity {
                 String newsDesc = newsDescEdt.getText().toString();
                 String newsImg = newsImgEdt.getText().toString();
                 String newsLink = newsLinkEdt.getText().toString();
-                String newsUpload = newsUploadEdt.getText().toString();
+                //String newsUpload = newsUploadEdt.getText().toString();
 
                 Map<String, Object> map = new HashMap<> ();
                 map.put("newsName", newsName);
                 map.put("newsDescription", newsDesc);
                 map.put("newsImg", newsImg);
                 map.put("newsLink", newsLink);
-                map.put("newsUpload", newsUpload);
+                //map.put("newsUpload", newsUpload);
                 map.put("newsID", newsID);
 
                 databaseReference.addValueEventListener(new ValueEventListener () {

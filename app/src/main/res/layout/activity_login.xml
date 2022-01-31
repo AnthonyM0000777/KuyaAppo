@@ -69,7 +69,6 @@
 
     </com.google.android.material.textfield.TextInputEditText>
 
-
     <Button
         android:id="@+id/idBtnLogin"
         android:layout_width="120dp"
@@ -86,12 +85,21 @@
         android:textColor="@color/white"
         android:textSize="17sp" />
 
+    <ImageView
+        android:id="@+id/idSignIn"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/idBtnLogin"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/sign"
+        android:layout_centerInParent="true"/>
+
     <TextView
         android:id="@+id/idTVRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/idBtnLogin"
-        android:layout_marginTop="20dp"
+        android:layout_below="@id/idSignIn"
+        android:layout_marginTop="5dp"
         android:fontFamily="@font/thin"
         android:gravity="center"
         android:text="New User ? Register Here"

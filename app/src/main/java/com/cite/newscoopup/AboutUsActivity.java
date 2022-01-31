@@ -20,6 +20,8 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.Collections;
+
 public class AboutUsActivity extends AppCompatActivity {
     private TextView userNameEdt, pwdEdt, cnfPwdEdt;
     private Button logoutBtn;
@@ -85,9 +87,27 @@ public class AboutUsActivity extends AppCompatActivity {
                 this.finish ();
                 return true;
 
+            case R.id.idEdtProfile1:
+                //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
+                //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
+                ///this.finish ();
+                return true;
+
             case R.id.idEdtProfile:
                 startActivity (new Intent (AboutUsActivity.this, EditProfileActivity.class));
                 this.finish ();
+                return true;
+
+            //view upload
+            case R.id.idEdtView:
+                startActivity (new Intent (AboutUsActivity.this, ViewUpload.class));
+                this.finish ();
+                return true;
+
+            case R.id.idEdtSorting:
+                //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
+                //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
+                ///this.finish ();
                 return true;
 
 
@@ -95,6 +115,7 @@ public class AboutUsActivity extends AppCompatActivity {
                 startActivity (new Intent (AboutUsActivity.this, AboutUsActivity.class));
                 this.finish ();
                 return true;
+
 
             case R.id.idEdtLogout:
                 Toast.makeText (AboutUsActivity.this, "Log out successful", Toast.LENGTH_SHORT).show ();

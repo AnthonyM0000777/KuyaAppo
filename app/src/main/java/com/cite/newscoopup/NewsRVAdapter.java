@@ -43,7 +43,8 @@ public class NewsRVAdapter extends RecyclerView.Adapter<NewsRVAdapter.ViewHolder
     public void onBindViewHolder(@NonNull NewsRVAdapter.ViewHolder holder, @SuppressLint("RecyclerView") int position) {
         NewsRVModal newsRVModal = newsRVModalArrayList.get(position);
         holder.newsDate.setText (newsRVModal.getNewsDate());
-        holder.newsTV.setText(newsRVModal.getNewsName());
+        holder.newsTV.setText (newsRVModal.getNewsName());
+        holder.uploader.setText (newsRVModal.getUploader ());
         Picasso.get().load(newsRVModal.getNewsImg()).into(holder.newsIV);
         setAnimation(holder.itemView, position);
         holder.newsIV.setOnClickListener(new View.OnClickListener() {
@@ -70,7 +71,7 @@ public class NewsRVAdapter extends RecyclerView.Adapter<NewsRVAdapter.ViewHolder
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
-        private TextView newsDate, newsTV;
+        private TextView newsDate, newsTV, uploader;
         private ImageView newsIV;
 
         public ViewHolder(@NonNull View itemView) {
@@ -78,6 +79,7 @@ public class NewsRVAdapter extends RecyclerView.Adapter<NewsRVAdapter.ViewHolder
             newsDate = itemView.findViewById (R.id.idTVNewsDate);
             newsIV = itemView.findViewById(R.id.idIVNews);
             newsTV = itemView.findViewById(R.id.idTVNewsName);
+            uploader = itemView.findViewById(R.id.idTVUploadBy);
         }
     }
 

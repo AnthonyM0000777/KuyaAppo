@@ -21,6 +21,11 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
@@ -48,13 +53,25 @@ public class MainActivity extends AppCompatActivity implements NewsRVAdapter.New
     private RelativeLayout homeRL;
     private String newsID,post;
 
+
+    GoogleSignInClient mGoogleSignInClient;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
         setContentView (R.layout.activity_main);
 
-       // mAuth = FirebaseAuth.getInstance ();
-        //newsID = mAuth.getCurrentUser ().getUid ();
+
+
+       mAuth = FirebaseAuth.getInstance ();
+       newsID = mAuth.getCurrentUser ().getUid ();
+
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestIdToken(getString(R.string.default_web_client_id))
+                .requestEmail()
+                .build();
+        mGoogleSignInClient = GoogleSignIn.getClient (this, gso);
+
 
         newsRV = findViewById (R.id.idRVNews);
         homeRL = findViewById (R.id.idRLBSheet);
@@ -148,11 +165,11 @@ public class MainActivity extends AppCompatActivity implements NewsRVAdapter.New
         bottomSheetTeachersDialog.setCancelable (false);
         bottomSheetTeachersDialog.setCanceledOnTouchOutside (true);
         bottomSheetTeachersDialog.show ();
-        TextView newsUploadTV = layout.findViewById (R.id.idTVUploadBy);
+        //TextView newsUploadTV = layout.findViewById (R.id.idTVUploadBy);
         TextView newsNameTV = layout.findViewById (R.id.idTVNewsName);
         TextView newsDescTV = layout.findViewById (R.id.idTVNewsDesc);
         ImageView newsIV = layout.findViewById (R.id.idIVNews);
-        newsUploadTV.setText (newsRVModal.getNewsUpload ());
+       //newsUploadTV.setText (newsRVModal.getNewsUpload ());
         newsNameTV.setText (newsRVModal.getNewsName ());
         newsDescTV.setText (newsRVModal.getNewsDescription ());
         Picasso.get ().load (newsRVModal.getNewsImg ()).into (newsIV);
@@ -188,17 +205,28 @@ public class MainActivity extends AppCompatActivity implements NewsRVAdapter.New
                 this.finish ();
                 return true;
 
+           case R.id.idEdtProfile1:
+              //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
+                //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
+             ///this.finish ();
+                return true;
+
             case R.id.idEdtProfile:
                 startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
                 this.finish ();
                 return true;
 
-
-            case R.id.idEdtAbout:
-                startActivity (new Intent (MainActivity.this, AboutUsActivity.class));
-                this.finish ();
+            case R.id.idEdtSorting:
+                //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
+                //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
+                ///this.finish ();
                 return true;
 
+            //view upload
+            case R.id.idEdtView:
+                startActivity (new Intent (MainActivity.this, ViewUpload.class));
+                this.finish ();
+                return true;
 
             case R.id.idSortAtoZ:
                 Collections.sort (newsRVModalArrayList, NewsRVModal.NewsAZComparator);
@@ -221,17 +249,22 @@ public class MainActivity extends AppCompatActivity implements NewsRVAdapter.New
                 // this.finish ();
                 return true;*/
 
-            case R.id.idEdtLogout:
-                Toast.makeText (MainActivity.this, "Log out successful", Toast.LENGTH_SHORT).show ();
-                mAuth.signOut ();
-                Intent i = new Intent (MainActivity.this, LoginActivity.class);
-                startActivity (i);
+            case R.id.idEdtAbout:
+                startActivity (new Intent (MainActivity.this, AboutUsActivity.class));
                 this.finish ();
                 return true;
+
+
+            case R.id.idEdtLogout:
+               Toast.makeText (MainActivity.this, "Log out successful", Toast.LENGTH_SHORT).show ();
+              mAuth.signOut();
+               Intent i = new Intent (MainActivity.this, LoginActivity.class);
+               startActivity (i);
+               this.finish ();
+               return true;
             default:
 
                 return super.onOptionsItemSelected (item);
         }
-
     }
 }

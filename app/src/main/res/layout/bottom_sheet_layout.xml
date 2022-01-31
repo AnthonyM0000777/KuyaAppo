@@ -54,14 +54,14 @@
         android:textColor="@color/black"
         android:textSize="16sp" />
 
-    <TextView
+    <!--TextView
         android:id="@+id/nameUpload"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/idTVNewsDesc"
+        android:layout_below="@id/idIVNews"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="4dp"
-        android:layout_marginTop="85dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="4dp"
         android:layout_marginRight="4dp"
         android:layout_marginBottom="4dp"
@@ -76,10 +76,10 @@
         android:id="@+id/idTVUploadBy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/idTVNewsDesc"
-        android:layout_marginStart="83dp"
+        android:layout_below="@id/idIVNews"
+        android:layout_marginStart="86dp"
         android:layout_marginLeft="4dp"
-        android:layout_marginTop="85dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="4dp"
         android:layout_marginRight="4dp"
         android:layout_marginBottom="4dp"
@@ -88,7 +88,7 @@
         android:text="Name"
         android:textColor="@color/black"
         android:textSize="12sp"
-        android:textStyle="italic" />
+        android:textStyle="italic" /-->
 
 
 
@@ -99,7 +99,7 @@
         android:layout_below="@id/idIVNews"
         android:orientation="horizontal"
         android:weightSum="2"
-        android:paddingTop="30dp">
+        android:paddingTop="2dp">
 
         <Button
             android:id="@+id/idBtnEditNews"
