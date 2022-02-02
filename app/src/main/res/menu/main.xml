@@ -13,6 +13,11 @@
             android:icon="@drawable/ic_baseline_dashboard_24"
             app:showAsAction="ifRoom"/>
 
+        <item android:id="@+id/idEdtHeadlines"
+            android:title="News Headlines"
+            android:icon="@drawable/ic_baseline_view_headline_24"
+            app:showAsAction="ifRoom"/>
+
         <item android:id="@+id/idEdtProfile1"
                 android:title="Profile"
                 android:icon="@drawable/ic_baseline_person_24"
@@ -35,10 +40,10 @@
 
             <menu>
                 <item android:id="@+id/idSortAtoZ"
-                    android:title="Sort by z-a"/>
+                    android:title="A-z"/>
 
                 <item android:id="@+id/idSortZtoA"
-                    android:title="Sort by a-z"/>
+                    android:title="Z-a"/>
             </menu>
         </item>
 

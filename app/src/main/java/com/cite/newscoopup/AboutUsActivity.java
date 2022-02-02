@@ -1,8 +1,5 @@
 package com.cite.newscoopup;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -15,12 +12,13 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-
-import java.util.Collections;
 
 public class AboutUsActivity extends AppCompatActivity {
     private TextView userNameEdt, pwdEdt, cnfPwdEdt;
@@ -87,6 +85,12 @@ public class AboutUsActivity extends AppCompatActivity {
                 this.finish ();
                 return true;
 
+            //news headlines
+            case R.id.idEdtHeadlines:
+                startActivity (new Intent (AboutUsActivity.this, ApiMainActivity.class));
+                this.finish ();
+                return true;
+
             case R.id.idEdtProfile1:
                 //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
                 //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
@@ -98,16 +102,16 @@ public class AboutUsActivity extends AppCompatActivity {
                 this.finish ();
                 return true;
 
-            //view upload
-            case R.id.idEdtView:
-                startActivity (new Intent (AboutUsActivity.this, ViewUpload.class));
-                this.finish ();
-                return true;
-
             case R.id.idEdtSorting:
                 //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
                 //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
                 ///this.finish ();
+                return true;
+
+            //view upload
+            case R.id.idEdtView:
+                startActivity (new Intent (AboutUsActivity.this, ViewUpload.class));
+                this.finish ();
                 return true;
 
 
@@ -119,7 +123,7 @@ public class AboutUsActivity extends AppCompatActivity {
 
             case R.id.idEdtLogout:
                 Toast.makeText (AboutUsActivity.this, "Log out successful", Toast.LENGTH_SHORT).show ();
-                mAuth.signOut ();
+                mAuth.signOut();
                 Intent i = new Intent (AboutUsActivity.this, LoginActivity.class);
                 startActivity (i);
                 this.finish ();

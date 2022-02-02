@@ -56,9 +56,7 @@ public class LoginActivity extends AppCompatActivity {
                 .build();
        mGoogleSignInClient = GoogleSignIn.getClient (this, gso);
 
-
         getSupportActionBar ().hide ();
-
 
         database = FirebaseDatabase.getInstance ();
         nameEdt = findViewById (R.id.idEdtName);
@@ -79,10 +77,12 @@ public class LoginActivity extends AppCompatActivity {
         //google sgn n
         idSign.setOnClickListener (new View.OnClickListener () {
             @Override
-            public void onClick(View v) { ;
+            public void onClick(View v) {
                 signIn ();
             }
         });
+
+        signOut();
         //end
 
 
@@ -114,6 +114,16 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
+
+    private void signOut() {
+        mGoogleSignInClient.signOut ().addOnCompleteListener (this, new OnCompleteListener<Void> () {
+            @Override
+            public void onComplete(@NonNull Task<Void> task) {
+                //Toast.makeText (LoginActivity.this, "Log out successful", Toast.LENGTH_SHORT).show ();
+            }
+        });
+    }
+
     //start google sgn n
     int RC_SIGN_IN = 65;
     private void signIn() {
@@ -170,7 +180,6 @@ public class LoginActivity extends AppCompatActivity {
                 });
         //end
     }
-
 
 
     @Override

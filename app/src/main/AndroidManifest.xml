@@ -13,9 +13,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NewScoopUp">
         <activity
+            android:name=".ApiMainActivity"
+            android:exported="false"
+            android:label="News Headlines" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false"
+            android:label="News Headlines" />
+        <activity
             android:name=".ViewUpload"
             android:exported="false"
-            android:label="Uploads"/>
+            android:label="Uploads" />
         <activity
             android:name=".AboutUsActivity"
             android:exported="false"

@@ -61,10 +61,8 @@ public class MainActivity extends AppCompatActivity implements NewsRVAdapter.New
         super.onCreate (savedInstanceState);
         setContentView (R.layout.activity_main);
 
-
-
-       mAuth = FirebaseAuth.getInstance ();
-       newsID = mAuth.getCurrentUser ().getUid ();
+        mAuth = FirebaseAuth.getInstance ();
+       // newsID = mAuth.getCurrentUser ().getUid ();
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.default_web_client_id))
@@ -205,6 +203,12 @@ public class MainActivity extends AppCompatActivity implements NewsRVAdapter.New
                 this.finish ();
                 return true;
 
+                //news headlines
+            case R.id.idEdtHeadlines:
+                startActivity (new Intent (MainActivity.this, ApiMainActivity.class));
+                this.finish ();
+                return true;
+
            case R.id.idEdtProfile1:
               //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
                 //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
@@ -230,14 +234,14 @@ public class MainActivity extends AppCompatActivity implements NewsRVAdapter.New
 
             case R.id.idSortAtoZ:
                 Collections.sort (newsRVModalArrayList, NewsRVModal.NewsAZComparator);
-                Toast.makeText (MainActivity.this, "Sorted by z - a", Toast.LENGTH_SHORT).show ();
+                Toast.makeText (MainActivity.this, "Sorted by A-z", Toast.LENGTH_SHORT).show ();
                 newsRVAdapter.notifyDataSetChanged ();
                 // this.finish ();
                 return true;
 
             case R.id.idSortZtoA:
                 Collections.sort (newsRVModalArrayList, NewsRVModal.NewsZAComparator);
-                Toast.makeText (MainActivity.this, "Sorted by a - z", Toast.LENGTH_SHORT).show ();
+                Toast.makeText (MainActivity.this, "Sorted by Z-a", Toast.LENGTH_SHORT).show ();
                 newsRVAdapter.notifyDataSetChanged ();
                 // this.finish ();
                 return true;
@@ -258,6 +262,7 @@ public class MainActivity extends AppCompatActivity implements NewsRVAdapter.New
             case R.id.idEdtLogout:
                Toast.makeText (MainActivity.this, "Log out successful", Toast.LENGTH_SHORT).show ();
               mAuth.signOut();
+              mGoogleSignInClient.signOut ();
                Intent i = new Intent (MainActivity.this, LoginActivity.class);
                startActivity (i);
                this.finish ();

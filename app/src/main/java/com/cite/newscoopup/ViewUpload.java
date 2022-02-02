@@ -1,22 +1,16 @@
 package com.cite.newscoopup;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -74,14 +68,20 @@ import com.google.firebase.database.ValueEventListener;
                     this.finish ();
                     return true;
 
-                case R.id.idEdtProfile:
-                    startActivity (new Intent (ViewUpload.this, EditProfileActivity.class));
+                //news headlines
+                case R.id.idEdtHeadlines:
+                    startActivity (new Intent (ViewUpload.this, ApiMainActivity.class));
                     this.finish ();
                     return true;
 
-                //view upload
-                case R.id.idEdtView:
-                    startActivity (new Intent (ViewUpload.this, ViewUpload.class));
+                case R.id.idEdtProfile1:
+                    //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
+                    //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
+                    ///this.finish ();
+                    return true;
+
+                case R.id.idEdtProfile:
+                    startActivity (new Intent (ViewUpload.this, EditProfileActivity.class));
                     this.finish ();
                     return true;
 
@@ -91,10 +91,10 @@ import com.google.firebase.database.ValueEventListener;
                     ///this.finish ();
                     return true;
 
-                case R.id.idEdtProfile1:
-                    //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
-                    //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
-                    ///this.finish ();
+                //view upload
+                case R.id.idEdtView:
+                    startActivity (new Intent (ViewUpload.this, ViewUpload.class));
+                    this.finish ();
                     return true;
 
 
@@ -103,9 +103,10 @@ import com.google.firebase.database.ValueEventListener;
                     this.finish ();
                     return true;
 
+
                 case R.id.idEdtLogout:
                     Toast.makeText (ViewUpload.this, "Log out successful", Toast.LENGTH_SHORT).show ();
-                    mAuth.signOut ();
+                    mAuth.signOut();
                     Intent i = new Intent (ViewUpload.this, LoginActivity.class);
                     startActivity (i);
                     this.finish ();
