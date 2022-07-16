@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hearts">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:fillViewport="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="There are three categories of heat emergencies,
+increasing in severity: heat cramps, heat exhaustion,
+and heatstroke. AIl three are preventable by taking
+precautions in hot weather. The most common
+causes of heat emergencies are high temperatures or
+humidity, dehydration, prolonged or excessive exercise,
+overdressing in hot temperatures, alcohol consumption,
+medications (particularly diuretics and psychiatric
+medications), cardiovascular disease, and sweat-gland
+dysfunction. Children, the elderly, and obese people are
+at increased risk of developing heat illness, but anyone
+can develop heat illness by ignoring warning signs.\n\n
+Symptoms of Heat illness\n\n
+The early symptoms of heat illness are:\n\n
+• Profuse sweating\n\n
+• Fatigue\n\n
+• Thirst\n\n
+• Muscle cramps\n\n
+Later symptoms include:\n\n
+• Dizziness\n\n
+• Headache\n\n
+• Weakness\n\n
+• Nausea and vomiting\n\n
+• Cool, moist skin\n\n
+• Darkened urine\n\n
+• Light headedness\n\n
+As heat illness worsens and progresses to heatstroke,
+the symptoms also include:\n\n
+•A temperature above\n\n
+• 104° Fahrenheit\n\n
+• Irrational behavior\n\n
+• Extreme confusion\n\n
+• Rapid, shallow\n\n
+• breathing\n\n
+• Dry, hot, and red skin\n\
+• Weak, rapid heart rate\n\n
+•Seizures\n\n
+• Loss of consciousness\n\n
+Loss of consciousness\n\n
+• Coma\n\n
+• Death\n\n
+First Aid for Heat illness\n\n
+For any signs of shock, seizures, or loss of
+Consciousness, call emergency number and manage
+airway, breathing, and circulation and shock as outlined in
+Emergency Response menu. For nonemergency cases of
+heat illness take the following steps:\n\n
+1. Lay the person down in a cool place and elevate the
+feet about twelve inches.\n\n
+2. To lovwer body temperature, apply cool water or cool,
+wet cloths to the skin, use a fan, and place covered cold
+packs on the person
+S neck, groin, and armpits./n/n
+3. Give the person a half cup of fluids every fifteen
+minutes, such as Gatorade, or a drink made by mixing a
+quart of cool water and a teaspoon of salt.\n\n
+4. Massage cramped muscles firmly and gently.\n\n
+Avoid the following:\n\n
+• Don' t give medications intended for fever, such as
+aspirin or acetaminophen, as they may be harmful in heat
+illness.\n\n
+• Never use alcohol rubs.\n\n
+• Don' t give the person anything to eat or drink if they
+are vomiting or unconscious.\n\n
+• Never give salt tablets or liquids that contain alcohol or
+caffeine, as they interfere with the body
+S mechanism of\n\n
+Controlling internal temperature.
+Never underestimate the seriousness of heat illness,
+particularly in children, the elderly, or injured persons.
+Seek medical attention for any symptoms that don' t
+improve with intervention."/>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

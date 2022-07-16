@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FamilyPlan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Your local American Red Cross, emergency
+management, or civil-defense office can tell you what
+type of disasters have the potential to happen in your area
+and direct you toward necessary training such as CPR
+and first aid. They can also tell you what methods will be
+used for warning and informing the public of disasters,
+such as radio and TV, and how to be prepared. The
+local fire department can advise you about fire hazards
+in the home, and how to deal with fire situations during
+disasters.\n\n
+Family and Neighborhood Meetings\n\n
+Hold a family meeting to discuss disaster scenarios
+and what to do in case of evacuations or separation of
+family members. Explain your plans and preparations,
+and practice your plan. In case your family members are
+separated by disaster, decide on two different meeting
+places at a safe but accessible distance from your home,
+and somewhere in your neighborhood area in case you
+are not able to return home. Always take care to consider
+any special needs of disabled or sick and elderly persons,
+and plan for child care in case parents are injured or
+missing.\n\n
+Essential\n\n
+Determine an out-of-state contact for
+everyone to call as a check-in point. Include
+your neighbors so the entire neighborhood
+will be prepared to work together using
+individual skills and resources."/>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

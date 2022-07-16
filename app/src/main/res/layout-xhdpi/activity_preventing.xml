@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Preventing">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/bold"
+        android:padding="10dp"
+        android:textSize="23sp"
+        android:text="Back injuries, stress-related health problems,
+carpel-tunnel syndrome, headaches, and mental-health
+problems are all conditions that may result from poor
+ergonomic workplace conditions including temperature,
+station design, lighting, noise, rotating shifts, inadequate
+meals and breaks, and machine design. Small corrective
+measures can prevent large and costly problems.\n\n
+For example, using ergonomically correct chairs and
+keyboards, properly positioned workstations, a mouse
+with the correct tension, wrist supports, telephone neck
+supports, ample lighting, frequent breaks, and proper
+foot support are measures that will help prevent many
+physical problems.\n\n
+Fact\n\n
+Ergonomics is the science of refining the
+design of products to optimize them for
+human use, taking into consideration huma
+characteristics such as height, weight, and
+proportions and including such information
+as human hearing, sight, and temperature
+preferences.\n\n
+Carpal-Tunnel Syndrome\n\n
+The emergence and ubiquity of computers in the
+workplace has contributed to an epidemic of repetitive
+stress injuries most commonly called carpal-tunnel
+syndrome. Carpal-tunnel syndrome is a painful,
+progressive condition caused by Compression of a nerve
+in the wrist due to repetitive motion, improper positioning
+of the wrist, and repeated stressors such as the continual
+vibrations from using a jackhammer or even a sewing
+machine.\n\n
+First Aid for Carpal-Tunnel Syndrome\n\n
+The following measures can be used to avoid carpal
+tunnel syndrome:\n\n
+•Reducing your force and relaxing your grip by tapping
+keys softly\n
+• Using a big pen with an oversized, soft grip and free
+flowing ink\n
+• Using a keyboard and mouse with the proper tension\n
+• Keeping keyboards at elbow height or just slightly
+below, with the wrist at a relaxed middle position, not bent
+up or down\n
+• Taking frequent breaks\n
+• Practicing carpal-tunnel exercises before and after
+your work shift and during your breaks\n
+• Alternating tasks if you can\n
+• Improving your posture\n
+• Keeping your hands warm\n\n
+You may also wear splints at work and while sleeping
+if you have symptoms of carpal-tunnel syndrome such
+as tingling or numbness in fingers or hands; pain or
+weakness in wrists, arms, or hands; and loss of feeling
+in some fingers. While you sleep, the tendency is to
+keep the wrists flexed; wearing splints at night will keep
+your wrists from flexing. Wrist splints are available at
+most pharmacies and many retail outlets. Anyone with
+moderate to severe symptoms needs to see their doctor.
+Following are some carpal-tunnel exercises you can try:\n\n
+1. In a standing position, lift and extend both arms
+straight out. Flex your entire hand at the wrist as if saying
+stop. Hold in this position for five seconds.\n
+2. Straighten your wrists and relax your fingers so that
+arms, wrists, hands, and fingers are level and fingers are
+pointing forward.\n
+3. Maintain the level position while making a fist; clench it
+tightly and hold for five seconds.\n
+4. With fists clenched, flex your wrists down and hold for
+five seconds.\n
+5. Straighten your wrists and relax your fingers so that
+arms, wrists, hands, and fingers are level and fingers are
+pointing forward (as in position 2).\n
+6. Repeat all of the steps ten times, followed by standing
+with your arms relaxed by your sides.\n\n
+Back Injuries\n\n
+Back injuries are one of the most common and costly
+work-related disorders in the United States. Lower-back
+pain is responsible for many days of lost work, increased
+number of workers-compensation claims, increased
+monetary business losses, and undue suffering
+every day. Many back injuries can be prevented by
+practicing measures for good back health including
+using ergonomically correct chairs and equipment,
+good posture, and regular exercise and conditioning.
+In addition, you should always practice good body
+mechanics and use proper lifting techniques (see
+following) to protect your spine and prevent back strain
+and injuries.\n\n
+Proper lifting technique includes the following:\n\n
+1. Always stand close to the weight or load in order to
+reduce excessive strain on your back muscles. Try to
+estimate which direction the load will move after lifting so
+that you can position your feet to allow for this movement
+without twisting the trunk of your body.\n
+2. Place one foot firmly alongside the load to be lifted,
+and the other just behind the object with your heels flat, in
+order to have a wider, more stable base from which to lift.\n
+3. Bend your knees and squat down. Keeping your back
+erect, grasp the load and use your leg muscles to lift the
+object.\n
+4. Make sure to grip the load firmly from underneath.
+Use your entire hand rather than just your fingers. Keep
+your arms straight using your shoulder muscles to help lift
+the weight.\n
+5. Stand and lift, straightening your legs gradually from a
+squatting to an erect position. Avoid jerking when you lift
+and setting down a load too quickly.\n
+6. Carry the load close to your body, as near as you are
+able to your own center of balance, keeping your back
+erect."/>
+
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Febrile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Febrile seizures (convulsions) occur in children, usually
+due to a sudden high spike in body temperature from an
+infection. These seizures usually last just a few minutes,
+but are often startling and frightening to parents. Although
+they seem scary and dangerous, this type of seizure is
+often harmless and isn' ta sign of a long-term or chronic
+problem. Many times the seizure occurs before an illness
+and fever are even recognized. Febrile seizures occur
+in 2 -4 percent of children age six months to five years.\n\n
+Although fairly common and usually benign, you should
+seek medical attention for any febrile seizure, particularly
+for any necessary treatment of the underlying cause for
+the fever. For children prone to febrile seizures, treat
+fevers early to try to prevent them.\n\n
+First Aid for Febrile Seizures\n\n
+The signs and symptoms of a febrile seizure range from
+rolling of the eyes to severe shaking or tightening of the
+muscles. Fever is typically higher than 102°F with other
+signs including loss of consciousness, shaking or jerking
+of both arms and both legs, eyes rolling back in the head,
+trouble breathing, spontaneous urination, vomiting, and
+crying or moaning. Simple febrile seizures are the most
+common, usually lasting from a few seconds to fifteen
+minutes and stopping on their own. Take the following
+steps for febrile seizures:\n\n
+1. Clear the area of any hard or sharp objects.\n\n
+2. Lay the child down gently on a soft surface (bed or
+carpet), turn him on his side in order to keep the airway
+open, and to protect the airway in case of vomiting, place
+a folded jacket or pillow under his head.\n\n
+3. Loosen any tight or restrictive clothing and remove any
+glasses.\n\n
+4. Glance at your watch or a clock in order to try to time
+the seizure, and try to be aware of signs such as what
+body part is moving or twitching so that you can report
+this inforrmation to your doctor.\n\n
+5. Call emergency number for febrile seizures lasting
+longer than five minutes, for two or more seizures, a seizure accompanied by vomiting, or problems with
+breathing or extreme sleepiness after a seizure.\n\n
+6. Reassure the child when he regains consciousness,
+and follow up with a call or visit to your doctor.\n\n
+Don' t:\n\n
+•Try to hold the tongue or put anything in the mouth.\n\n
+• Try to restrain the child; instead, turn his head to the
+side so that the airway does not become obstructed by
+his tongue or with any vomiting.\n\n
+• Attempt to bring a fever down during a seizure by trying
+to give the child fever medications or anything to drin,
+and don' tput the child in a bath.\n\n
+When a child arouses they may cry, seem confused, or
+be sleepy. The severity of a seizure doesn' tnecessarily
+correlate with the degree of fever. Many children are up
+and running around within one to two hours of a febrile
+seizure. Nonetheless, have all first-time febrile seizures
+checked out by your doctor, no matter how short they last
+or how well your child seems afterward."/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

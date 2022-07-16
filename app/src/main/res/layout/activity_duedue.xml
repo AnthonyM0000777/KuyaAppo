@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Duedue">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="There is a possibility of infection anytime the skin is
+broken because cuts provide an opportunity for infection
+causing bacteria, viruses, and fungi to enter the body.\n\n
+Infections may develop only in one place on the body
+(localized infection) or circulate throughout the body
+via the bloodstream (systemic infection). Synmptoms of
+localized infection include skin that is warm or hot, pain in
+the area, a pus-like discharge, redness and swelling, and
+fever and chills. Most minor, localized infections can be
+cared for at home taking the following steps:\n\n
+1. Wash the area daily with soap and water.\n\n
+2. Apply antibiotic ointment or cream and cover the
+infected area lightly with a dry gauze, nonstick bandage.\n\n
+3. Watch for signs of a mnore serious infection such as
+increased redness, pain, swelling, or pus.\n\n
+A localized infection may develop into a serious local
+infection called cellulitis, when the skin around the
+wound becomes raised, red, painful, and thickens in
+texture with symptoms including swollen lymph nodes,
+red streaks on the skin, fever, chills, and shaking. A
+local infection may also turn into a systemic infection
+with symptoms including fever, shaking, chills, overall
+weakness, and joint aches. See your medical provider if
+you have a localized infection that does not begin to clear
+in three days; for any symptoms of cellulitis or systemic
+infection; for any infections of the face, particularly near
+the eyes; for infections in young children and the elderly:\n\n
+or for anyone with an underlying medical condition. To
+infection, wash hands frequently, don' tpick or scratch
+sores or blemishes, wash all cuts or scratches with soap
+and water, and keep injuries clean and bandaged."/>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

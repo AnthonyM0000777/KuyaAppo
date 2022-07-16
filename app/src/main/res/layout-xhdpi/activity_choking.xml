@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Choking"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/bold"
+        android:padding="10dp"
+        android:textSize="23sp"
+        android:text="Choking occurs when an object gets stuck in the throat
+and partly or completely blocks the airway. Signs of
+choking include:\n\n
+• Pointing to throat, hands crossed on throat (universal
+sign of choking)\n
+• Gasping or coughing\n
+• Signs of panic\n
+• Difficulty speaking\n
+• Red face that steadily turns blue\n
+• Loss of consciousness\n\n
+Alert!\n\n
+Never slap any person on the back you think
+might be choking. A baby who is crying, has
+a strong cough, and appears to be breathing
+well should be placed in a sitting position and
+allowed to finish coughing. Never stick your
+fingers down a baby' s throat, or anyone
+s, in an attempt to remove an object
+else while they are coughing.\n\n
+When you suspect someone is choking, ask her,\n Are
+        you choking?\n\n If the person is able to answer you,
+    don' t do anything because it' s likely that she will free
+    the food or object on her Own. In the case of actual
+    choking, the person will not be able to talk and yOu need
+    to help them. Call emergency number if the person can' t
+    talk, make noise, or breathe well or is unconscious, then
+    perform the Heimlich maneuver as outlined below. If
+    the person is unconscious, lay her on her back. Check
+    the person' s mouth for any visible obstruction and try
+    to dislodge it using a finger sweep. If you are unable to
+    do so, begin mouth-to-mnouth resuscitation and CPR.
+    Continue to check inside the person' s mouth for any
+    signs of the foreign body as the chest compressions of
+    CPR may dislodge it."/>
+</ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

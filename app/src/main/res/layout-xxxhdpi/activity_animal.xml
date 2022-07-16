@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Animal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="A wide variety of insects and other critters, including
+humans, cause bites and stings that may be mild to
+moderate, uncomfortable to life threatening.It' s
+important to knovw how to act, how to treat, and when to
+seek help for any of these potential injuries.\n\n
+Scorpion Bites\n\n
+Scorpions are lobster-like arthropods in the arachnid
+class (the same class as spiders), with a curling stinger
+at the end of their tail, and are usually found in desert
+areas of the Southwest and Mexico. Scorpion stings are
+not likely to be fatal and are easy to treat, but are more
+dangerous to children and the elderly. Symptoms include
+immediate pain or burning, minor swelling, sensitivity to
+touch, and a numb or tingling sensation.\n\n
+The steps below should be followed for treating scorpion
+bites:\n\n
+1. Wash the area with soap and water.\n\n
+2. Use a cold pack on the area for ten minutes, repeating
+as necessary at ten-minute intervals.\n\n
+3. Call the Poison Control Center for any severe
+symptonms.\n\n
+Tick Bites\n\n
+People who live near wooded and grassy areas or
+who spend recreation tinme in these locations are most
+susceptible to tick bites. These tiny arachnids feed on the
+blood of mammals such as deer, rodents, and rabbits and
+are able to carry disease from animal to human.\n\n
+First aid for tick bites includes removing the tick
+immediately to avoid the bite reactions and reduce any
+possibility of developing one of the tick-borne infectious
+diseases such as Lyme disease, Colorado tick fever, and
+Rocky Mountain spotted fever. To remove a tick:\n\n
+1. Use a pair of flat or curved forceps or tweezers and
+take hold of the head of the tick as close to the skin as
+possible, and gently remove it without squeezing the tick.\n\n
+2. Clean the area with soap and water and apply
+antihistamine or 1% hydrocortisone cream.\n\n
+Get medical attention if the tick is buried too deep
+and you cannot remove it, you are in an area where
+Lyme disease is a risk, you develop fever and flu-like
+symptoms, or you experience muscle weakness,
+paralysis, or the bull' s-eye rash characteristic of Lyme
+disease.\n\n
+Alert!\n\n
+Don' t put petroleum jelly, alcohol, or
+ammonia on tickS they will make ticks bury
+deeper. If you live in a high-risk area and get
+a tick bite, always call your doctor for advice
+as you may need to get additional medical
+care including antibiotics.\n\n
+Animal Bites\n\n
+Cats and dogs cause most animal bites. Cat bites can
+cause very deep puncture wounds and present a serious
+risk of infection because punctures cause bacteria to
+be forced deep into the skin and tissues. Dog bites also
+carry a risk of infection and increased incidence of
+damage to affected tissues. These bites usually produce
+marks that have broken the skin and sometimes bleeding,
+depending upon the severity and location of the bites.
+Redness and swelling typically occur within twenty-four
+to forty-eight hours.\n\n
+Essential\n\n
+Wild animals that gain access to your home
+such as raccoons, stray pets, rats, and bats
+pose a much more serious risk, as they are
+more likely to carry and transmit rabies and
+other viruses. These types of bites require
+immediate medical attention.\n\n
+For animal bites, check with a veterinarian for related
+health risks and have the wounds looked at by a
+physician. Your doctor may want to administer a tetanus
+shot and in some cases antibiotics. Keep the pet safe and
+secured in your custody until a doctor has evaluated the
+bite and the proper health authorities have ruled out any
+transmittable diseases.\n\n
+For severe bites or when the injured person loses
+consciousness, check for airway, breathing, and
+circulation and begin CPR (go to Emergency Response
+menu for details), emergency number, and manage
+for shock until help arrives. For minor bites, take the
+following steps:\n\n
+1. Wash your hands with soap and water and wash the
+bite under running water for at least five minutes.\n\n
+2. Clean the bite with soap and water, saline solution, or
+povidone-iodine.\n\n
+3. Stop bleeding with direct pressure and treat the bite as
+outlined for cuts and lacerations.\n\n
+4. For unbroken skin, apply a cold pack.\n\n
+5. Raise the wounded limb above the level of the
+person s heart (if possible) to reduce any swelling.\n\n
+6. Check the bite site daily for signs of infection such as
+increased swelling, redness, or discharge.\n\n
+Large and deep puncture wounds require medical
+attention. Always seek medical help for bites involving the
+neck, face, and hands due to the risk of serious infection
+and/or scarring.\n\n
+Alert!\n\n
+Never attempt to catch a wild animal; call
+animal control and the police department.
+If it is a pet, contact the owner to find out
+if it has been imnmunized for rabies. In the
+case of animal bites, the animal needs to
+be monitored for rabies and reported to the
+police.\n\n
+Human Bites\n\n
+Human bites can be more dangerous than animal bites
+because of the high levels of bacteria and viruses
+contained in the human mouth. Human bites also have a
+high risk of infection. Even in minor wounds, infections
+can lead to complications such as severe joint infections."/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

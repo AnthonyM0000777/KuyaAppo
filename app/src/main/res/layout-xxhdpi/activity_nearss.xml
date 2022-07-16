@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nearss">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Near drowning is defined as suffocation (severe oxygen
+deprivation) from being submerged in water that does not
+result in death. When death occurs, the incident is called
+drowning. The following are symptoms of near drowning:\n\n
+• Alert, but anxious to drowsy\n
+• Person is not breathing or is gasping for breath,
+coughing,\n
+• or wheezing\n
+• Vomiting\n
+•Bluish color to the lips and ears (cyanosis)\n
+• Pale appearance\n
+• Cold skin\n\n
+First Aid for Near Drowning\n\n
+The following steps should be followed in the case of a
+near drowning:\n\n
+1. Rescue breathing as outlined in Emergency
+Response menu must be started at once if the person is
+unconscious, even while the person is still in the water, if
+possible.\n\n
+2. If you can, ask someone else to call emergency
+number while you begin rescue breathing.\n\n
+3. Get the person safely moved to land, lay him on his
+back, and continue rescue breathing, beginning CPR if
+necessary.\n\n
+Water that may gush from their mouth comes from
+the stomach, not the lungs, and requires that you turn
+the person using a log roll so that the water can drain.
+Vomiting can also occur.\n\n
+Fact\n\n
+Many people who experience near drowning
+have happy outcomes. It s possible to
+survive a forty-minute submersion with the
+proper rescue and care, and many people
+who receive CPR and intensive care recover fully.
+Providing CPR and or rescue breathing immediately will
+increase the chance of survival and lessen the chance
+and extent of any brain damage, even if you believe
+the person was under water for a very long time. Try to
+stabilize and immobilize the neck to avoid adding to any
+spinal injury. If the person is conscious, remove any wet
+clothing, then wrap him in warm blankets and get him to a
+hospital, regardless of how quickly you revive him or how
+well he may feel.\n\n
+The duration of submersion under water, water
+temperature (cold-water accidents may have a better
+S age (children have better
+outcome), the person
+outcomes than adults), and how sOon resuscitation
+begins are factors that have the most influence on
+a person s survival without permanent brain and
+lung damage. A near drowning while drinking alcohol
+increases a person' s chances of dying or developing
+brain or lung damage."/>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

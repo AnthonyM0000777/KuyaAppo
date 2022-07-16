@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nosebleed">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="posterior). Anterior nosebleeds are easily
+controlled at home or by a doctor. Posterior nosebleeds
+tend to occur more often in elderly people and are more
+complicated, often requiring hospital admission and
+management by an ear, nose, and throat specialist. The
+majority of people will experience a nosebleed at some
+time in their life, but they are most common in children
+age two to ten and adults age fifty to eighty. Nosebleeds
+tend to occur in the morning hours in dry, cold climates
+and during the winter.\n\n
+Most nosebleeds are due to some identifiable factor
+such as allergies, blunt trauma to the nose, trauma inside
+the nose from such things as nose picking or irritation
+from a cold or cocaine use, and dry nasal passages from
+cold, dry air. If you have an underlying condition such as
+an inability of the blood to clot; are taking blood-thinning
+medications or aspirin; have liver disease, abnormal
+blood vessels or cancers in the nose, you may also
+experience nosebleeds. High blood pressure can also
+contribute to a nosebleed, but won' t likely be the only
+cause.\n\n
+Most of the time, you will only have bleeding from
+one nostril, but with any heavy bleeding, the blood can
+overflow from one nostril into the area inside the nose
+where the two nostrils converge and spill into the other
+nostril, causing bleeding from both sides. Blood can also
+drip into the back of the throat and be swallowed, causing
+you to have blood in the mouth or to even vomit blood.\n\n
+First Aid for Nosebleeds\n\n
+If you experience a nosebleed, follow the steps
+below:\n\n
+1. Remain calm and sit up straight, leaning your head
+forward-don' t tilt your head back because blood will
+run down your throat, causing you to gag and swallow the
+blood.\n\n
+2. Using your thumb and forefinger, pinch your nostrils
+together ten full minutes, and repeat if the bleeding
+doesn' t stop after the first ten minutes.\n\n
+3. Don' t swallow any blood; spit it out so that you
+don' tvomit.\n\n
+After the bleeding has stopped, try to prevent any further
+irritation such as sneezing or nose blowing for the next
+twenty-four hours.\n\n
+For a nosebleed, lean forward and pinch your nostrils toge ther for ten full
+minutes
+Don' tuse ice packs, because they do not help. If
+you have dry air in your honme, like most people do in
+the winter, add moisture to the air with a humidifier or
+vaporizer or nasal gel and saline nasal spray to help keep
+the nose from drying out. See your doctor:\n\n
+•For any repeated episodes of nosebleeds\n
+• If you have any other bleeding, such as in the urine or
+stool, along with nosebleeds\n
+• If you are bruising easily\n
+• If you are on any blood-thinning medications\n
+• If you have any underlying disease that may affect your
+blood-clotting ability, such as liver or kidney disease or
+hemophilia\n
+• If you are on or have recently had chemotherapy\n\n
+Alert!\n\n
+Go to the emergency room if you have
+repeated episodes of nosebleeds during
+a short period of time, feel dizzy or
+light-headed as if you are going to pass out,
+you have a rapid heartbeat or any trouble
+breathing, or are spitting up or vomiting blood.
+You sent
+"/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

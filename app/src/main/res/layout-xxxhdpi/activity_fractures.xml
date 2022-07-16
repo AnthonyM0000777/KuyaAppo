@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fractures">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Your pelvis is the ring of bone that supports the weight of
+your upper body, including the two major bone commonly
+called hipbones. Pelvic fractures or broken hips,
+    however, are a common and unfortunate occurrence
+    in the elderly. A serious pelvic fracture may also involve
+    damage to nearby internal organs. Most pelvic fractures
+    are the result of high-speed accidents or falls from great
+    heights, as well as occurring during athletic activities such
+    as hockey, skiing, football, and long-distance running.
+    Pelvic fractures can also occur for no obvious reason
+    or aftera minor fall in elderly people, particularly due to
+    diseases such as osteoporosis that cause the bones to
+    weaken.\n\n
+    The main symptonm of a pelvic fracture is groin, hip, or
+    lower-back pain that may worsen when moving the legs.
+    Other symptoms include:\n\n
+    • Abdominal pain\n
+    • Bleeding from the vagina\n
+    • Numbness or tingling in the groin, legs, urethra (urine
+    tube), or rectum\n\n
+    Difficulty urinating\n\n
+    Stress fractures that occur during jogging also often
+    cause pain in the buttocks or thighs.\n\n
+    First Aid for Pelvic Fractures\n\n
+    If you suspect a serious pelvic fracture, due to witnessing
+    a high-velocity accident or high fall for instance, call
+    emergency number. Follow the steps outlined below until
+    help arrives:\n\n
+    1. Don' tattempt to move the injured person, particularly
+    if the person is in severe pain or has any signs of possible
+    nerve injury such as numbness.\n
+    2. Cover the person with a blanket or something similar in
+    order to maintain body heat.\n
+    After being transported to the hospital and treated,
+    it may take a few weeks to several months to heal,
+    depending on the severity of the fracture. Treatment for
+    minor fracture is often bed rest and OTC or prescription
+    painkillers. The person may also need physical therapy painkillers. person may physical therapy
+    and have to use crutches, and may sometimes require
+    Surgery."/>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Universal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="The threat of communicable disease is a hazard in
+performing first aid. You should follow some standard
+precautions (called universal precautions) and use
+personal protection equipment like gloves, a CPR
+barrier, or eye protection. Universal precautions
+protect aid providers from exposure to HIV (the virus
+that causes AIDS), hepatitis B, and other blood-borne
+germs when exposed to blood, certain body fluids
+(including semen and vaginal fluid), and tissue from
+anyone who is infectious.\n\nUniversal precautions should
+also be taken for cerebrospinal (from the lining of the
+brain and spinal cord), synovial (joint), pleural (lung),
+peritoneal (abdominal), pericardial (heart), and amniotic
+(pregnant uterus) fluids. These guidelines don' tapply
+to other body fluids like saliva, urine, sweat, tears, nasal
+secretions, sputum, and feces unless they contain blood.
+Professional universal precautions include:\n\n
+1. Wash your hands before and after any medical
+intervention.\n
+2. Wear gloves whenever you are in contact with
+another s blood, body secretions, or tissues even if the
+person you are helping is a family member.\n
+3. Weara facemask or body gown whenever there is a
+possibility of blood splashing onto the rescuer.\n
+4. Dispose of contaminated sharp objects in the
+appropriate puncture-proof container.\n
+5. Dispose of all contaminated equipment in an
+appropriate biohazard container.\n
+While you may not have all the equipment necessary,
+these professional guidelines will steer you in the right
+direction. As a layperson, you should try and follow these
+precautions as closely as possible.\n\n
+Alert!\n
+Practice universal precautions when coming
+in contact with blood or any body secretions
+or fluids that may also contain blood to
+protect your own health and even save lives.
+To carry-out universal precautions against infectious
+disease, you should use a protective barrier when you
+are providing care to anyone, even if you know the
+person well. In this day and age, it sjust common
+sense to avoid contact with an unknown potential source
+of infection. If you don' thave gloves, improvise and
+use something like plastic vwrap and wash your hands
+thoroughly before and after providing any care.\n\n
+Essential\n
+Universal precautions mean you are to be
+careful and not take chances; it doesn' t
+mean that you don' t provide care!"/>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

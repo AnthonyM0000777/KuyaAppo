@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutDrugs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Children are told that drugs are dangerous, but family
+medicine cabinets are often full of prescription and
+over - the-counter medications. Music, TV, movies, and
+other media make drug and alcohol use look acceptable
+and even desirable. Everything about drugs is confusing
+to children and teens today. It s your role as an adult to
+give your kids the facts about drugs.\n\n
+Start talking to your kids early; at age six or seven, a
+child is able to understand concepts of staying healthy.
+Continue to answer any questions with short simple
+comments that are factual, not preachy. Increase the
+amount of information as children get older, and never
+stop telling your kids that drugs, cigarettes, and alcohol
+are harmful. Kids don' tunderstand concepts well unless
+they are reinforced over and over, and with the constant
+barrage of media and other input they receive, you need
+to counter those messages with the truth and with facts
+-that drugs and alcohol can hurt your body, make you
+sick, and sometimes even kill you. Emphasize that you
+don
+t want them to have the problems that come with
+experimenting with things that will keep them from having
+a happy, successful, and healthy life.\n\n
+Fact\n\n
+Start talking to your kids when they are very
+young, because studies show that many kids
+first try alcohol at age eleven, and marijuana
+as young as age twelve. Student surveys also
+show that when parents are available to listen,
+their kids are more likely to talk openly and to
+stay drug free.\n\n
+Be a good example for your kids by not indulging in things
+that you are telling your kids not to do. Kids learn by your
+example. So if you need to take medication, do it when
+children are not present. Remember, they are following
+your lead."/>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -29,14 +29,15 @@ public class ApiMainActivity extends AppCompatActivity implements SelectListener
     SearchView searchView;
     private FirebaseAuth mAuth;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
-        setContentView (R.layout.activity_api_main);
+        setContentView (R.layout.activity_api_user);
 
         mAuth = FirebaseAuth.getInstance ();
 
-        searchView = findViewById (R.id.searchView);
+        searchView = findViewById (R.id.searchView1);
         searchView.setOnQueryTextListener (new SearchView.OnQueryTextListener () {
             @Override
             public boolean onQueryTextSubmit(String query) {
@@ -57,19 +58,19 @@ public class ApiMainActivity extends AppCompatActivity implements SelectListener
         dialog.setTitle ("Loading news articles..");
         dialog.show ();
 
-        b1 = findViewById (R.id.btn1);
+        b1 = findViewById (R.id.btn10);
         b1.setOnClickListener (this);
-        b2 = findViewById (R.id.btn2);
+        b2 = findViewById (R.id.btn20);
         b2.setOnClickListener (this);
-        b3 = findViewById (R.id.btn3);
+        b3 = findViewById (R.id.btn30);
         b3.setOnClickListener (this);
-        b4 = findViewById (R.id.btn4);
+        b4 = findViewById (R.id.btn40);
         b4.setOnClickListener (this);
-        b5 = findViewById (R.id.btn5);
+        b5 = findViewById (R.id.btn50);
         b5.setOnClickListener (this);
-        b6 = findViewById (R.id.btn6);
+        b6 = findViewById (R.id.btn60);
         b6.setOnClickListener (this);
-        b7 = findViewById (R.id.btn7);
+        b7 = findViewById (R.id.btn70);
         b7.setOnClickListener (this);
 
         RequestManager manager = new RequestManager (this);
@@ -105,7 +106,7 @@ public class ApiMainActivity extends AppCompatActivity implements SelectListener
     @Override
     public void OnNewsClicked(NewsHeadLines headLines) {
         startActivity (new Intent (ApiMainActivity.this, DetailActivity.class)
-        .putExtra ("data", headLines));
+                .putExtra ("data", headLines));
     }
 
     @Override
@@ -130,47 +131,26 @@ public class ApiMainActivity extends AppCompatActivity implements SelectListener
         switch (id) {
 
             case R.id.idEdtDashboard:
-                startActivity (new Intent (ApiMainActivity.this, MainActivity.class));
-                this.finish ();
+                startActivity (new Intent (ApiMainActivity.this, AdminDashboad.class));
                 return true;
 
             //news headlines
             case R.id.idEdtHeadlines:
                 startActivity (new Intent (ApiMainActivity.this, ApiMainActivity.class));
-                this.finish ();
                 return true;
 
             case R.id.idEdtProfile1:
-                //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
-                //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
-                ///this.finish ();
-                return true;
-
-            case R.id.idEdtProfile:
                 startActivity (new Intent (ApiMainActivity.this, EditProfileActivity.class));
-                this.finish ();
                 return true;
 
-            //view upload
-            case R.id.idEdtView:
-                startActivity (new Intent (ApiMainActivity.this, ViewUpload.class));
-                this.finish ();
-                return true;
-
-            case R.id.idEdtSorting:
-                //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
-                //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
-                ///this.finish ();
-                return true;
 
             case R.id.idEdtAbout:
                 startActivity (new Intent (ApiMainActivity.this, AboutUsActivity.class));
-                this.finish ();
                 return true;
 
             case R.id.idEdtLogout:
                 Toast.makeText (ApiMainActivity.this, "Log out successful", Toast.LENGTH_SHORT).show ();
-                mAuth.signOut();
+                mAuth.signOut ();
                 Intent i = new Intent (ApiMainActivity.this, LoginActivity.class);
                 startActivity (i);
                 this.finish ();

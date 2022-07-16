@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Concerning">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Always appoint an experienced person to watch
+the group for signs of injury, fatigue, hypothermia,
+dehydration, sunstroke, frostbite, or any other illness.
+Avoid hypothermia by staying rested, maintaining good
+nutrition, and consuming lots of high-energy food. In
+addition, bring and use the proper clothing for the area
+and the time of year. If you become tired, injured, or lost,
+make camp early. If you have any signs of hypothermia,
+discuss it with your group and take immediate action
+together.\n\n
+Essential\n\n
+Don' tforget! AS SOon as you stop, you run
+a greater risk of hypothermia, so weigh the
+dangers of treating an injury with rest against
+the potential for hypothermia. The danger of
+exposure may be the greater risk.\n\n
+To avoid frostbite, bring and wear the proper clothing for
+the area and for the weather; maintain good nutrition;
+drink water; maintain core temperature by staying active;
+and use your buddies to create a system to check critical
+areas such as face, nose, and ears. Don' twait for crisis;
+respond with immediate treatment for all symptoms, no
+matter how minor they seem.\n\n
+Fact\n\n
+Make sure to have a method for calling
+for help, an understanding of first aid, and
+first-aid supplies whenever traveling. And
+be aware that accidentS are most common
+when vacations involve traveling on the road,
+to beaches, staying in hotels, skiing, and in
+remote locations.\n\n
+Let Common Sense Be Your Guide\n\n
+In any unknown territory, it s essential to take extra
+precautions to avoid danger and prevent accidents. It s
+also best to plan for the very worst scenarios. For these
+types of trips, you must pack a survival kit that includes
+not only your first-aid kit, but a good and comprehensive
+map: a compass; at least two flashlights with spare
+batteries; a waterproof fire starter; a good, versatile
+hunting knife: personal shelter; whistles; warm clothing:
+sturdy, comfortable hiking boots; rain gear; high-energy
+food; and water. Take a first-aid manual, and if you are
+able, take a course before you leave to learn about and
+have hands on practice with the ABCS of first aid and
+how to treat and manage emergencies. Use your senses
+and your common sense and stay away from dangerous
+areas where hazards of nature may occur, such as rock
+falls, floods, rip currents, rapids, avalanches, hazardous
+plants and animals, any other hazardous terrain, areas of
+poor sanitation, and treacherous climates.\n\n
+Everyone in your group needs to know the locations
+of the first-aid kit, who their buddy is, and the overall
+supervisor and camp leader who needs to set the pace
+based on the slowest individual. Before you leave for any
+outdoor trip, you need to inform at least one friend at
+home what your plans are, when you are expected home,
+when you are expected at certain checkpoints, and
+other clues that may indicate your need for rescue. If an
+accident or injury occurs, make sure that everyone stays
+calm. Even in the case of becoming lost or separated
+from your group, stay calm and see if you are able to
+retrace your steps. Know how to use your compass,
+identify points, and use your common sense. Chances
+are, while roughing it, you may not be near any help or a
+hospital, so on all outdoor trips it s critical to be careful,
+vigilant, prepared, and safe"/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

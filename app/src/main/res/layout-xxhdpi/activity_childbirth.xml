@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Childbirth">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Emergency childbirth may occur in women who:\n\n
+• Have had a previous rapid delivery\n
+• Have certain connective-tissue diseases (Marfan' s
+syndrome or Ehrlos-Danlos syndrome)\n
+• Have a condition that makes the cervix incapable of
+staying closed\n
+• Have a history of premature labor\n
+• Have been injured\n\n
+Emergency childbirth can also occur in otherwise healthy
+pregnant women who simply can' tmake it to the
+hospital on time. Should you ever be in an emergency
+situation with a woman who is about to give birth, it is
+important to understand the normal course of labor and
+childbirth. Labor has three stages:\n\n
+• In the first stage, the uterus begins to contract in order
+to open and push the baby down through the birth canal.\n
+• During the second stage, the baby is born when\n
+the mother bears down or pushes along with the
+contractions.\n
+• In the third stage, the afterbirth or placenta is expelled.\n\n
+Essential\n\n
+Labor generally lasts twelve to twenty-four
+hours for first-time moms. Subsequent births
+usually last three to eight hours. Because
+these time frames are highly variable and
+babies often come sooner than expected, if a
+woman tells you she is about to give birth, you
+should believe her!\n\n
+First Aid for Emergency Childbirth\n\n
+You should call for help as soon as possible. You may
+also be able to get someone on the phone to help guide
+you through the birth. If there is no other help around,
+you have no choice, and nmust deliver the baby yourself.
+Follow these steps during the first stage of childbirth:\n\n
+1. Keep the mother occupied, but do not overtire her.\n
+2. Encourage her to remain calm, relax between
+contractions, and breathe deeply and slowly in the midst
+of contractions, particularly as they become stronger. As
+labor progresses, she will have regular contractions that
+prolonged, stronger, and closer together.\n
+3. Prepare a place to deliver the baby that is clean and
+where the mother-to-be can either lie down or sit in a
+leaning position with her back supported.\n
+4. When labor begins, she may experience a low
+backache and irregular cramping in her lower abdomen
+as her uterus contracts and her cervix begins to dilate.
+Her contractions will then become stronger and more
+regular, and will last longer. Assess contractions by
+placing your hand on her abdomen. You will feel a
+hardening during contractions, and can then time the
+interval from when the uterus begins to harden until it
+relaxes completely.\n
+5. Time the intervals between the beginning of a
+contraction and the beginning of the next contraction-
+as the time decreases between contractions, her labor is
+progressing.\n
+6. Sometimes standing or walking is helpful to move
+labor along. Let her have small amounts of food and
+liquids in order to give her more energy.
+7. Don' t try to wipe away any vaginal secretions
+because you may contaminate the birth canal.\n
+If her bag of water ruptures, there will be a flow of
+blood-tinged mucous. The end of the first stage is
+transition and is the most
+        commonly referred to as
+        uncomfortable part of labor.\n\n
+        Alert!\n\n
+    The latter part of the first stage is when
+    regular contractions occur every three to four
+    minutes, lasting from fifty to sixty seconds. At this point, you should prepare for and expect
+    the delivery of the baby.\n\n
+    The mom needs your encouragement now because
+    she may feel tired, discouraged, and irritable. She may
+    have a lot of emotions, complain of pain and backache,
+    may vomit and tremble, feel scared or even panicky,
+    and she may cry and act angry. So be sure to give her
+    lots of encouragement and reassure her that things are
+    progressing as they should. You might help her with
+    some relaxation techniques and some deep abdominal
+    breathing. Encourage her to start each contraction with
+    a deep breath to keep her body relaxed so that she will
+    not intensify the pain and her contractions will be easier.
+    Coach her to slow down her breathing and to breathe
+    deeply and rhythmically. Pressing on her lower back
+    firmly may also help relieve the backache.\n\n
+    Stage Two\n\n
+    When her cervix is almost fully opened, the baby begins
+    to enter the birth canal as the second stage of labor
+    begins. When this occurs, follow these steps:\n\n
+    1. Her contractions may come further apart and she may
+    feel inclined to push. She should then take a deep breath
+    with the contraction, hold her breath, and push gently.
+    There isn' tany hurry at this stage-she should rest or
+    sleep between contractions.\n
+    2. Try to remain calm and be prepared to give any
+    necessary first aid to both the mother and baby, such as
+    CPR for the baby and hemorrhage control and prevention
+    of shock for Monm.\n
+    3. Try to use sterile supplies or at least the cleanest
+    available. You can use clean towels, clothing, or even
+    newspaper under the mother during delivery. If she is on
+    the ground, try to fashion some sort of covering under
+    her, like a blanket.\n
+    4. Have her lie on her back with her knees bent and
+    opened wide, and have her hold her knees back and
+    apart.\n
+    5. You will see the top of the baby' s head."/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

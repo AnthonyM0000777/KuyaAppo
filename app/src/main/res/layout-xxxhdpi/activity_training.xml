@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Training">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="While this app is designed to be a comprehensive
+resource, providing first-aid basics, nothing can replace
+the hands-on learning you get from formal training in
+a classroom setting. Anyone can learn first aid, and
+by learning new lifesaving skills and updating past
+knowledge, you will feel and act more confident at home
+and work and while traveling.\n\n
+Many organizations offer first-aid classes, such as the
+American Red Cross, the Anmerican Heart Association,
+and the National Safety Association; and other local EMS
+organizations offer Basic Life Support (BLS) classes.
+Some occasionally offer free one-day classes to the
+community: most charge a small fee fora one- to
+two-day course in CPR and basic first aid."/>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

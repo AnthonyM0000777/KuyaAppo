@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jellyfish">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Jellyfish are bell-shaped, gelatinous marine creatures
+with tentacles that are sometimes longer than three feet.
+Jellyfish venom oftentimes triggers allergic reactions
+with symptoms including rash, intense, stinging pain, and
+raised welts. Symptoms may then progress to include
+nausea, vomiting, diarrhea, back and abdominal pain,
+fever, chills and sweating, and swelling of the lymph
+nodes. In severe reactions, a person may have difficulty
+breathing, slip into a coma, and even die.\n\n
+First Aid for Jellyfish Stings\n\n
+Anyone with severe symptoms such as intense pain,
+chest pain, or shortness of breath needs immediate
+medical attention. Call emergency number, manage
+signs of shock, and begin CPR as outlined in Emergency
+Response menu. For other reactions take the following
+steps:\n\n
+1. Rinse the sting with seawater, not fresh water, as the
+latter will increase pain. Don' tapply ice packs or rub the
+area. Irrigate eye stings with one gallon of fresh water.\n\n
+2. Apply acetic acid 5% (white vinegar) or isopropyl
+alcohol; use one-fourth strength vinegar for mouth stings,
+but do not use vinegar in the case of any oral swelling or
+difficulty swallowing.\n\n
+3. Remove any tentacles carefully with tweezers while
+wearing gloves.\n\n
+4. Apply a paste of baking soda, mud, or shaving cream
+to the injury, then shave the area with a knife or razor
+and reapply vinegar or alcohol. The paste will prevent
+additional toxin discharge during the shaving.\n\n
+5. Minimize movement of affected area to reduce spread
+of the poison. (For box jellyfish stings, wrap the extremity
+similar to wrapping a sprained ankle, making sure that
+toes and fingers are still pink, and leave bandaged until
+you receive medical attention.)\n\n
+6. Take OTC pain relievers as directed and apply 1%
+hydrocortisone cream two to three times daily, or use
+antihistamines such as Benadryl to relieve itching.\n\n
+Your doctor may prescribe topical and oral steroids, and
+if you continue to have redness and irritation after two to
+three days, it may be a sign of bacterial infection of the
+injury and you need to see your doctor. Be aware that
+allergic reactions to jellyfish stings may occur up to four
+weeks afterward, so watch for any signs."/>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

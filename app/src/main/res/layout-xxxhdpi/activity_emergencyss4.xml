@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emergencyss4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Depression Signs to Lock For"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/depression"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suicide"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/depression"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/suicide"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Preventing Suicide"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/suicide"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/preventSuicide"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Talk to Your Kids About Suicide"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/preventSuicide"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/talkKids"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Talk to Your Kids About Drugs"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/talkKids"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/aboutDrugs"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

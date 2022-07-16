@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Maneuver">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/bold"
+        android:padding="10dp"
+        android:textSize="23sp"
+        android:text="he Heimlich maneuver (pronounced Hi-mlick) is a
+technique whereby you administer abdominal thrusts
+to yourself or to a person who is choking. The Heimlich
+maneuver is recommended for use in clearing a blocked
+airway in conscious adults and children over the age of
+one; it is not meant to be used for choking infants under
+age one. The act of abdominal thrust lifts the diaphragm
+and forces air from the lungs, similar to a coughing
+action, so that the foreign body in an airway may be
+moved and expelled.\n\n
+The steps to perform the Heimlich maneuver on a
+choking person are:\n\n
+1. Stand behind the person, wrap your arms around the
+waist, and tip the person slightly forward.\n
+2. Make a fist with one hand and place it slightly above
+the navel.\n
+3. Grasp your fist with your other hand and press
+forcefully into the abdomen with quick, upward thrusts,
+using force as if you were attempting to lift the person up.\n
+4. Continue the thrusts until the foreign body is
+dislodged.\n\n
+The steps to perform the Heimlich maneuver on yourself
+if you are choking are:\n\n
+1. Place your fist just slightly above your navel.\n
+2. Grasp your fist with your other hand, bend over a hard
+surface like a chair or countertop, and thrust your fist
+inward and upward.\n\n
+To clear an airway obstruction of a pregnant woman
+or obese person, place your fists closer to the chest,
+right above the joining of the ribs at the base of the
+breastbone, and follow the Heimlich maneuver steps.
+When a choking person is unconscious, lower the person
+on her back onto the floor. Clear the airway using the
+head-tilt method. If you can see the blockage, reach a
+finger into the mouth and sweep it out (finger sweep),
+using caution not to push the object deeper into the
+airway. If you are unable to remove the obstructing object
+and the person doesn' trespond, you must begin CPR. In
+this case, there is a chance that the chest compressions
+used in CPR will free the object so recheck the mouth at
+regular intervals.\n\n
+
+In the case of a choking infant younger than age one, sit
+with the infant face down on your forearm, positioned
+securely on your thigh. Thump the infant firmly and
+gently five times with the heel of your hand in the middle
+of the back. The back blows and the gravity will most
+likely free the obstruction. If it doesn' twork, turn the
+infant face up on your forearm, head lower than body,
+and use two fingers positioned over the center of the
+breastbone just below the nipples and give five quick
+chest compressions. Continue to repeat the back
+blows and chest thrusts and if the infant doesn't start
+breathing, call emergency number. If you have cleared
+the obstruction and the infant doesn' t start breathing,
+begin infant CPR. In babies older than age one, only give
+abdominal thrusts.\n\n
+
+Fact\n\n
+Unintentional injuries from events such
+as motor-vehicle crashes, chokings and
+suffocations, near drownings, bicycle-related
+crashes, falls, and poisonings are the leading
+causes of death for children ages fourteen
+and under. By learning CPR and first aid you
+could save a child' s life!"/>
+
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

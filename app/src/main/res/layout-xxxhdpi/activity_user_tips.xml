@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserTips"
+    android:background="@drawable/bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:text="Encase of emergency you can use this guides to help yourself safety and to avoid any dangerous accident."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="190dp"
+            android:fillViewport="true"
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="2"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="15dp">
+
+                            <ImageView
+                                android:id="@+id/earthquake"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/earthquake" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp"
+                                android:fontFamily="@font/bold"
+                                android:text="Earthquake"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="15dp">
+
+                            <ImageView
+                                android:id="@+id/hurricane"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/huricane" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp"
+                                android:fontFamily="@font/bold"
+                                android:text="Hurricane"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="15dp">
+
+                            <ImageView
+                                android:id="@+id/landslide"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/lands" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp"
+                                android:fontFamily="@font/bold"
+                                android:text="Landslide"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="15dp">
+
+                            <ImageView
+                                android:id="@+id/floods"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/flood" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp"
+                                android:fontFamily="@font/bold"
+                                android:text="Floods"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="15dp">
+
+                            <ImageView
+                                android:id="@+id/tsunami"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/tsu" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp"
+                                android:fontFamily="@font/bold"
+                                android:text="Tsunami"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="15dp">
+
+                            <ImageView
+                                android:id="@+id/firstAidKit"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/fires" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp"
+                                android:fontFamily="@font/bold"
+                                android:text="Wildfires"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </GridLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

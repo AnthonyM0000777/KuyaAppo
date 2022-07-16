@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Abdominal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Abdominal pain is felt in many different ways including
+but not limited to burning, cramping, stabbing, throbbing,
+spasms, and sharp in the area below the ribs, above
+the pelvic bone, and around the flanks on each side.
+Pain in this area can arise from skin and abdominal-wall
+muscles but abdominal pain generally describes pain
+that comes from organs within the abdomen including
+the stomach, large and small intestines, appendix, colon,
+liver, gallbladder, and pancreas. Sometimes pain that
+is felt in the abdomen is really coming from the lower
+lungs, the kidneys, and the uterus or ovaries and is called
+referred pain.\n\n
+        Abdominal pain is caused by inflammation, stretching
+    or swelling of an organ, or by loss of the supply of blood
+    to an organ. But abdominal pain can also Occur without
+    any of these causes, such as in irritable bowel syndrome
+    ((BS). IBS is not well understood, but it may be due to
+    abnormal contractions of the intestinal muscles (spasm)
+    or abnormally sensitive nerves within the intestines
+    that cause pain. Some abdominal pain is considered
+    an emergency, such as appendicitis, or it may be a
+    more chronic but serious condition such as diverticulitis
+    or colitis. All abdominal pain may be serious and life
+    threatening and needs to be evaluated by your doctor.
+    In children, note the following symptoms in order to
+    describe the pain and symptoms accurately to your
+    doctor:\n\n
+    • Length of time experiencing pain, particularly pain
+    persisting for longer than twenty-four hours\n
+    • Location of pain and any pain outside the center of the
+    abdomen\n
+    • The child' s appearance, including pale skin, sweating,
+    sleepiness, and listlessness\n
+    • Nausea and vomiting that persists for longer than
+    twenty-four hours or vomit that appears red in color\n
+    • Diarrhea lasting longer than seventy-two hours or any
+    blood in the stool\n
+    • Presence or absence of fever\n
+    • Groin pain (may indicate blood supply being cut off
+    from a testicle twisting on itself)\n
+    • Urinary problems\n
+    • Any rash along with abdominal pain\n\n
+    After you have spoken to or been examined by your
+    doctor, continue to monitor your symptoms or those
+    of your child and make sure to report any changes or
+    lack of improvement. Also be aware that depending on
+    the age of a child, they may be reluctant to complain of
+    symptoms.\n\n
+    Alert!\n\n
+    Abdominal pain is often difficult to diagnose
+    and often takes many office visits and tests,
+    such as blood tests, radiographic studies, and
+    endoscopic procedures, in order to determine
+    the problem.\n\n
+    First Aid for Abdominal Pain\n\n
+    Abdominal pain may be a sign of serious illness and can
+    cause severe pain. You may need to describe your pain
+    to your doctor. An easy way to think of this is that O is no
+    pain and 10 is pain so severe you are crying and your face
+    is distorted in a grimace.\n\n
+    Wong-Baker FACES Pain Rating Scale\n\n
+    Describe the pain as sharp or dull, burning or pressure
+    like, jabbing and fleeting, steady and unrelenting or
+    cramp like. Be sure to note any fever, chills, sweats,
+    rectal bleeding, loss of appetite, diarrhea, weight loss,
+    constipation, nausea, or loss of energy. Treat minor
+    abdominal pain with:\n\n
+    • Rest\n
+    •A heating pad or soaking in a tub of warm water\n
+    • OTC antacids and pain relievers (but avoid aspirin
+    or ibuprofen, as these drugs can make some types of
+    stomach pain and conditions worse)\n
+    • Plenty of fluids and a regular diet as tolerated\n\n
+    For persistent pain, fever, vomiting, vaginal bleeding, loss
+    of consciousness, chest pain, or other serious symptoms,
+    see your medical-care provider."/>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

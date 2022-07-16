@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Miscarriage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="A miscarriage, or spontaneous abortion, is a pregnancy
+that suddenly ends before the fetus can survive, and
+Occurs in about 20 percent of all known pregnancies. Any
+vaginal bleeding is thought to be a potential miscarriage;
+however, vaginal bleeding in early pregnancy is common,
+and nearly one out of every four pregnant women has
+some bleeding in the first few months. About one half of
+women stop bleeding and complete their pregnancy.\n\n
+A miscarriage is inevitable when there is severe bleeding
+along with opening of the cervix, and typically, cramping
+and abdominal pain. Incomplete miscarriage occurs
+before the twentieth week of pregnancy and bleeding
+is heavier, usually with abdominal pain and expulsion
+of some, but not all, of the products of conception; an
+ultrasound will show some matter still remaining in the
+womb. Complete miscarriage, or spontaneous abortion,
+is the expulsion of all products of conception, including
+fetus and placental tissues from the womb. Typically,
+abdominal pain and bleeding occur, but the discomfort
+and bleeding stop after the tissues and fetus have been
+expelled.\n\n
+Causes of Miscarriage\n\n
+The most common reason for miscarriages during the
+first three months of pregnancy (or first trimester) is
+an abnormal fetus, usually due to genetic problems
+(chromosomal abnormality), which are found in up to
+70 percent of miscarried fetuses. Other reasons for
+miscarriage include:\n\n
+• Chronic illnesses, including severe high blood pressure,
+lupus, and diabetes\n
+• Thyroid problems\n
+• Kidney disease\n
+• Acute infections such as CMV (cytomegalovirus),
+mycoplasma (walking pneumonia), and German measles\n
+• Extreme emotional shock\n
+• Abnormal uterus\n
+• Fibroids\n
+• Poor muscle tone in the cervix (incompetent cervix)\n
+• Abnormal growth of the placenta\n
+• Multiple gestations• Chronic illnesses, including severe high blood pressure,
+lupus, and diabetes\n
+• Thyroid problems\n
+• Kidney disease\n
+• Acute infections such as CMV (cytomegalovirus),
+mycoplasma (walking pneumonia), and German measles\n
+•Extreme emotional shock\n
+• Abnormal uterus\n
+• Fibroids\n
+• Poor muscle tone in the cervix (incompetent cervix)\n
+• Abnormal growth of the placenta\n
+• Multiple gestations\n
+• Certain drugs, including alcohol, tobacco, cocaine, and
+possibly caffeine\n\n
+First Aid for Miscarriage\n\n
+Call your doctor or provider if you know or think you may
+be pregnant and you have any of the following symptoms:\n\n
+• Vaginal bleeding\n
+• Abdominal or back pain or cramping\n
+• Weakness or dizziness\n
+• Severe nausea or vomiting\n
+• Heavy bleeding\n
+• Severe dizziness or loss of consciousness\n
+•A fever greater than 100.4°F\n
+• You pass tissue\n
+• You' ve had prior ectopic pregnancies\n\n
+Any tissue you expel should be placed in a container
+and brought to the hospital. Although a miscarriage may
+be frightening and extremely difficult, most women are
+successful at completing subsequent pregnancies. You
+need to wait until you have recovered fully, usually a
+few weeks to a few months, after a miscarriage before
+attempting to conceive again. Many doctors recommend
+waiting until you ve had several subsequent menstrual
+cycles. Take the time to work through your emotions
+regarding your loss, and get any professional help that
+you may need to help you recover."/>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

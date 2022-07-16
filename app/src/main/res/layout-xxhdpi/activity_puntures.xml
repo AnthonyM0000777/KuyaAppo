@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Puntures">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="A puncture wound is a small but deep hole caused by
+such things as fangs, pins, sticks, staples, nails, or any
+object capable of penetrating the skin deeply. Puncture
+wounds don' tusually bleed a lot, but can cause internal
+injury, and it
+s difficult to estimate how deep the wound
+may be.\n\n
+First Aid for Puncture Wounds\n\n
+Always assume that a puncture wound is dirty. To treat
+minor wOunds:\n\n
+1. Wash your hands with soap and water and wear
+gloves.\n\n
+2. Clean the wound under a stream of running water,
+using soap followed by povidone-iodine.\n\n
+3. Bandage loosely and monitor the wound daily for
+signs of infection such as increased swelling, redness, or
+discharge.\n\n
+Never seal the puncture wound and do not use antibiotic
+ointments because sealing the wound may actually
+increase the chance of infection. Don' t attempt to clean
+a major puncture wound as this may cause more serious
+bleeding. Never try to remove an imbedded object from
+a puncture wound. Depending on where the wound is
+located, this can cause further damage, bleeding, and
+even immediate death. Never probe or remove debris
+from a vwound, attempt to push body parts back in, or
+breathe on a wound or dressing because doing so may
+cause serious infection later.\n\n
+Call emergency number immediately for any serious
+puncture wound. If the wound is bleeding heavily, apply
+direct pressure until help arrives.\n\n
+Question?\n\n
+When should I change a bandage?\n\n
+There are no hard and fast rules for dressing
+changes but typically you should change
+bandages daily, or whenever they get dirty bandages daily, they get dirty
+or wet from activity or from blood or other
+secretions from the wound."/>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

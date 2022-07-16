@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emergency3">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="History of CPR"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"
+            android:id="@+id/cpr"/>
+
+        <TextView
+            android:id="@+id/aid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cpr"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:text="The ABCs of First Aid"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/aed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aid"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:text="Basic CPR and AED"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/posit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aed"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:text="Recovery Position"
+            android:textSize="23sp" />
+
+
+        <TextView
+            android:id="@+id/attack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/posit"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:text="Signs of Heart Attack"
+            android:textSize="23sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choking"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/attack"
+            android:id="@+id/choking"
+            android:layout_marginTop="10dp"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heimlich Maneuver"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/choking"
+            android:id="@+id/maneuver"
+            android:layout_marginTop="10dp"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swallowing Foreign Objects"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/maneuver"
+            android:id="@+id/objects"
+            android:layout_marginTop="10dp"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"/>
+
+        <TextView
+            android:id="@+id/shock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/objects"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:text="Managing Shock"
+            android:textSize="23sp" />
+    </RelativeLayout>
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

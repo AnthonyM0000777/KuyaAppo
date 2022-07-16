@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Poisoning">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="A person may be poisoned by injecting, inhaling, coming
+in contact with, or swallowing a harmful substance.
+According to the CDC, about 2.5 million reported
+poisonings occur in the United States every year. A
+package without a warning label isn' tnecessarily safe.
+Although symptoms of poisoning often take some time to
+develop, if you think someone has been poisoned, don' t
+wait for symptoms, but get that person medical help
+immediately.\n\n
+Many household items including medicines (for example
+an aspirin overdose), household detergents and cleaning
+products, carbon monoxide, some household plants,
+paints, insecticides, chemicals, and even some foods can
+poison if a person has inadvertent exposure. Depending
+on the poison, symptoms will vary, but include:\n\n
+• Abdominal pain\n
+•Bluish lips\n
+• Chest pain\n
+• Confusion
+Cough\n
+• Diarrhea\n
+• Difficuty breathing\n
+Blurred vision\n
+• Dizziness\n
+• Drowsiness\n
+• Fever\n
+• Headache\n
+• Heart palpitations\n
+• Muscle twitching\n
+• Nausea and vomiting\n
+•Tingling and\n
+• Numbness\n
+•Seizures\n
+• Skin rash and burns\n
+• Stupor\n
+• Loss of consciousness\n
+• Unusual breath odor\n
+• Weakness\n\n
+
+First Aid for Poisoning\n\n
+Take the following steps if you suspect poisoning:
+1. Check for ABCS, call emergency number, begin rescue
+breathing and CPR if necessary, and then call the Poison
+Control Center at 1-800-222-1222 for advice.\n\n
+2. Try to identify the poison and do not make the person
+throw up unless you are advised to do so by the Poison
+Control Center (note that parents should not use syrup of
+ipecac at home anymore).\n\n
+3. If the person vomits on their own, take measures to
+clear their airway, but wrapa cloth around your fingers
+before sweeping out the mouth and throat.\n\n
+4. If the person starts having a seizure, protect them
+from injury by laying them down gently on a soft surface.
+Do not restrain the person; instead, turn the head to one
+side in order to keep the airway open.\n\n
+5. Roll unconscious persons onto their left side in the
+recovery position (go to Enmergency Response menu for
+details) until help arrives.\n\n
+6. Remove the person\n\n
+s clothes if any poison has
+spilled on them and flush the skin with water.\n\n
+Essential\n\n
+Call the Poison Cotrol Center for anyone
+who becomes sick for no obvious reason, or
+is found near a furnace, car, fire, or in an area
+that is not well ventilated, because they need
+to be evaluated for poisoning.\n\n
+For inhalation poisoning call emergency number, and only
+if it is safe, remove the person from the danger of the
+gas, fumes, or smoke. Open all the windows and doors to
+remove the fumes, while holding your breath or holding a
+wet cloth over your nose and mouth.
+"/>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

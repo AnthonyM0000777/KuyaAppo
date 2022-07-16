@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dehydration">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="When your body is dehydrated, it doesn' t have as much
+water and fluids as it should. Dehydration may be caused
+by not drinking enough fluids, losing too much fluid, or
+both. Depending on how much of the body' s fluid is not
+replenished or is lost, dehydration can be mild, moderate,
+or severe. Severe dehydration is a life-threatening
+emergency. Vomiting, diarrhea, excessive urine output,
+excessive sweating, and fever all cause fluid loss in the
+body. Nausea, loss of appetite during illness, and sore
+throat or mouth sores may cause you to not drink enough
+fluids. Symptoms of dehydration include:\n\n
+• Dry or sticky mouth\n\n
+• Decreased or no urine output\n\n
+• Urine that appears dark yellow
+tearing\n\n
+• Lack of\n\n
+• Sunken eyes\n\n
+• Lethargy and coma (in severe dehydration)\n\n
+• In infants, the soft spot
+on the top of the head\n\n
+(fontanelle) will be markedly sunken
+Children and the elderly have a higher risk of developing
+dehydration.\n\n
+First Aid for Dehydration\n\n
+You can correct mild dehydration by the following
+methods:\n\n
+1. Frequent small amounts of fluid, rather than drinking
+a large amount of fluid all at once, which mnay cause
+vomiting. Electrolyte solutions are especially effective, but
+avoid sport drinks that contain sugar that may cause or
+worsen diarrhea. Also avoid plain water for rehydrating
+infants and children; instead, use commercial electrolyte
+solutions such as Pedialyte.\n\n
+2. Hospitalization and intravenous fluids are sometimes
+necessary for moderate to severe dehydration, as well
+as to treat the cause of the dehydration. Call emergency
+number for symptoms including:\n\n
+• Dizziness\n\n
+• Light headedness\n\n
+• Lethargy\n\n
+•Confusion\n\n
+• Lack of tears\n\n
+In an infant less than two months old, diarrhea or
+vomiting, little or no urine output in an eight-hour period,
+sunken eyes, dry skin that stays up like a tent when
+pinched into a fold (called skin tenting), dry mouth or
+eyes, sunken soft spot (fontanelle), rapid heartbeat, blood
+in the stool or vomit, or listlessness and inactiveness.
+Everyone should drink plenty of fluid every day and more
+during hot weather and while exercising. While ill, don' t
+wait for signs of dehydration; attempt to push fluids or get
+medical attention.\n\n
+Fact\n\n
+Don twait till you are thirsty to drink fluids.
+Instead stay hydrated, because it takes two
+hours for fluids to have any effect on your
+body, and by the time you feel thirsty, you are
+already dehydrated."/>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

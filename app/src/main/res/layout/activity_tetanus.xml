@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tetanus">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Open wounds contaminated with tetanus bacteria
+(Clostridium tetani), found in soil, dust, and animal
+feces, can lead to a tetanus infection if you don' thave
+up-to-date immunity. Your best defense against tetanus
+is prevention by vaccination, because tetanus may be
+fatal even with treatment. Signs and symptoms of tetanus
+appear from a few days to several weeks after an injury
+and include:\n\n
+• Muscular irritability\n
+• Spasms or stiffness of the jaw, neck, and other
+muscles\n
+•Fever\n\n
+Tetanus is also known as lockjaw because when the
+toxin spreads to the nerves of muscles, the face and jaw
+muscles in the area will react with strong spasms. There
+may also be difficulty swallowing, irritability, and difficulty
+breathing.\n\n
+First Aid for Tetanus\n\n
+For any deep or dirty wounds, see your doctor to obtain a
+tetanus booster shot if you haven' thad a booster within
+the past five years, a tetanus shot in the last ten years,
+or aren tsure of your status. If yOu develop tetanus,
+you will most likely receive intensive treatment, and may
+recover completely; however, in most cases there s
+a risk of death or lasting effects such as brain damage
+despite treatment.\n\n
+The tetanus vaccine is usually given to children as part
+of the diphtheria, tetanus, and pertussis vaccine; teens
+and adults get the tetanus and diphtheria vaccine. Get the
+vaccine for any international travel or after any deep or
+dirty wounds when your vaccination status is not Current.
+Clean and dresS any wounds using an antibiotic cream or
+ointment.
+"/>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

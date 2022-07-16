@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Suicide">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Suicide is a multifaceted problem with many causes, but
+there are usually warning signs such as depression and
+substance abuse. The vast majority of suicidal people will
+give a sign of their intent: some may talk about suicide,
+call suicide crisis lines, or threaten suicide. Warning signs
+of suicide include:\n\n
+• Suicidal ideation (suicidal thoughts or actions)\n
+• Excessive, increased substance abuse\n
+• Expressing or feeling that there is no reason to live\n
+• Anxiety (agitation or insomnia)\n
+• Feeling trapped\n
+• Feeling hopeless\n
+• Withdrawal from friends, family, or society\n
+• Anger\n
+• Recklessness\n
+• Dramatic mood changes\n
+• Personality changes such as strange or unusual
+behavior\n
+• Decreased interest in things they used to enjoy\n
+• Changes in eating or sleeping habits\n
+• Withdrawal from friends and family\n
+• Increased absences and decreased performance at
+school or work\n
+• Changes in personal hygiene habits\n
+• Exhibiting a strong sense of guilt, shame, or emptiness\n
+• An obsession with death\n
+• Giving away personal and prized belongings, including
+pets\n\n
+Teen Suicide\n\n
+According to the CDC, teen suicide is the third leading
+cause of death among teenagers in the United States
+and has become a critical problem. Nearly 2,000 teens
+commit suicide every year in the United States. In a
+school auditorium holding 100 students, statistics show
+that at least twenty of them have had serious thoughts of
+suicide and at least eight of them have attempted suicide.
+Female youths attempt suicide more often than males,
+but the incidence of actual suicides is four times higher
+in male teens. Over 60 percent of teens use a gun to
+commit suicide and the majority of gun-related attempts
+or suicides with guns occur in the home. That s why it is
+vital to keep guns away from children of any age.Depression, alcohol, and substance abuse are factors in
+90 percent of teen suicides according to the Journal of
+Clinical Psychiatry. Because many teen suicides occur
+in families that have had a family member who has also
+attempted or committed suicide, it' s believed that some
+disorders such as depression have genetic components.
+The following events can also influence teen suicide:\n\n
+• Stress from fighting with friends\n
+• Breaking up with girlfriends or boyfriends\n
+• Getting into trouble at school or with the police\n
+• Substance abuse\n
+• Depression\n
+• A history of physical or sexual abuse\n
+• Poor communication with parents\n
+• Incarceration for any reason\n\n
+Teens are also influenced by hearing, seeing, and
+reading about other teen attempts and suicides, so all of
+these events need careful attention, discussion, and any
+necessary treatment.\n\n
+First Aid for Suicide Attempts and
+Self-Harm\n\n
+If you come across someone who has attempted suicide,
+or suspect an attempt, take note of whether the person
+may be under the influence of a drug, such as exhibiting
+slurred speech and lethargy, or self-inflicted injuries.
+Take the following steps; stay safe and away from
+any scenes with guns, weapons, or extremely violent
+behavior; and use universal precautions if you are able:\n\n
+• In the case of a hanging, get the person down as
+quickly as possible.\n
+• Call emergency number, check for breathing, and start
+CPR and other first-aid measures for injuries.\n
+• Look for pills, look at the date of any prescriptions, and
+note the number of pills left and type of medication so
+that you can report to EMS.\n
+• Look for a note to bring to the hospital or to give to
+EMS.\n
+• Don
+t disturb the scene; in the event of death there
+will be a death-scene evaluation.\n
+• Refrain from any judgmental remarks."/>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

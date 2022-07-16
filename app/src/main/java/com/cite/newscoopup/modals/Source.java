@@ -1,10 +1,8 @@
 package com.cite.newscoopup.modals;
 
-import java.io.Serializable;
-
-public class Source implements Serializable {
-    String id = "";
-    String name = "";
+public class Source {
+    String id  = "";
+    String  name = "";
 
     public String getId() {
         return id;

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Posit">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="The recovery position is a technique used in first aid for
+all unconscious people who are breathing. This includes
+anyone over the age of one-year-old who has started
+breathing after being given CPR, those who may be
+unconscious or nearly unconscious but are still breathing,
+those who are too inebriated to assure their continued
+breathing, persons of near drowning, and in cases of
+suspected poisoning.\n\n
+An unconscious person who is lying face up is in a
+position that may result in obstruction to the airway.
+When a person is laying face up, the tongue may relax to
+the back of the throat and fluids such as blood or vomit
+can pool in the back of the throat and obstruct the airway.
+Also, in the face-up position, the esophagus is tilting
+down slightly from the stomach toward the throat, and
+when combined with loss of musCular control that occurs
+when someone is unconscious, this can lead to what is
+called passive regurgitation-when the stomach contents
+flow up into the throat. Aside from airway obstruction,
+any fluid collecting in the back of the throat can floW
+down into the lungs and the acid from the stomach that
+is in that fluid can damage the lungs, a condition known
+as aspiration pneumonia. In many instances, the actual
+injury or illness that caused unconsciousness will not be
+fatal, but the resulting passive regurgitation or aspiration
+pneumonia will be.\n\n
+A very common cause of death is excessive consumption
+of alcohol that leads to unconsciousness followed by all
+or some of these events. While in the recovery position,
+the force of gravity keeps the tongue from obstructing the
+airway and prevents fluids from flowing the wrong way.
+This, coupled with raising the chest above the ground,
+protects the person while aiding breathing.\n\n
+Essential\n
+You must suspect spinal injury and use
+measures to stabilize the neck if the person
+is unconscious because of an accidental fall,
+collision, or any other traunma.\n\n
+As in all first-aid situations, assess the area for safety
+before approaching the unconscious person. Next,
+assess the person for the ABCS. If there is no need to
+performn CPR or if you already have performed CPR and
+the person begins breathing, then put the person into
+the recovery position. If there is no suspicion of spinal
+or neck injury, you want to place the person into what is
+called the lateral recovery position:\n\n
+1. With the person lying on his back with legs straight
+out, kneel on one side, facing him. Position the person' s
+arm that is closest to you perpendicular to his body, with
+his elbow flexed. Then position the other arm across the
+body, resting the hand across the torso.\n
+2. Bend the leg that is farthest from you up; the knee
+elevated, reach behind the knee and pull the thigh toward
+you.\n
+3. Use your other arm to pul the shoulder farthest from
+you while rolling the body toward you. Maintain the upper
+leg in a flexed position so that the body is stabilized.\n\n
+Because people who stay in this position for an extended
+period of time may experience nerve compression,
+you may move the person from side to side every thirty
+minutes if emergency rescue is taking a long time to
+arrive. In case of spinal injury, any other movement
+of the unstabilized neck will carry a risk of causing
+permanent paralysis or other injuries, so movement
+should be minimized. \n\nThe only reason to move a person
+with a suspected spinal injury intO a recovery position is
+if you must drain vomit from the airway. And then you
+should use what is called HAINES modified recovery
+position (High Arm IN Endangered Spine). In this modified
+position, raise one of the injured person
+S arms above
+the head (in full abduction) while turning the person' s
+body in order to support the head and neck for less neck
+movement.\n\n
+In a suspected spinal or neck injury, your first priority is
+keeping the airway open, so if the person is breathing,
+leave them in the position you found them. But if
+breathing stops, regardless of potential for increased
+injury to the person, you must continue ABCS: airway,
+breathing, and circulation. Breathing is the first priority;
+everything else is second.\n\n
+An unconscious pregnant woman should always be
+positioned in the recovery position on her left side, and
+anyone with wounds to the torso should be placed with
+the wounds closest to the ground to decrease any chance
+of blood pooling in the lungs.\n\n
+Place a baby less than a year old in a modified recovery
+position by holding the infant in your arms, head
+tilted downward, in order to prevent the tongue from
+obstructing the airway or the infant from inhaling vomit.
+In all cases, continue to monitor the person s level of
+response, pulse, and breathing until help arrives."/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tentss">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="When you go camping, be prepared to care for any
+cuts, scrapes, and scratches by bringing a well-stocked
+first-aid kit, your first-aid manual, and all the comforts
+that you desire. Roughing it usually means campfires,
+so be sure to bring along some saline solution to wash
+irritated eyes if you get ashes or cinders in them while
+sitting too close to the fire. \n\nCotton swabs are great for
+applying lotion to bug bites, rashes, and scratches, and
+tweezers are a must for removing splinters and thorns.
+An aloe-vera solution for skin irritations, lip balm for the
+lips, zinc oxide for sun and skin protection, burn cream, a
+flashlight with spare batteries, a whistle for each camper,
+sanitary napkins to control bleeding, and if needed, a
+snakebite kit, are all must-have camping first-aid items.
+A good tent should have a built-in sheet underneath
+to prevent cold (and insects) from getting inside, and
+another separate sheet to put underneath the tent. \n\nYou
+should also bring all the appropriate clothing and gear you
+need to stay warm and safe. In addition, while enjoying
+camping and other outdoor activities, it s critical to
+drink at least two quarts of water a day, or at least one
+quart of water for every fifty pounds of body weight, and
+more with any vigorous activity to avoid dehydration.
+Avoid dehydrating high-protein foods and caffeinated
+beverages. If you notice your urine is becoming a darker
+yellow, you also need to increase fluid intake."/>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

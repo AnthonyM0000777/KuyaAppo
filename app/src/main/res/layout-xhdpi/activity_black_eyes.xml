@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlackEyes">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/bold"
+        android:padding="10dp"
+        android:textSize="23sp"
+        android:text="Black eyes typically occur after a blow or blunt trauma
+to the eye or the nose, often causing one or both eyes
+to swell due to the nasal injury causing fluid to collect
+in the thin, delicate tissues of the eyelids. Facelifts, jaw
+Surgery, head injuries, or nose surgery may also result
+in black eyes. WVhen both eyes are black and blue and
+Swollen they are often referred to as raccoon's
+(Raccoon eyes are also a sign of a type of skull
+eyes.\n\n
+fracture, so any raccoon eyes without eye trauma need to
+be checked out for a skull fracture.) Symptoms of black
+eyes are predominantly pain, bruising, and swelling. At
+first the swelling and discoloration may be mild, the color
+slightly reddened, progressing to a darker shade. As
+the area heals, the skin around the eye may turn a deep
+violet, yellow, green, or black in color, which lightens
+after a few days as the swelling goes down. A black eye
+may result in some temporary blurry vision or difficulty
+opening the eye because of the swelling, but lasting.\n\n
+serious visual problems aren't common. A black eye
+    may be accompanied by a headache due to the blow to
+    the head or face that caused the injury. Serious signs to
+    watch for and report to your doctor are double vision, loss
+    of sight, any loss of consciousness, loss of ability to move
+    the eye, any blood or clear fluid from the nose or the ears,
+    blood on the surface of the eye, and persistent headache.\n\n
+    First Aid for Black Eyes\n\n
+    First aid for black eyes includes the following:
+    1. Apply ice packs immediately after the injury in order to
+    help decrease the swelling and pain.\n\n
+    2. Try to rest as much as possible.\n\n
+    3. Sleep with the head of your bed elevated.\n\n
+    Use the packs for twenty minutes of every hour you
+    are awake during the first twenty-four hours. Be careful
+    to wrap the ice; never apply ice directly to the skin or
+    any area of the body. You can also use a bag of frozen
+    vegetables wrapped in a cloth.
+    Stay away from all activities that may reinjure the area
+    until after the eye has healed. Although most black eyes heal without complications, you should see an
+    ophthalmologist to make sure that no significant injury
+    has occurred to your eye. In addition, call your doctor for
+    any of the following:\n\n
+    • Changes in vision\n
+    • Severe pain continues\n
+    •Swelling is not related to an injury\n
+    • Signs of infection such as warmth, redness,
+    or pus like
+    drainage\n
+    • You are unsure about treatment or concerned about
+    any symptoms\n
+    • You have any behavioral changes\n
+    • The swelling doesn' t start to improve after a few days\n
+    • You have any swelling near the eye from a bee sting.\n\n
+    Go to the emergency room or your doctor immediately
+    for any of the following:\n\n
+    • Changes in or loss of vision\n
+    • Inability to move your eye\n
+    • You think an object pierced your eye or is inside your
+    eyeball\n
+    • There is any blood in your eye\n
+    • Your eye looks deformed or has fluid leaking from it\n
+    • Any cuts (lacerations) to your eye area, face, or head
+    You also need to go to an emergency department if you
+    have signs of a serious head or facial injury such as:\n\n
+    • Broken bones or teeth\n\n
+    Vomiting after the injury\n\n
+    • You are not able to walk after the injury\n
+    • You have blood or clear fluids coming from your nose or
+    ears\n
+    • You take blood thinners\n
+    • You have a history of bleeding problems such as
+    hemophilia"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

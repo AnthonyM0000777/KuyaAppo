@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Blindness">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Snow blindness is inflammation of the eyes caused when
+the eyes are exposed to reflected ultraviolet rays from
+the sun shining brightly on snow. Symptoms of snow
+blindness include:\n\n
+• Sensation of grit in the eyes that feels worse with
+movement of the eyes\n\n
+• Watering of the eyes\n\n
+• Redness of the eyes\n\n
+• Headache\n\n
+• Increased pain in the eyes on exposure to light\n\n
+To treat snow blindness:\n\n
+1. Blindfold the person and get them to rest and avoid
+any
+further exposure.\n\n
+2. If it s not possible to get the person out of the sun,
+protect their eyes with dark bandages or the darkest
+sunglasses you have.\n\n
+Once out of the sun, the eyes generally heal ina few days
+without permanent damage. When there is any danger of
+snow blindness, always wear sunglasses. Don' t wait to
+put sunglasses on until after the discomfort starts."/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

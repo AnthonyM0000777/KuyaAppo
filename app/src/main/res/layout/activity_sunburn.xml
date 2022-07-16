@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sunburn">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Although sun poisoning is rarely fatal, sunburn hurts,
+can be disabling, and increases your risk of skin cancer.
+Sunburn is a burn on your skin caused by ultraviolet (UV)
+radiation that results in inflammation of the skin, also
+causing premature aging of the skin and wrinkles. Even
+with limited expOsure to the sun, any recent exposure and
+prior sunburn increase your risk, although normal limited
+exposure to UV radiation produces beneficial vitamin D in
+the skin.\n\n
+Essential\n\n
+Sunscreen needs to be applied thirty minutes
+prior to sun expOsure in order to be effective.
+Also, regardless of what the label says,
+sunscreens are not waterproof and need
+to be reapplied in generous amounts after
+swimming or sweating and any sun exposure.\n\n
+First Aid for Sunburn\n\n
+Prevent sunburn before it starts by getting out of the
+sun, covering exposed skin, staying out of tanning beds,
+and using sunscreen with a high SPF (Sun Protection
+Factor). SPF indicates the time it takes to produce a skin
+reaction on protected and unprotected skin. For example,
+SPF 30, in theory, allows you to be exposed thirty times
+longer than without sunscreen. But this is usually not true
+in practice, as there is a limit to amount of sun exposure
+without sun damage even if applying sunscreen regularly,
+and people seldom apply it adequately and properly.\n\n
+• Use OTC pain relievers for any discomfort.\n
+• For mild sunburn, use a cool compress with equal parts
+milk and water, or a cold compress with Burows Solution,
+which you can buy at a drugstore and use as directed.\n
+• Moisturize with aloe-based lotions, or use juices from
+an aloe plant.\n
+• Take cool (not ice-cold) baths, but avoid bath salts,
+oils, and perfumes to prevent sensitivity reactions.\n
+• Don' tscrub or shave the skin or use lotions with
+topical anesthetic medications, because you can become.\n
+• Stay out of the sun while you are healing, and drink
+plenty of fluids.\n\n
+See your doctor for any severe blistering or if you are
+dehydrated or suffering from heat stress.\n\n
+Alert!\n\n
+Certain drugs and herbal supplements, such
+as sulfa drugs, antibiotics, tranquilizers,
+birth-control pills, arthritis painkillers, ora
+diabetes medications, St. John' s wort,
+drugs for treating allergies, cancer, high
+blood pressure, and heart-rhythm problems,
+and some acne and other skin-condition
+treatments can increase the risk of sunburn.
+"/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

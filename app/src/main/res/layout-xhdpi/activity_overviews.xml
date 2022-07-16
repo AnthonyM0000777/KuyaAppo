@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Overviews">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text=" is an important and vital part of
+disaster preparedness. You will need to get together
+originals or copies of family records (birth, marriage, and
+death certificates); an inventory of valuable household
+goods; important telephone numbers; and copies of
+medical information, bank account numbers, and
+homeowner s and insurance policies. Start by creating
+a form for each family member that is small enough and
+convenient enough to carry on their person. The form
+should contain the following information for each person:\n\n
+• Name\n
+• Age\n
+• Address\n
+• Home and cell numbers\n
+• Name of primary physician\n
+• Allergies\n
+• Prescription drugs and doses\n
+• Past medical history\n
+• Chronic conditions\n
+• Emergency contacts, including nearby relatives or
+friends and an out-of-town and out-of-state relative
+or
+friend (during regional emergencies, you may not be able
+to call locally, but you may often call long distance).\n\n
+Fact\n\n
+The U.S. Department of Homeland Security
+provides Americans with free preparedness
+information and easy-to-fill-out information
+forms at www.ready.gov. You may also get
+information by calling their toll-free number,
+1-800-BE-READY.\n\n
+Once you fill out an emergency-contact form for each
+member of your immediate family, you need to decide
+the best place to put the information so that it remains
+safe until you need it. To begin, print out or make a few
+copies of each list, have them laminated to protect them
+from water damage, and pick a central place to keep one
+copy and other locations in the house to store remaining
+copies.\n\n
+Emergency responders usually look for information in the
+kitchen, and since in a natural disaster the refrigerator is
+usually left standing, keeping a sealed plastic container or
+a plastic zipper bag in the freezer might be the best place.
+Include information that emergency personnel may need
+to know for your children s health and safety in their
+school records, with caregivers, and at day care. Copies
+of all medical information should also be given to nearby
+relatives or close friends who may be called when you
+t be found.\n\n
+can
+Other places to record information are on your computer,
+PDA, or other hand-held device. Make sure to also e-mail
+the information to yourself so that you can recover it from
+any computer should you be unable to access your own
+Computer.
+
+Plan Ahead for Disasters | Ready.gov
+"/>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

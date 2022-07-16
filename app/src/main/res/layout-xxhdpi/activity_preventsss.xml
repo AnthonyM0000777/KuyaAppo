@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Preventsss">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="An ounce of prevention is worth a pound
+The proverb,
+of cure still holds true; it' s so much easier to spend a
+    little time forestalling disasters than it is to deal with them.
+    Take a look at your home, assess any safety issues and
+    unsafe habits, and determine potential hazards. Think
+    about what you can do to correct those danger areas,
+    and take necessary safety and prevention measures.\n\n
+    Toxins\n\n
+    Some products may harm the skin and gain entry through
+    damaged skin. Others are absorbed even if they don' t
+    do any skin damage, so wearing protective gloves and
+    clothing is important when working with potentially
+    hazardous products and anything that has a warning
+    label. Many chemical products are particularly damaging
+    to the eyes and require protective goggles (even if you
+    wear glasses) during use. You can buy goggles at many
+    drugstores and home stores.\n\n
+    Alert!\n\n
+    The word nontoxic only indicates that
+    a substance may cause little to no adverse
+    reactions if you eat it or inhale it. It does not
+    guarantee that the product is harmless. For
+    illness and allergic reactions, consider that the
+    source may be any product you' ve used that
+    contains chemicals.\n\n
+    Reading labels and directions will help you determine
+    if it is a product you really want in your home and will
+    instruct you how to use it and what to do in case of
+    emergency ingestion or contact with eyes. Try to avoid
+    Poison,
+    products labeled with the words Caution, danger or Warning.\n\n
+    Anything circulating in the air will enter the bloodstream
+    via your lungs, so good ventilation is essential, along with
+    the use of fans and open windows when using any sort
+    of aerosol or volatile toxin. If you can smell it, then your
+    ventilation is not adequate. Some toxic products don' t
+    have odors, so it
+    sa good idea to wear a mask for your
+    Own protection.\n\n
+    Essential\n\n
+    Remember to never mix products unless
+    the
+    manufacturer' s directions say that it' s safe
+    to do so. Mixing products may cause toxic or
+    explosive chemical reactions.\n\n
+    After you read the directions, follow them! Keep all lids
+    tightly closed and follow the manufacturer s storage
+    recommendations. If you are able to, work outdoors or
+    take ample fresh-air breaks. Take a break, go outside,
+    or even stop working altogether if you become dizzy,
+    nauseated, or develop a headache.\n\n
+    For pests, baits and traps are the safest pesticides
+    because they do not cause the entire area that you are
+    treating to become toxic, and are designed so that the
+    pest enters the container containing the pesticide and
+    then takes it back to the colony or nest.\n\n
+    Alternatives to insecticides are diatomaceous earth
+    (don' tuse the swimming-pool variety), B.T. (a microbial
+    insecticide), insecticidal soaps, beneficial nematodes
+    (good bugs that clean up the pesty ones), neem oil (a
+    natural insecticide), and frequent vacuuming. For pet flea
+    Control, try alternatives such as enzyme shampoos and
+    using a 50:50 mixture of white vinegar and water sprayed
+    on the pet, weekly washing of pet bedding, and frequent
+    vacuuming.\n\n
+    Store products in their original container with the original
+    label attached, and store flammable products away from
+    corrosive products. After using rags with any flammable
+    products, such as furniture stripper or paint remover,
+    store them in a sealed and labeled, preferably metal,
+    container away from heat or sparks that could ignite
+    them.\n\n
+
+    Fact\n\n
+    If you are pregnant, try to avoid toxic chemical
+    exposure, because many toxic products have
+    either never been tested for potential harmnful
+    effects to an unborn fetus or have been
+    manufactured, sold, and then later found to
+    be toxic and taken off the market.\n\n
+    Fire Safety\n\n
+    The U.S. Fire Administration recommends having working
+    smoke detectors installed in all bedrooms, in rooms
+    outside the bedroom areas, and at least one detector on
+    each story of your house. They also recommend that you
+    test your smoke detectors monthly, replace the batteries
+    once a year, and replace the detectors after ten years of
+    use. Because fires commonly travel along the stairway,
+    you should have escape ladders to help you get out of
+    the second story of a house and practice using them
+    when you practice your escape plan. Never try to put
+    an out-of-control fire out, just leave quickly and call for
+    help. But do keep an ABC or ABCD fire extinguisher in the
+    kitchen, garage, and/or workshop and know how to use it
+    for small, manageable fires.\n\n
+    Keep fireplaces screened and cleaned. Chimneys and
+    stovepipes should be professionally cleaned yearly for
+    creosote, a substance that can ignite and cause a house
+    fire.\n\n
+    Essential\n\n
+    Smoke detectors will give you the chance to
+    escape a fire situation, but you also need to
+    prepare and practice your emergency-exit
+    plan with two ways out from each room. Also
+    be sure to plan a location where the family will
+    meet together outside after escaping.
+    You sent
+    Kitchen Safety
+    The most common kitchen fire is the dry-cooking fire,
+    where the liquid or substance in a pot cooks out and
+    what is left begins to smoke. Grease fires happen when
+    something oily ignites while cooking, causing open
+    flames that can become a disastrous fire. Take the
+    following steps to prevent or control kitchen fires:\n\n
+    • Turn off the stove if you are able to.\n
+    • If a pan is on fire and you are able to cover it with a lid,
+    do so.\n
+    • Don fever try to splash water on a grease fire or carry
+    a burning pan outside or to the sink.\n
+    • Keep a fire blanket in your kitchen so that you can
+    cOver your hands with it and throw it gently over a fire.\n
+    • Use timers to remind you of food cooking, even if you
+    think you will remember.\n
+    • Keep all flammable items like dish towels and bags
+    away from the stove top.\n
+    • Always use potholders or oven mitts, and never dish
+    towels, to handle your hot pots, pans, and baking trays.\n\n
+    Fact\n\n
+    Electrical outlets that are close to water
+    sources in the kitchen, bathroom, and garage
+    should be protected by Ground-Fault Circuit
+    Interrupters (GFCls). GFCIS monitor the flow
+    of electricity and automatically cut off the flow
+    of electricity with any variation in the current,
+    thus preventing injury."/>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

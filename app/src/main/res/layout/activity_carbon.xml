@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Carbon">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Carbon monoxide is a colorless, tasteless, and odorless
+toxic gas that when inhaled can make you feel tired,
+cause headaches or dizziness, and in large amounts can
+lead to death. When carbon monoxide is present in the
+air, oxygen-carrying cells will carry the carbon monoxide
+rather than oxygen, and will become saturated with the
+gas and unable to carry needed oxygen to cells. That' s
+why it s so important to install carbon-monoxide
+detectors to warn of dangerous levels.\n\n
+Most carbon-monoxide poisoning cases in homes
+Occur at night during winter months because homes
+tend to be sealed up tightly from the cold and may be
+poorly ventilated. Carbon-monoxide gas is created
+by the incomplete combustion of carbon-containing
+compounds in fireplaces, space heaters, forced-air
+gas furnaces, appliances, and motor vehicles that use
+charcoal or fuel. You are also at risk if you have any
+nonelectric appliances in your home, includinga gas
+stove or water heater, or if you have an attached garage.
+Common symptoms of carbon-monoxide poisoning
+include:\n\n
+• Weakness\n
+• Dizziness and light headedness\n
+• Inability to concentrate\n
+• Difficulty moving\n
+• Chest pain\n
+• Nausea\n
+• Headache\n
+• Shortness of breath\n
+• Seizure\n
+• Irritability and lethargy in infants\n\n
+Fact\n\n
+Even when awake, you may not be
+aware of breathing toxic fumes; only a
+carbon-monoxide detector can tell you for
+sure. They can be purchased for reasonable
+prices at most retail outlets and hardware
+stores.\n\n
+First Aid for Carbon-Monoxide Poisoning\n\n
+The following steps should be followed in case of
+carbon-monoxide poisoning:\n\n
+1. If you are fortunate enough to wake up and notice
+symptoms of carbon monoxide poisoning, fall to the
+ground and crawl to an exit immediately.\n\n
+2. Call emergency number for the rescue of any persons
+left inside if you can' t safely get them to fresh air
+yourself, and don' tattempt to rescue anyone without
+the proper oxygen delivering masks.\n\n
+3. Get into fresh air immediately and make sure you are
+upwind of the house.\n\n
+4. Loosen any tight clothing around your neck and waist.
+5. In the case of a person losing consciousness after
+getting outside, maintain an open airway and begin CPR
+or rescue breathing as outlined in Emergency Response
+menu.\n\n
+In all cases of carbon-monoxide exposure, even if you
+feel fine, call emergency number in order to receive
+proper assessment and oxygen if needed."/>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

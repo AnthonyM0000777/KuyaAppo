@@ -1,8 +1,5 @@
 package com.cite.newscoopup;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -11,9 +8,11 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -41,7 +40,7 @@ public class AddNewsActivity extends AppCompatActivity {
         setContentView (R.layout.activity_add_news);
 
         Calendar calFordDate = Calendar.getInstance ();
-        SimpleDateFormat currentDate = new SimpleDateFormat ("  MMMM-DD-yyyy ");
+        SimpleDateFormat currentDate = new SimpleDateFormat ("  MMMM-dd-yyyy ");
         saveCurrentDate = currentDate.format (calFordDate.getTime ());
 
         Calendar calFordTime = Calendar.getInstance ();
@@ -61,7 +60,7 @@ public class AddNewsActivity extends AppCompatActivity {
         addNewsBtn = findViewById (R.id.idBtnAddNews);
         loadingPB = findViewById (R.id.idPBLoading);
 
-        userName = findViewById (R.id.idTVUploadBy);
+       // userName = findViewById (R.id.idTVUploadBy);
 
 
         firebaseDatabase = FirebaseDatabase.getInstance();
@@ -96,26 +95,26 @@ public class AddNewsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //insertNewsData();
                 loadingPB.setVisibility(View.VISIBLE);
-                String newsName = newsNameEdt.getText().toString();
+                 String newsName = newsNameEdt.getText().toString();
                 String newsDesc = newsDescEdt.getText().toString();
                 String newsImg = newsImgEdt.getText().toString();
                 String newsLink = newsLinkEdt.getText().toString();
                // String newsUpload = newsUploadEdt.getText().toString();
                 newsID = newsName;
                 newsDate = postRndomName;
-                uploader = fullName;
+                //uploader = fullName;
                 uid = newsIDD;
-                NewsRVModal newsRVModal = new NewsRVModal(newsID, newsName, newsDesc, newsImg, newsLink, newsDate, uid, uploader );
+                NewsRVModal newsRVModal = new NewsRVModal(newsID, newsName, newsDesc, newsImg, newsLink, newsDate, uid );
                 databaseReference.addValueEventListener (new ValueEventListener () {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         databaseReference.child (newsID).setValue(newsRVModal);
-                        Toast.makeText(AddNewsActivity.this, "News Added", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(AddNewsActivity.this, "Post Added ", Toast.LENGTH_SHORT).show();
                         startActivity(new Intent (AddNewsActivity.this, MainActivity.class));
                     }
                     @Override
                     public void onCancelled(@NonNull DatabaseError error) {
-                        Toast.makeText(AddNewsActivity.this, "Fail to add News", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(AddNewsActivity.this, "Fail to add post", Toast.LENGTH_SHORT).show();
                     }
                 });
              }

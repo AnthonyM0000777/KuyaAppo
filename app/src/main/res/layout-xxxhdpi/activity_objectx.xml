@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Objectx">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/bold"
+        android:padding="10dp"
+        android:textSize="23sp"
+        android:text="Children and adults that have altered states due to illness
+such as stroke and alcohol abuse, and denture wearers,
+are more prone than others to accidentally swallowing
+small foreign objects. Small and hazardous items need
+to be kept out of children' s reach, particularly coins
+and batteries, both of which are common in households
+and are frequently swallowed foreign objects. Denture
+wearers lack the tactile sensation in their mouths that
+helps prevent inadvertently swallovwing items like bones,
+and need to be especially careful. Foreign objects may
+get stuck in the esophagus (swallowing passage) and
+cause symptoms of drooling and retching, pain in the
+chest area, choking, and difficulty swallowing. After
+several hours, other symptoms may develop such as
+vomiting, nausea, stomach pain, blood in the stool, and
+fever.\n\n
+First Aid for Swallowing a Foreign Object\n\n
+For anyone who is experiencing signs of a blocked
+airway, perform the Heimlich maneuver as outlined for
+choking. For other persistent symptoms seek medical
+attention, because in 20 percent of cases the object
+needs to be removed by your doctor with an endoscope
+procedure. Any child suspected of swallowing a battery
+needs to be taken to the emergency department
+immediately because batteries corrode and release
+chemicals that can cause severe damage. Other
+noncaustic items, after the initial discomfort subsides,
+will often pass through on their own. For any questions
+or concerns, always consult with your medical-care
+professional."/>
+
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TalkKids">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/bold"
+        android:padding="10dp"
+        android:textSize="23sp"
+        android:text="All available data shows that talking to your children
+lowers the risk of suicide, and that talking to them about
+suicide does not put thoughts or ideas into their head.
+When you talk to them, you give them the message
+that suicide is never an option and that help is always
+available. Kids lack maturity, and they tend to make small
+things into huge, enormously emotional, consuming
+issues.\n\n Never minimize anything your child is going
+through emotionally, as this will only add to feelings
+of hopelessness and despair. Take all of your child' s
+concerns seriously and be available and approachable to
+discuss and troubleshoot issues with them. When issues
+are too big for you, it may be time to turn to a counselor,
+coach, clergy member, or doctor.\n\n
+Be direct in communication with your child. If you hear
+your child mention death or indicate wanting to die, you
+need to ask them pointedly, T ve heard you mention
+wanting to be dead. Are you having thoughts about trying
+to kill or harm yourself? f you feel that your child is
+        thinking about suicide, always and without any hesitation
+    get help immediately. Call your doctor, who can refer you
+    to the appropriate help-a psychologist or psychiatrist.
+    Call your local hospital and speak to the department of
+    psychiatry, who will also direct you to the right source
+    for help. Local mental-health associations and county
+    medical societies will also give you proper referrals"/>
+
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

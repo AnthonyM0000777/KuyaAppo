@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Proper">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:fillViewport="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="n order to properly administer first aid, you will need
+a good first-aid kit. The better stocked and organized
+your first-aid kit is, the more likely you are to effectively
+respond to emergencies in your home. Keep a written list
+of kit supplies in your home, along with your emergency
+plan, and be sure to restock the kit as needed and replace
+items with expired dates, items that have been used,
+or anything with an open package or broken seal that
+is supposed to be sterile. Keep a first-aid manual like
+this one with your kit, along with your list of emergency
+phone numbers, your list or chart of family s medical
+conditions and medications, and a flashlight.\n\n
+Alert!\n
+Be sure to keep first-aid supplies out of the
+reach of children and pets, as many first-aid
+supplies are potentially hazardous. Your kit
+should be in an accessible place, but not one
+that a child or pet could easily reach, either
+on their own or with the help of a chair, for
+instance.\n\n
+The Right Container\n
+Use a container with a strong handle that can be
+Commercial kits can be purchased from many sources,
+but any large, well-built plastic fishing-tackle box or
+toolbox works great, and is usually much cheaper.
+Ideally, you want your kit to be light enough to carry, but
+large enough to hold all necessary items in an organized
+and easily accessible format. It should be dust proof,
+waterproof, and sturdy enough to resist damage from
+falling or crushing.\n\n
+The Rights Locations\n
+Store your kit safely in a cool, dry location inside your
+home. Avoid storing it in the garage or laundry room
+because of the potential harm to its contents from
+moisture and temperature extremes. Pick a location in
+your home that is central and accessible to everyone who
+will be using the it.\n\n
+The Right Contents\n
+The ideal kit that will prepare you for most injuries and
+household emergencies should include the following
+items:\n\n
+•Benadryl (generic Diphenhydramine)\n
+• Antibiotic ointment or cream\n
+• Activated charcoal (only use if instructed by the Poison\n
+• Control Center)\n
+• Antacid (liquid)\n
+• Calamine lotion\n
+• Antihistamine cream\n
+• 1% hydrocortisone cream\n
+• Povidone-iodine solution\n
+• Aspirin, acetaminophen, and ibuprofen\n
+• Sterile eye-wash solution\n
+•Epinephrine auto-injector kit (if prescribed by your
+doctor)\n
+• Extra prescribed medications (such as inhalers)\n\n
+Your kit should also contain bandages and dressing
+supplies including:\n\n
+• Commercial Band-Aid bandages\n
+• Sterile cotton balls\n
+• Cotton-tipped swabs\n
+• Sterile gauze (pads and rolls)\n
+• Elastic bandage rolls\n
+• Extra bandage clips\n
+• Butterfly bandages\n
+• Sterile eye patches\n
+• Regular adhesive bandages (multiple sizes)\n
+• Adhesive tape (waterproof and stretchable)\n
+• Triangular bandages\n
+• Large foil-lined bandage\n\n
+Additionally you should include tools and other items
+such as:\n\n
+• Bulb syringe\n
+• Medicine spoon (transparent tube marked with typical\n
+• Clean cloths and tissues\n
+• Hand sanitizer\n
+• Digital thermometer (and rectal thermometer for babies
+less than one year old)\n
+• Small jar of petroleum jelly\n
+• Sterile disposable gloves\n
+• Disposable CPR face mask\n
+• Safety pins\n
+• Scissors (the sharp, angular style with rounded end)\n
+• Tweezers\n
+• Tooth-preservation kit\n
+•Space blanket\n
+• Penlight\n
+• Small pad of paper and pencil\n
+• Emergency candle and waterproof matches\n
+• Disposable self-activating cold and hot packs\n
+• Magnifying glass\n
+• Whistle\n\n
+Fact\n
+Epinephrine is for emergency use on persons
+with sudden, severe symptoms or reactions
+to any allergen such as certain foods, insect
+stings, and inhaled allergens. If anyone in
+your family has ever had such a reaction,
+ask your family doctor to prescribe an
+Epinephrine autoinjector and to instruct you
+on how to use it.\n\n
+Alert!\n
+Aspirin and children' s aspirin should never
+be given to children under age sixteen who
+have flu-like symptoms or chickenpox.
+Aspirin may cause Reye
+s syndrome, which
+is a life-threatening condition affecting the
+nervous system and liver.
+When preparing your kit, think about your family' s
+medical history, such as drug allergies and risk factors,
+and keep these drug warnings in mind. Aspirin, ibuprofen,
+and other nonsteroidal anti-inflammatory (NSAID) drugs
+may cause stomach bleeding and kidney injury even
+when taken as directed. The risk is generally higher in
+people older than fifty-nine, those with stomach ulcers,
+and anyone who takes blood-thinning drugs or steroids
+while taking NSAID medications for an extended period.
+Acetaminophen carries a risk of severe liver damage
+when people take more than the recommended dose
+or have three or more alcoholic drinks while taking
+it. Many over-the-counter medicines (0TC) contain
+acetaminophen, so check the label of all medicines to
+make sure you are not exceeding the recommended
+maximum dose of four grams or four thOusand milligrams
+for a healthy adult in a twenty-four-hour period.\n\n
+Essential\n
+Your family medical list or chart should
+include any information needed for reference
+by you, paramedics, or doctors including shot
+records with dates, medical problems and
+conditions, medications, and allergies."/>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

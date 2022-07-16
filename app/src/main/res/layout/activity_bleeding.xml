@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bleeding">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="When a blood vessel or vessels are damaged, bleeding
+Occurs. Bleeding can be external, from a cut or wound,
+or it can be internal, when the skin isn't broken but
+blood vessels inside the body are damaged. There are
+three different types of bleeding, depending on what kind
+of vessel is damaged.\n\nArterial bleeding from damaged
+arteries is bright red blood that gushes in a jet with each
+heartbeat. Venous bleeding comes from damaged
+veins and causes dark red blood loss that may not be as
+severe but may bleed steadily. Capillary bleeding comes
+from tiny blood vessels found throughout the body and
+normally causes only slight blood loss. The seriousness
+of any injury depends in part on how deep a cut is, how
+much bleeding there is, how long it takes to control the
+bleeding, and the type of blood vessels that are damaged.
+In any bleeding injury, there is also a risk of infection,
+particularly if the injury results in a foreign object stuck in
+the wound.\n\n
+Fact\n\n
+The average-sized adult has a little less than
+ten pints of blood and can safely lose a pint.
+However, any rapid loss of blood in excess
+of a pint will lead to a dangerous fall in blood
+pressure, general weakness, confusion, and
+sweating, also known as shock.\n\n
+First Aid for Bleeding\n\n
+Even though blood loss may not be severe, some people
+do not handle the sight of blood wel, and this can cause
+them to behave irrationally, faint, or even go into shock.\n\n
+1. Try to keep the person as calm as possible, even if it
+calls for mundane conversation.\n\n
+2. Remember to monitor the person' s ABCS and have
+him lie down and manage for shock if necessary (see
+Chapter 2).\n\n
+3. Apply direct pressure to most bleeding wounds,
+except those that are caused by an object such as glass
+or those that have protruding bone. For those types of
+wounds, press down firmly on either side of the object,
+keeping the injured body part above the level of the heart.\n\n
+Controlling Severe Bleeding\n\n
+Arterial bleeding may be life threatening and is often
+difficult to control. The first and most effective method to
+control bleeding is by applying direct pressure. To do this,
+you should:\n\n
+1. Place a sterile dressing or clean cloth over the injury
+and secure it with tape, or tie something around the
+wound just tight enough to control the bleeding.\n\n
+2. If bleeding doesn' t stop, place another dressing
+over the first or apply direct pressure over the wound as
+outlined below.\n\n
+3. Never remove a dressing once it has been applied to a
+severe wound.\n\n
+4. Elevate an injured arm, leg, or head above the level of
+the heart to help control the bleeding.\n\n
+5. Don' televate or move an area of the body if you
+suspect a broken bone (fracture) until you have applied a
+splint as outlined in Emergency Events and you are sure
+that movement will cause no further injury.\n\n
+When the use of direct pressure and elevation are not
+controlling the bleeding, you can use indirect pressure
+by applying pressure to the appropriate pressure point.
+Pressure points are areas where you can control blood
+flow by pressing the artery against an underlying bone
+with your fingers, thumb, or heel of the hand. Use
+pressure points with caution because you may cause
+damage to an extremity due to inadequate blood floW
+from the nearby pressure. Never apply pressure to the
+neck (carotid) pressure points because it may reduce or
+stop circulation to the brain, and can also cause cardiac
+arrest.\n\n
+The twO main pressure points mnost commonly used are
+in the groin and upper arm. The femoral artery starts in
+the lower abdomen and goes down into the thigh, and the
+pressure point is the front, center part of the crease in the
+groin that supplies the majority of blood to each leg. This
+artery can be found by locating the pulse on the inner part
+of the thigh and pressing it up against the pelvic bone.
+The brachial artery is found on the upper, inside arm just
+below the bicep, about halfvway between the shoulder
+and elbow. Apply pressure to the inside of the arm over
+the bone using your fingers or thumb. For any severe
+bleeding of the thigh and lower leg, place the injured
+person on her back, kneel on the side opposite the
+wOunded leg, press the heel of your hand directly on the
+femoral-artery point, and lean forward to apply pressure.
+If the bleeding is still not controlled, use the flat surface of
+your fingertips and press directly over the artery, applying
+additional pressure on the fingertips using the heel of
+your other hand.\n\n
+Tourniquets may cause tissue damage and loss of
+extremities and are only to be used when bleeding is
+uncontrollable by other methods. You can use a strap,
+belt, necktie, towel, or any piece of cloth folded to about
+three or more inches wide and six to seven layers thick.
+Never use anything that may cut into the skin such as
+wire or cord.\n\n
+The steps to apply a tourniquet are:\n\n
+1. Position the tourniquet between the heart and the
+wound while still maintaining the proper pressure point
+and allowing two or more inches of unharmed skin
+between the tourniquet."/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

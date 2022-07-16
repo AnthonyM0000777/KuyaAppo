@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Workplace">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="The Occupational Safety and Health Act of 1970 (OSH
+Act) was instituted by the U.S. Department of Labor to
+ensure safe and healthy work conditions for working men
+and women. This act grants the Occupational Safety and
+Health Administration (0SHA) the authority to impose and
+enforce standards or regulations affecting the safety and
+health of private-sector employees.\n\n
+Every safety measure outlined for home safety also
+applies in the workplace for employee safety and for the
+safety of the public. In addition, employees need to be
+aware of and to practice fire, safety, health, and disaster
+protocols set up by employers. Workers need to know
+how to use and have access to Such provisions as safe
+and ergonomic equipment and safety gear when called
+for, and need knowledge of proper body mechanics,
+knowledge of proper food handling, and good ventilation
+and lighting. A safe workplace needs to:\n\n
+• Be free from any recognized hazards and constructed
+with safety in mind\n
+• Make all safety devices and gear, and proper tools and
+equipment available as needed\n
+• Prohibit alcohol and narcotics\n
+• Ensure employees protection from chemicals and
+biological agents such as bodily fluids, mold and mildew,
+and those found in research labs\n
+• Provide protection from animals or animal waste in
+animal-related workplaces\n
+• Make sure employees are aware of and practicing
+proper body mechanics and exercises to avoid injury\n
+• Provide ample time for meals and breaks\n
+• Ensure employees are able to enter and leave the
+workplace safely\n
+• Ensure employees protection from mental stressors
+such as workplace harassment, bullies, and physical
+threats and violence\n\n
+Fire Safety at Work\n\n
+Workplace protocol should include fire extinguishers
+that are readily accessible; working, manual fire-alarm
+pull boxes on the walls; enmergency lights; exit doors;
+unobstructed sprinkler heads; and sprinkler-system
+risers. In case of fire, aCcess to the front and rear of the building should be unobstructed at all times,
+including clear access to fire hydrants, automatic
+sprinkler connections, and sprinkler control valves.
+Your workplace should have designated smoking areas
+with safe, nonconmbustible receptacles to extinguish
+smoking materials.\n\n Brush and vegetation and all other
+combustibles need to be kept clear of the building. Your
+office or workplace should be equipped with permanent
+wiring, not extension cords and surge suppressors
+connected to all computers. Owners and management
+need tO maintain all equipment up to code and ensure
+that all combustibles are stored away from heat sources.
+In the event of a fire, pull fire alarms, call emergency
+number, exit the building, and wait for the fire department
+to arrive.\n\n
+Fact\n\n
+According to the CDC, Overall workplace
+injury and illness has declined in recent
+years, but the rate of fatal workplace injuries
+has increased. For this reason you need to
+understand and know how to administer
+emergency first aid, take all necessary
+workplace safety precautions, and have
+clear understanding of your workplace
+emergency response policies."/>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

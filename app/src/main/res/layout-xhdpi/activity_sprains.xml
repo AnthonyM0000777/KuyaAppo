@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sprains"
+    android:fillViewport="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Sprains occur when you stretch or tear the ligaments-
+the tough bands that connect the bones. Sudden or quick
+heavy lifting often causes sprains that can be mild to
+severe. Mild sprains can bear weight, but a severe sprain
+requires medical attention to determine whether it s
+just a sprain, a dislocation, or a fracture. Symptoms of a
+sprain include:\n\n
+• Swelling\n
+• Bruising or redness\n
+• Pain during rest or when the injured muscle or the\n
+• joint near the muscle is used\n
+• Weakness of the extremity\n
+• Complete inability to bear weight\n\n
+Essential\n\n
+For sprains and muscle injury, use the
+R.l.C.E. formula: Rest, lce, Compression, and
+Elevation to reduce pain and swelling and
+to help heal the affected muscle, tendons,
+ligaments, and tissues.\n\n
+First Aid for Sprains\n\n
+You can treat sprains at home by doing the following:\n\n
+1. Apply ice packs in the first twenty-four hours and heat
+packs or pads when the swelling has decreased. (Note
+that application of heat too early will increase swelling
+and pain. Remember never to apply ice or heat to bare
+skin; only apply ice with some sort of covering, such as a
+towel.)\n
+2. For pain relief and an increased ability to move
+around, take NSAID agents such as aspirin (for persons
+Over sixteen only) or ibuprofen.\n\n
+You may also use the R.1.C.E. formula-Rest, lce,
+Compression, and Elevation-to help heal the affected
+muscle. This procedure entails:\n\n
+1. First, ice the area for twenty minutes every hour that
+you are awake, for pain relief and to reduce inflammation.\n
+2. Apply compression with an Ace or other elastic
+bandage wrapped firmly but not tightly, to provide
+support and to decrease swelling.\n
+3. Elevate the injured area by propping up the sprain
+while sitting.\n\n
+If your home-care methods don't give you relief after
+twenty-four hours, call your doctor. Go to an emergency
+department for any of the following:\n\n
+• You hear a popping sound when the injury occurs\n
+• Any significant swelling, pain or fever\n
+• Any open cuts\n
+• You can' t walk or you lose use of an arm or leg\n\n
+After the first forty-eight hours, begin to use the injured
+area very gently as you are able. A mild to moderate
+sprain should heal within two to four weeks. First aid for
+sprains may also be used for muscle strains.
+"/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

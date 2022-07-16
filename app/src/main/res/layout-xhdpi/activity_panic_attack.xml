@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PanicAttack">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Panic attacks can happen anywhere, anytimewhile
+alone, in the company of others, in public, at home, and
+even waking you from sleep. If you have experienced
+a panic attack, you are aware that they are similar to
+an episode of extreme fear, along with the following
+symptoms:\n\n
+• Rapid heart rate\n
+• Sweating\n
+• Trembling\n
+• Shortness of breath and hyperventilation\n
+• Chills or hot flashes\n
+• Nausea\n
+• Abdominal cramping\n
+• Chest pain\n
+• Headache\n
+• Dizziness\n
+• Faintness\n
+• A feeling of tightness in your throat\n
+• Difficulty swallowing\n
+•A sense of impending death\n\n
+Oftentimes, people experiencing a panic attack think that
+they are having a heart attack and seek emergency care.
+Typically, a panic attack starts suddenly, peaks within ten
+minutes, and lasts approximately one-half hour, but some
+last longer, have varying patterns, and in rare cases may
+last up to twenty-four hours. Panic attacks may cause
+you to feel fatigued and worn. Anyone with frequent
+panic attacks has a condition called panic disorder.
+Panic attacks are potentially disabling, but very treatable
+using medications, therapy, and relaxation techniques to
+control or prevent the attacks. More women than men are
+affected by panic attacks.\n\n
+First Aid for Panic Attacks\n\n
+Relaxation techniques such as meditation, muscle
+relaxation, relaxed breathing, and guided imagery
+(visualization) may help keep attacks at bay and help
+ease signs and symptoms of stress such as headaches,
+anxiety, high blood pressure, trouble falling asleep,
+hyperventilation, and clenching or grinding of teeth.
+Practice focusing on relaxing your body by following focusing relaxing your body by following
+these steps:\n\n
+1. Sit or lie down ina comfortable position with your eyes
+closed.\n
+2. Let your jaw drop and your eyelids become relaxed
+and heavy, but not tightly closed.\n
+3. Starting with your toes and working up slowly to your
+legs, buttocks, torso, arms, hands, fingers, neck, and
+head, concentrate on each part individually, relaxing each
+area before moving on to the next.\n
+4. In the same order, tighten the muscles in each area of
+your body, holding the muscle tight fora count of five and
+then relaxing and moving on to the next area.\n
+Continue the process, tightening and relaxing the
+muscles of your face, shoulders, arms, legs, and
+buttocks. Don' t dwell on any thoughts while you are
+practicing relaxation; just focus on being relaxed and
+calm, the fact that your hands are warm (or cool if you
+prefer) and heavy, that your heart is beating peacefully,
+and that you feel perfectly serene, while breathing deeply,
+slowly, and regularly.\n\n
+After you feel relaxed, think of being in a place you love.
+After five or ten minutes of this peaceful state., you may
+gently rouse yourself. Practice this technique once a day
+until you feel you have some control over your stress.
+Along with your stress-reduction techniques, it s
+essential to get enough sleep, eliminate caffeine, and
+have a regular exercise program. If your panic attacks
+are recurrent, you persistently worry about the attacks for
+a month or longer, or you feel you need to change your"/>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

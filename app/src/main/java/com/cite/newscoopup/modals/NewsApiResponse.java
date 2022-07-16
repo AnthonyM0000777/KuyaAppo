@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 
 public class NewsApiResponse implements Serializable {
-    String status;
+    String  status;
     int totalResults;
     List<NewsHeadLines> articles;
 

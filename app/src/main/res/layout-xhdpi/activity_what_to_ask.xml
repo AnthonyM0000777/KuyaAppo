@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WhatToAsk">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Now that global travel is on the increase, there are more
+health and safety considerations than ever before. The
+CDC has developed what they call The Yellow Book that
+provides comprehensive and current information on
+health recommendations and immunization requirements
+for international travelers. To search their tips and
+requirements for healthy travel, just go to www.cdc.gov
+and search for The Yellow Book. The CDC also has
+comprehensive health information that applies to all
+travel destinations. It' s vital to know which ilnesses
+may be encountered in each country so as to get all the
+vaccinations you or those traveling with you may need.\n\n
+Fact\n\n
+The International Association for Medical
+Assistance to Travelers (|AMAT) is a nonprofit
+organization that offers phone assistance
+at 1-716-754-4883 and can be e-mailed at
+iamat@sentex.net for any health or medical
+travelrelated questions or information.\n\n
+If you or anyone in your party has altered
+immunocompetence due to illnesses such as HIV or
+diabetes, you may need the advice of your doctor before
+you travel. Special considerations are also important
+if you are pregnant or breastfeeding, or traveling with
+infants or children. That' s why it s important to
+schedule a visit to your doctor or even a travel-medicine
+provider.\n\n
+Vaccinations and Other Health
+Considerations
+You may be able to obtain necessary immunizations
+at your state and local health departments. If your
+local departments don' thave travel clinics, they are
+usually able to provide referrals for the area that takes
+care of vaccines for travelers. In addition, the doctor,
+department, or travel clinic you go to will be able to
+answer your questions about food and water safety,
+avoidina insects. and Denendina where you'll be visiting, you should know and understand a variety of
+illnesses related to that country.\n\n
+Generally, vaccines need time to become effective
+in your body, and some need to be given in a series
+administered over a period of days to weeks. Get
+the information you need and start on any necessary
+vaccinations at least four to six weeks before your
+trip. Depending on your health, age, and vacation
+destination, you also may need shots, medications, and
+other information about how to protect your health while
+traveling, so see your doctor at least a month ahead of
+time, even if you are not going to be globetrotting.\n\n
+Questions about Food and Water Safety\n\n
+Another important consideration is the potential for
+infections such as Escherichia coli (E. coli), bacillary
+dysentery, hepatitis A, and other less common
+infectious diseases such as parasites from consuming
+contaminated food or drink while traveling. It' s also
+possible to contract respiratory, neurological, and
+diarrhea diseases as well as ear, eye, and skin infections
+from inadvertent ingestion of water while swimming
+or diving in lakes, rivers, oceans, and improperly or
+inadequately treated swimming pools.\n\n
+Find out if your destination is lacking chlorinated tap
+water or if hygiene and sanitation are inadequate. When
+traveling to destinations with potentially contaminated
+food and water, you should plan to only drink beverages
+like tea and coffee that are made with boiled water,
+bottled beverages and water, carbonated mineral water,
+soft drinks, beer, and wine and make sure to never
+consume ice, as it could also be contaminated. In this
+case, you also need to avoid milk and milk products such
+as cheese, salads, and all uncooked vegetables, and to
+be safe, eat only cooked food that is still hot (never reheat
+cold food) and fruit that you personally wash in clean
+water and peel yourself. It s also necessary and wise to
+brush your teeth with bottled water.\n\n
+Essential\n\n
+Avoid swallowing water during aquatic
+activities, even in pools in the United States.
+All water even in swimming pools may not
+be properly or adequately treated and may
+contain germs that can potentially make you
+sick if swallowed.\n\n
+Traveler's Health Insurance\n\n
+Most health-insurance plans, Medicare, or Medicaid
+won' tprovide coverage for any health or nmedical care
+received outside of the United States. That s why you
+should consider asking your travel agent about travel
+insurance in case you or someone in your family needs
+medical care while away. Depending on your type of
+travel, whether you are visiting a developing country or
+going ona safari, you need to find out what policy is
+going to give you adequate coverage. Ask about features
+like twenty-four-hour, toll-free, English-language phone
+assistance and plans that provide immediate and direct
+payment to the medical-care provider.
+
+CDC Works 24/7"/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

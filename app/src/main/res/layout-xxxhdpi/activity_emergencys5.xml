@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emergencys5">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Childbirth (Emergency Delivery)"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"
+            android:id="@+id/childbirth"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Miscarriage"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/childbirth"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"
+            android:id="@+id/miscarriage"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tetanus"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/miscarriage"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"
+            android:id="@+id/tetanus"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rabies"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/tetanus"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"
+            android:id="@+id/rabies"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Severed Limb"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/rabies"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"
+            android:id="@+id/severed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sprains"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/severed"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"
+            android:id="@+id/sprains"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Broken Bones"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/sprains"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"
+            android:id="@+id/brokenBones"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fractures of the Pelvis"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/brokenBones"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"
+            android:id="@+id/fractures"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dislocations"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/fractures"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"
+            android:id="@+id/dislocation"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smoke Inhalation"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/dislocation"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"
+            android:id="@+id/smoke"/>
+    </RelativeLayout>
+</ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

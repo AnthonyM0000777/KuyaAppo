@@ -1,25 +1,648 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.cite.newscoopup">
     <!-- permissions for internet -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="packagename.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher_20"
-        android:label="Scoop Up"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/finaaal"
+        android:label="kuyaAPPo"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_luancher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.NewScoopUp">
+        android:theme="@style/Theme.NewScoopUp"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".MainCity"
+            android:exported="false" />
+        <activity
+            android:name=".MainWeather"
+            android:exported="false" />
+        <activity
+            android:name=".AppWeather"
+            android:exported="false" />
+        <activity
+            android:name=".User_Dashboard"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="Dashboard" />
+        <activity
+            android:name=".WatchVideo"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="Disaster Drill Tutorials" />
+
+        <service
+            android:name=".FirebaseMessagingService"
+            android:exported="true"
+            android:permission="TODO"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".SendNotificationToAllDevice"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="Sent Updates To All Users" />
+        <activity
+            android:name=".HazardMapsAdmin"
+            android:exported="false"
+            android:label="Hazard Maps" />
+        <activity
+            android:name=".HazardMaps"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="Hazard Maps" />
+        <activity
+            android:name=".Securitys"
+            android:exported="false"
+            android:label="Security Considerations" />
+        <activity
+            android:name=".Shelter"
+            android:exported="false"
+            android:label="Shelter in Place" />
+        <activity
+            android:name=".StayorGo"
+            android:exported="false"
+            android:label="Should you Stay or Should you Go?" />
+        <activity
+            android:name=".FamilyPlan"
+            android:exported="false"
+            android:label="Have a Family Plan" />
+        <activity
+            android:name=".Overviews"
+            android:exported="false"
+            android:label="An Overview of Emergency Preparedness" />
+        <activity
+            android:name=".AboutDrugs"
+            android:exported="false"
+            android:label="Talk to your Kids About Drugs" />
+        <activity
+            android:name=".TalkKids"
+            android:exported="false"
+            android:label="Talk to your Kids About Suicide" />
+        <activity
+            android:name=".PreventSuicide"
+            android:exported="false"
+            android:label="Preventing Suicide" />
+        <activity
+            android:name=".Suicide"
+            android:exported="false"
+            android:label="Suicide" />
+        <activity
+            android:name=".Depression"
+            android:exported="false"
+            android:label="Depression Signs to Look For" />
+        <activity
+            android:name=".Concerning"
+            android:exported="false"
+            android:label="More Advice Concerning the Great Outdoors" />
+        <activity
+            android:name=".Tentss"
+            android:exported="false"
+            android:label="Staying in a Tent" />
+        <activity
+            android:name=".StayingHotel"
+            android:exported="false"
+            android:label="Staying in a Hotel Room" />
+        <activity
+            android:name=".Foreign"
+            android:exported="false"
+            android:label="Diarrhea in Foreign Countries" />
+        <activity
+            android:name=".WhenYouGet"
+            android:exported="false"
+            android:label="What to Ask When you Get There" />
+        <activity
+            android:name=".WhatToAsk"
+            android:exported="false"
+            android:label="What to Ask Before you GO" />
+        <activity
+            android:name=".Packss"
+            android:exported="false"
+            android:label="What to Pack" />
+        <activity
+            android:name=".Callings"
+            android:exported="false"
+            android:label="Calling Emergency Number from Work" />
+        <activity
+            android:name=".EmergencyKit"
+            android:exported="false"
+            android:label="Keeping your Own Emergency Kit" />
+        <activity
+            android:name=".Stations"
+            android:exported="false"
+            android:label="Where is your Emergency Station?" />
+        <activity
+            android:name=".Stressss"
+            android:exported="false"
+            android:label="Stress and Personal Safety in the Workplace" />
+        <activity
+            android:name=".Preventing"
+            android:exported="false"
+            android:label="Preventing Injuries in the Workplace" />
+        <activity
+            android:name=".Workplace"
+            android:exported="false"
+            android:label="How Safe is your Workplace?" />
+        <activity
+            android:name=".Howsafe"
+            android:exported="false"
+            android:label="How Safe is your Car?" />
+        <activity
+            android:name=".Samaritan"
+            android:exported="false"
+            android:label="Good Samaritan Laws in your State" />
+        <activity
+            android:name=".Keeppss"
+            android:exported="false"
+            android:label="Keep a Useful Kit in the Car" />
+        <activity
+            android:name=".Responders"
+            android:exported="false"
+            android:label="First Steps of a First Responder" />
+        <activity
+            android:name=".Smoke"
+            android:exported="false"
+            android:label="Smoke Inhalation" />
+        <activity
+            android:name=".Dislocation"
+            android:exported="false"
+            android:label="Dislocation" />
+        <activity
+            android:name=".Fractures"
+            android:exported="false"
+            android:label="Fractures of the Pelvis" />
+        <activity
+            android:name=".BrokenBones"
+            android:exported="false"
+            android:label="Broken Bones" />
+        <activity
+            android:name=".Sprains"
+            android:exported="false"
+            android:label="Sprains" />
+        <activity
+            android:name=".Severed"
+            android:exported="false"
+            android:label="Severed Limb" />
+        <activity
+            android:name=".Rabies"
+            android:exported="false"
+            android:label="Rabies" />
+        <activity
+            android:name=".Tetanus"
+            android:exported="false"
+            android:label="Tetanus" />
+        <activity
+            android:name=".Miscarriage"
+            android:exported="false"
+            android:label="Miscarriage" />
+        <activity
+            android:name=".Childbirth"
+            android:exported="false"
+            android:label="Childbirth (Emergency Delivery)" />
+        <activity
+            android:name=".PanicAttack"
+            android:exported="false"
+            android:label="Panic Attack" />
+        <activity
+            android:name=".Highblood"
+            android:exported="false"
+            android:label="High Blood Pressure (Hypertension)" />
+        <activity
+            android:name=".Motionss"
+            android:exported="false"
+            android:label="Motion Sickness" />
+        <activity
+            android:name=".Nosebleed"
+            android:exported="false"
+            android:label="Nosebleed" />
+        <activity
+            android:name=".BrokenNose"
+            android:exported="false"
+            android:label="Broken Nose" />
+        <activity
+            android:name=".BlackEyes"
+            android:exported="false"
+            android:label="Black Eyes" />
+        <activity
+            android:name=".Croupss"
+            android:exported="false"
+            android:label="Croup" />
+        <activity
+            android:name=".SoreThroat"
+            android:exported="false"
+            android:label="Sore Throat" />
+        <activity
+            android:name=".Fainting"
+            android:exported="false"
+            android:label="Fainting" />
+        <activity
+            android:name=".Seizures"
+            android:exported="false"
+            android:label="Seizures" />
+        <activity
+            android:name=".Febrile"
+            android:exported="false"
+            android:label="Febrile Seizures" />
+        <activity
+            android:name=".Fever"
+            android:exported="false"
+            android:label="Fever" />
+        <activity
+            android:name=".Carbon"
+            android:exported="false"
+            android:label="Carbon Monoxide Poisoning" />
+        <activity
+            android:name=".Nearss"
+            android:exported="false"
+            android:label="Near Drowning" />
+        <activity
+            android:name=".Drugs"
+            android:exported="false"
+            android:label="Drug Overdose" />
+        <activity
+            android:name=".Poisoning"
+            android:exported="false"
+            android:label="Poisoning" />
+        <activity
+            android:name=".Strokes"
+            android:exported="false"
+            android:label="Stroke" />
+        <activity
+            android:name=".Spinal"
+            android:exported="false"
+            android:label="Spinal Injury" />
+        <activity
+            android:name=".Penetrating"
+            android:exported="false"
+            android:label="Penetrating" />
+        <activity
+            android:name=".Internals"
+            android:exported="false"
+            android:label="Internal Bleeding/Blunt Trauma" />
+        <activity
+            android:name=".Bleeding"
+            android:exported="false"
+            android:label="Bleeding" />
+        <activity
+            android:name=".Asthmas"
+            android:exported="false"
+            android:label="Asthma Attack" />
+        <activity
+            android:name=".Nausea"
+            android:exported="false"
+            android:label="Nausea and Vomiting" />
+        <activity
+            android:name=".Abdominal"
+            android:exported="false"
+            android:label="Abdominal Pain" />
+        <activity
+            android:name=".Headache"
+            android:exported="false"
+            android:label="Headache and Head Pain" />
+        <activity
+            android:name=".HeadTrauma"
+            android:exported="false"
+            android:label="Head Injuries and Head Trauma" />
+        <activity
+            android:name=".Electrical"
+            android:exported="false"
+            android:label="Electrical Injury" />
+        <activity
+            android:name=".Sunburn"
+            android:exported="false"
+            android:label="Sunburn" />
+        <activity
+            android:name=".Burns"
+            android:exported="false"
+            android:label="Burns (Thermal, Chemical, and Other" />
+        <activity
+            android:name=".Jellyfish"
+            android:exported="false"
+            android:label="Jellyfish Stings" />
+        <activity
+            android:name=".Hearts"
+            android:exported="false"
+            android:label="Heat Emergencies" />
+        <activity
+            android:name=".Dehydration"
+            android:exported="false"
+            android:label="Dehydration" />
+        <activity
+            android:name=".Blindness"
+            android:exported="false"
+            android:label="Snow Blindness" />
+        <activity
+            android:name=".Frostbite"
+            android:exported="false"
+            android:label="Frostbite and Hypothermia" />
+        <activity
+            android:name=".PoisonIvy"
+            android:exported="false"
+            android:label="Poison Ivy, Oak, and Sumac" />
+        <activity
+            android:name=".Stings"
+            android:exported="false"
+            android:label="Insect Stings" />
+        <activity
+            android:name=".Animal"
+            android:exported="false"
+            android:label="Animal, Human, and Insect Bites" />
+        <activity
+            android:name=".Allegic"
+            android:exported="false"
+            android:label="Allergic Reactions" />
+        <activity
+            android:name=".FoodPoison"
+            android:exported="false"
+            android:label="Food Poisoning" />
+        <activity
+            android:name=".Earache"
+            android:exported="false"
+            android:label="Earache and Ear Injury" />
+        <activity
+            android:name=".Diabetic"
+            android:exported="false"
+            android:label="Diabetic Emergencies" />
+        <activity
+            android:name=".ToothLoss"
+            android:exported="false"
+            android:label="Tooth Loss, Dental Pain, and Dental Injuries" />
+        <activity
+            android:name=".Duedue"
+            android:exported="false"
+            android:label="Infections Due to Cuts" />
+        <activity
+            android:name=".Puntures"
+            android:exported="false"
+            android:label="Puncture Wounds" />
+        <activity
+            android:name=".Cuuts"
+            android:exported="false"
+            android:label="Cuts (Lacerations)" />
+        <activity
+            android:name=".Preventsss"
+            android:exported="false"
+            android:label="An Ounce of Prevention" />
+        <activity
+            android:name=".Clean"
+            android:exported="false"
+            android:label="Keeping It Clean" />
+        <activity
+            android:name=".Elderly"
+            android:exported="false"
+            android:label="Protecting the Elderly" />
+        <activity
+            android:name=".Homes"
+            android:exported="false"
+            android:label="Childproofing Your Home" />
+        <activity
+            android:name=".Shock"
+            android:exported="false"
+            android:label="Managing Shock" />
+        <activity
+            android:name=".Objectx"
+            android:exported="false"
+            android:label="Swallowing Foreign Objects" />
+        <activity
+            android:name=".Maneuver"
+            android:exported="false"
+            android:label="Heimlich Maneuver" />
+        <activity
+            android:name=".Choking"
+            android:exported="false"
+            android:label="Choking" />
+        <activity
+            android:name=".Attack"
+            android:exported="false"
+            android:label="Signs of Heart Attack" />
+        <activity
+            android:name=".Posit"
+            android:exported="false"
+            android:label="Recovery Position" />
+        <activity
+            android:name=".Aidas"
+            android:exported="false"
+            android:label="The ABCs of First Aid" />
+        <activity
+            android:name=".Aed"
+            android:exported="false"
+            android:label="Basic CPR and AED" />
+        <activity
+            android:name=".Cpr"
+            android:exported="false"
+            android:label="History of CPR" />
+        <activity
+            android:name=".Training"
+            android:exported="false"
+            android:label="The Proper Training" />
+        <activity
+            android:name=".Universal"
+            android:exported="false"
+            android:label="Universal Precautions" />
+        <activity
+            android:name=".Numbers"
+            android:exported="false"
+            android:label="Calling Emergency Number" />
+        <activity
+            android:name=".Medicals"
+            android:exported="false"
+            android:label="Gathering Medical Information" />
+        <activity
+            android:name=".Proper"
+            android:exported="false"
+            android:label="The Proper Supplies" />
+        <activity
+            android:name=".Panic"
+            android:exported="false"
+            android:label="Don&apos;t Panic" />
+        <activity
+            android:name=".AdminEmergency"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="First Aids and Emergency Techniques" />
+        <activity
+            android:name=".MedicalNeeds"
+            android:exported="false"
+            android:label="Wildfire" />
+        <activity
+            android:name=".Emergencyss5"
+            android:exported="false"
+            android:label="Emergency Preparedness" />
+        <activity
+            android:name=".Emergencyss4"
+            android:exported="false"
+            android:label="Other Safety Concerns" />
+        <activity
+            android:name=".Emergencyss3"
+            android:exported="false"
+            android:label="Vacation Safety" />
+        <activity
+            android:name=".Emergencyss2"
+            android:exported="false"
+            android:label="First Aid at Work" />
+        <activity
+            android:name=".Emergencyss1"
+            android:exported="false"
+            android:label="One for the Road" />
+        <activity
+            android:name=".Emergencys5"
+            android:exported="false"
+            android:label="Event Alerts" />
+        <activity
+            android:name=".Emergencys4"
+            android:exported="false"
+            android:label="Common Conditions" />
+        <activity
+            android:name=".Emergencys3"
+            android:exported="false"
+            android:label="Serious Incidents" />
+        <activity
+            android:name=".Emergencys2"
+            android:exported="false"
+            android:label="Anywhere Events" />
+        <activity
+            android:name=".Emergencys1"
+            android:exported="false"
+            android:label="Outdoor Events" />
+        <activity
+            android:name=".Emergency5"
+            android:exported="false"
+            android:label="Common In-Home Incidents" />
+        <activity
+            android:name=".Emergency4"
+            android:exported="false"
+            android:label="Prevention Measures" />
+        <activity
+            android:name=".Emergency3"
+            android:exported="false"
+            android:label="Emergency Response" />
+        <activity
+            android:name=".Emergency2"
+            android:exported="false"
+            android:label="First-Aid Basics" />
+        <activity
+            android:name=".Emergency1"
+            android:exported="false"
+            android:label="First-Aid Myths" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+        <activity
+            android:name=".RetrieveMapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_retrieve_maps" />
+        <activity
+            android:name=".UserFirstAirKit"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="First Aids and Emergency Techniques" />
+        <activity
+            android:name=".UserTsunami"
+            android:exported="false"
+            android:label="Tsunamis" />
+        <activity
+            android:name=".UserFloods"
+            android:exported="false"
+            android:label="Floods" />
+        <activity
+            android:name=".UserLandslide"
+            android:exported="false"
+            android:label="Landslides" />
+        <activity
+            android:name=".UserHuricane"
+            android:exported="false"
+            android:label="Hurricanes" />
+        <activity
+            android:name=".UserEarthquake"
+            android:exported="false"
+            android:label="Earthquakes" />
+        <activity
+            android:name=".UserGetLocatiob"
+            android:exported="false"
+            android:label="Get Location" />
+        <activity
+            android:name=".UserTips"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="Helpful Tips" />
+        <activity
+            android:name=".UserContact"
+            android:exported="false" />
+        <activity
+            android:name=".UserLocation"
+            android:exported="false"
+            android:label="Send Location" />
+        <activity
+            android:name=".UserAbout"
+            android:exported="false"
+            android:label="About Us" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false"
+            android:label="Profile" />
+        <activity
+            android:name=".UserMain"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="News/Events" />
+        <activity
+            android:name=".History"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="Location History" />
+        <activity
+            android:name=".Tips"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="Helpful Tips" />
+        <activity
+            android:name=".AdminDashboad"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="Dashboard" />
         <activity
             android:name=".ApiMainActivity"
             android:exported="false"
-            android:label="News Headlines" />
+            android:hardwareAccelerated="true"
+            android:label="Global News" />
         <activity
             android:name=".DetailActivity"
             android:exported="false"
-            android:label="News Headlines" />
+            android:label="Global News" />
         <activity
             android:name=".ViewUpload"
             android:exported="false"
@@ -35,6 +658,7 @@
         <activity
             android:name=".LoadingActivity"
             android:exported="true"
+            android:noHistory="true"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -45,11 +669,11 @@
         <activity
             android:name=".EditNewsActivity"
             android:exported="false"
-            android:label="Edit News" />
+            android:label="Edit Post" />
         <activity
             android:name=".AddNewsActivity"
             android:exported="false"
-            android:label="Add News" />
+            android:label="Add Post" />
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
@@ -59,7 +683,13 @@
         <activity
             android:name=".MainActivity"
             android:exported="false"
-            android:label="Dashboard" />
+            android:hardwareAccelerated="true"
+            android:label="News/Events" />
+        <activity
+            android:name=".ApiUser"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="Global News" />
     </application>
 
 </manifest>

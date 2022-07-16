@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Drugs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Drug overdoses happen when more medication is
+taken in higher doses or frequency than the body can
+metabolize. Some overdoses are accidents and some are
+intentional. Mixing prescription medications with street
+drugs and alcohol can also result in overdose. Depending
+on the drug taken, symptoms of overdose include:\n\n
+• Slurred speech\n
+• Abnormal breathing (slow or fast)\n
+• Loss of coordination\n
+• Low or high tenmperature\n
+• Small (pinpoint) or enlarged pupils\n
+•Red and flushed face\n
+• Sweating\n
+• Drowsiness\n
+• Hallucinations and delusions\n
+• Loss of consciousness\n
+• Death\n\n
+First Aid for Drug Overdose\n\n
+If you think someone is having a drug overdose, perform
+the follovwing first aid:\n\n
+1. Check for ABCS and start CPR if necessary.\n
+2. Manage for shock and seizures.\n
+3. Place unconscious person in the recovery position.\n
+4. Call emergency number for any serious or\n\n
+life-threatening symptoms, Concerns about the
+person' s safety, or possible intention of self-harm.
+Do not try to make the person throw up. Call the Poison
+Control Center even if the person seems to be all right.
+Look for pill bottles or drug paraphanelia to try to find
+out what the person has taken so you can give accurate
+information and the bottles or paraphanelia to medical
+providers.\n\n
+Call emergency number for violent or irrational behavior
+and take care of your own safety. Don' texpect
+someone on drugs to be rational or try to reason with her
+-call for help. Try to keep your feelings and opinions
+separate from action, because you don' tneed to know
+why, you just need to provide first aid."/>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

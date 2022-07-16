@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Croupss">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Croup isa type of laryngitis in children, and is associated
+with a seal-bark cough and difficulty inhaling air caused
+by swelling of the voice box (larynx) and windpipe
+(trachea). Croup is usually the result of a virus, but can
+also be caused by allergies, bacteria, or inhaled irritants.
+Croup is most common in children ages six months to
+three years, although children can get croup at any age.
+Croup is common during the months of October through
+March. Most cases today are not serious, but severe
+cases might require hospitalization.\n\n
+Symptoms of croup are a very hoarse, deep, seal-bark
+type cough appearing after several days of cold
+symptoms that is usually worse at night. As croup
+continues, a child may have labored breathing, a
+high-pitched squawking or crowing noise on inhalation,
+and a low fever. Croup is usually worst the first two or
+three nights, resolving in a week or so. Vaccines for
+measles, Haemophilus influenzae (Hib), and diphtheria
+protect children against the more dangerous forms of
+croup.\n\n
+First Aid for Croup\n\n
+Moist and cold air helps reduce the swelling of the
+airways. This can be done at home in the following way:
+1. Turn the hot water on in the shower or tub of a
+bathroom and shut the door.\n\n
+2. Once the bathroom is steamy, take your child into the
+bathroom and sit with him for fifteen to twenty minutes
+with the door closed.\n\n
+3. You may also take your child, dressed warmly, out into
+the cold night air.\n\n
+Your child should sit straight up or stand to breathe more
+easily. The steam treatment may help, but it doesn' t
+cure the cough completely, so you may need to repeat
+this routine throughout the night each time your child
+wakes up coughing. You can also:\n\n
+• Use a cool-mist humidifier in your child' s
+room. (Humidifiers need to be cleaned daily with a bleachand-water solution to prevent the growth of mold
+or bacteria.)\n\n
+• Make sure your child is well hydrated with fluids.\n\n
+• Give the appropriate dose of acetaminophen or
+ibuprofen for fever. Never give your child aspirin, and
+don' tgive cough medicine either; it won' thelp the
+swelling in the throat, and it can make it more difficult to
+cough up mucus.\n\n
+If your child is not getting any relief with steam and cold
+air, call your doctor for possible oral steroids to reduce
+swelling and help her breathe more easily. Severe cases
+of croup can lead to serious breathing difficulties, so call
+your doctor for advice if you think your child has croup.
+Labored breathing at rest, separate from a coughing
+fit, may indicate a serious, potentially life-threatening
+swelling in the throat. If your child is struggling for breath
+and drooling, and her lips or skin are turning blue, call
+emergency number immediately."/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

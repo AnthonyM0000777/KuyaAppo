@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmergencyKit">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="While your workplace has a comprehensive first-aid
+kit, it is not going to be personalized for your individual
+needs. That s why it' sagood idea to have your own
+small kit, containing items that you typically use, including
+any over the counter medications that you use regularly
+and a small store of your regular medications.\n\n As well
+as a basic first aid kit, it' s a good plan to keep a pair of
+comfortable walking shoes at your workplace in case of
+any evacuation, or even a planned drillyou may find
+yourself having to walk a long distance in shoes that are
+not designed for walking. Keep some bottled water and
+snacks at your workstation, along with a flashlight and
+extra batteries. Always bring some cash and coins, and
+even keep extra clothing at work (vwarm clothes in the
+winter) in case of accidents"/>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

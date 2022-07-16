@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApiMainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <HorizontalScrollView
+                android:layout_margin="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/btn10"
+                        android:text="business"
+                        android:textSize="12sp"
+                        android:padding="6dp"
+                        android:textColor="@color/white"
+                        android:layout_margin="6dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </Button>
+                    <Button
+                        android:id="@+id/btn20"
+                        android:text="entertainment"
+                        android:textSize="12sp"
+                        android:padding="6dp"
+                        android:textColor="@color/white"
+                        android:layout_margin="6dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </Button>
+                    <Button
+                        android:id="@+id/btn30"
+                        android:text="general"
+                        android:textSize="12sp"
+                        android:padding="6dp"
+                        android:textColor="@color/white"
+                        android:layout_margin="6dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </Button>
+                    <Button
+                        android:id="@+id/btn40"
+                        android:text="health"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+                        android:padding="6dp"
+                        android:layout_margin="6dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </Button>
+                    <Button
+                        android:id="@+id/btn50"
+                        android:text="science"
+                        android:textSize="12sp"
+                        android:padding="6dp"
+                        android:textColor="@color/white"
+                        android:layout_margin="6dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </Button>
+                    <Button
+                        android:id="@+id/btn60"
+                        android:text="sports"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+                        android:padding="6dp"
+                        android:layout_margin="6dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </Button>
+                    <Button
+                        android:id="@+id/btn70"
+                        android:text="technology"
+                        android:textSize="12sp"
+                        android:padding="6dp"
+                        android:textColor="@color/white"
+                        android:layout_margin="6dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </Button>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="14dp"
+                app:cardElevation="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.appcompat.widget.SearchView
+                    android:id="@+id/searchView1"
+                    app:defaultQueryHint="Search News..."
+                    app:iconifiedByDefault="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize">
+
+                </androidx.appcompat.widget.SearchView>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_main"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

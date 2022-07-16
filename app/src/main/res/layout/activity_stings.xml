@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stings">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Insect stings only produce a mild reaction in most people.
+Multiple stings, stings in the mouth and throat, and stings
+to persons with adverse allergic reactions to the venom,
+however, can produce anaphylactic shock and must be
+treated immediately as outlined in Common in Home
+Incidents menu.\n\n
+First aid for stings includes: \n\n1. Wash the sting site with
+soap and water.\n\n
+2. Use a cold pack if needed to reduce swelling.\n\n
+3. Keep the site of the sting below the person s heart if
+possible.\n\n
+Additionally, using calamine lotion and Benadryl
+(diphenhydramine hydrochloride) can relieve itching
+and swelling. Also a paste of baking soda and water, or
+uncoated aspirin, will help reduce the stinging pain and
+reduce inflammation.\n\n
+If the person has received a bee sting:\n\n
+1. Quicky and carefully scrape the stinger away with a
+knife, credit card, or fingernail without touching the sack
+that' s attached; this sack will still be pumping venom
+into the wound.\n\n
+2. Do not use tweezers or squeeze the sack,
+as this may
+inject even more venom into the person.\n\n
+3. Wash the site with soap and water and apply a
+cold pack, keeping the sting site below the level of the
+person s heart if possible.\n\n
+Watch for signs of an allergic reaction that can develop
+up to twenty-four hours after a bee sting. If the site
+becomes infected, seek medical attention.\n\n
+In case of allergic reaction, anaphylactic shock, or
+sustained multiple stings, call emergency number or go to
+an emergency department for treatment and observation.
+Multiple stings can produce life-threatening reactions in
+otherwise healthy people.\n\n
+In case of allergic reaction, anaphylactic shock, or
+sustained multiple stings, call emergency number or go to
+an emergency department for treatment and observation.
+Multiple stings can produce life-threatening reactions in
+otherwise healthy people."/>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

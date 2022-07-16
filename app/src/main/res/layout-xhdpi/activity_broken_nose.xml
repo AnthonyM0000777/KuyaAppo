@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BrokenNose">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="A broken nose is a crack or fracture of the bony portion
+of the nose caused by trauma or a blow to the nOse or
+face from such events as a sports injury, personal fights
+or domestic violence, and motor-vehicle accidents. Signs
+of a broken nose include tenderness when touching the
+nose, swelling of the nose or face, bruising of the nose
+or black eyes, a nose that appears deformed or crooked,
+nosebleed, a crunching or crackling sound or sensation
+when touching the nose similar to the sound that you
+make when you rub hair between two fingers, and pain
+and difficulty exhaling through the nostrils.\n\n
+First Aid for a Broken Nose\n\n
+Follow the steps below if you suspect a broken nose:\n\n
+1. Apply an ice pack to the nose immediately for about
+fifteen minutes at a time and repeat multiple times
+throughout the day and for one to two days following the
+injury, to reduce pain and swelling. Make sure to take
+breaks between cold-pack applications, and never apply
+the ice directly to the skin.\n\n
+2. OTC pain relievers like acetaminophen and ibuprofen
+can be taken as required and as directed to reduce pain.
+Avoid aspirin because it may increase the chance of
+bleeding and swelling.\n\n
+3. OTC nasal decongestants may help to aid in breathing
+through the nostrils.\n\n
+4. Sleep with the head of your bed elevated to help with
+swelling of the nose."
+            />
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

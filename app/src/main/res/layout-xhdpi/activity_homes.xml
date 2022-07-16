@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homes">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="When you have a baby, you should immerse yourself in
+classes and books on how to protect the baby in your
+home. The following guidelines will give you an overview
+on childproofing your home.\n\n
+Physical Dangers\n\n
+Electrical outlets tend to fascinate children. Many are
+down at eye level and they have small inviting holes for
+curious fingers, thus causing many injuries and even
+deaths every year by electrocution. Plastic outlet covers
+and plugs will prevent injuries, and ideally, childproof
+receptacles can also be installed in place of ordinary
+outlets.\n\n
+If you have upper-story windows, you need to install
+safety bars on them that are childproof but simple for
+adults tO open in case of fire or other emergencies. At
+the very least, keep windows closed and locked when
+children are present and never leave small children
+unattended around open windows. Don' tplace furniture
+near windows, potentially allowing children to climb
+onto sills, and never assume that a screen will protect a
+child from falling out of any window. Most houses have
+many items, including furniture, that have a potential to
+topple, injure, and even cause fatal injuries when pulledor
+climbed on. You can purchase anti-tip devices for items
+Such as dressers, bookcases, entertainment centers,
+TVs, appliances, and tall floor lamps. Appliance locks are
+inexpensive and easy to install and keep doors to ovens
+and refrigerators safely locked to help protect your child
+from accidents.\n\n
+Alert!\n\n
+The American Academy of Pediatrics
+discourages the use of mobile baby walkers
+because they result in thousands of head
+injuries to babies every year. Today these
+unsafe, wheel-driven baby walkers are not as
+readily available, and most experts strongly
+discourage their use-so politely decline one,
+even as a hand-me-down.\n\n
+
+Make sure to buy a crib that meets federal safety
+standards and keep the crib mattress tidy. To avoid
+Sudden Infant Death Syndrome (SIDS), never place an
+infant face down on any sort of plastic-covered mattress
+or table. Always keep your crib side-rails up, and strap
+children securely in anything that has a safety belt, such
+as a high chair, stroller, or changing table. In order to
+prevent falls, don' tever leave your baby lying on a bed
+or couch or changing table; instead, pick the baby up if
+you need to answer the phone or the door or you forgot
+something.\n\n
+When you have babies and toddlers in the house, all
+of your coffee tables, furniture, and countertops with
+sharp edges should have protective padding or other
+specially designed covers attached to the corners. Install
+hardware-mounted safety gates at the top of every
+stairway and in between doors that you want to secure.
+Avoid using pressure-mounted gates because they are
+not secure enough, and do not use accordion gates
+because they can trap a child' s head.\n\n
+Fact\n\n
+Balloons should never be given to children
+under eight years old. Always supervise
+children of any age around balloons; they are
+easily popped, and if inhaled, small pieces
+can block the airway. Balloons are not visible
+on X-rays, so if a child has aspirated a piece
+of balloon the reason for distress may not be
+apparent.\n\n
+Thin plastics are suffocation hazards around babies and
+children and should be disposed of promptly after tying
+them in knots. Keep all of your plastic garbage bags and
+other plastic bags including sandwich bags out of the
+reach of children. Take the following steps for choking
+and strangulation prevention:\n\n
+• Don' t give foods such as nuts of any type, hard foods such as nuts of any type\n
+• Don candy, fruit with seeds, grapes, raw carrots, raw peas,
+raw celery, cherries with pits, or popcorn to children
+under age four.\n
+• Avoid garments with drawstrings for small children and
+babies; cut drawstrings out of hoods, jackets, and waist
+bands, and cut the strings off of mittens or other items
+(mobiles and crib toys).\n
+• When your baby has outgrown the stage of just lying
+and looking at the mobile, take it down and store it
+securely.\n
+• Tie up window-blind cords out of reach, or use
+specially designed cord clips.\n
+• Be careful with necklaces and headbands on babies
+and anything that has the potential to wrap around a
+baby' s neck, such as long telephone cords, pacifiers
+tied around the neck, and hanging purses or diaper bags.\n
+• Never place your baby face down on soft surfaces
+such as waterbeds, sheepskin rugs, quilts, mattress
+covers, soft pillows, beanbags or bead-filled pillows, or
+near large stuffed animals.\n\n
+Alert!\n\n
+Set the thermostat on your home hot-water
+heater to 120°F or lower. If you live in an
+apartment and you are not able to control
+the water temperature, you should install
+an anti-scald device that causes the water
+to slow to a trickle if it reaches a dangerous
+temperature.\n\n
+Drowning is a leading cause of death in children under
+five. All pools and Jacuzzis need to have layers of
+protection including a pool fence with a self-closing,
+self-latching gate that prevents access to the water: pool
+alarms; and close adult supervision when children are
+present. Child flotation devices are never a replacement
+for adult supervision. Dump out all water from a wading
+pool when kids are finished playing every single time
+you use it. In fact, never leave any body of water sitting
+around, including pails of water or any other liquid,
+because toddlers can drown in a matter of minutes
+in unattended buckets. Babies should never be left
+unattended in a bath or wading pool even for a second for
+you to answer the door or phone. Pick up the baby and
+take him with you! Always stay in the bathroom when you
+are filling a tub with water.\n\n
+Firearms need to be stored securely in a locked case,
+out of the reach of children. They must be stored
+unloaded and uncocked, and padlocks that prevent the
+cylinder from locking into place should be attached to
+all revolvers. Teach and emphasize to your children that
+guns are not toys and should never be touched or played
+with.\n\n
+Children and Toxic Dangers\n\n
+Every year thousands of children go to emergency rooms
+due to accidental poisoning. There are many safety
+latches and locks for cabinets and drawers on the market
+today that are designed to keep out tiny hands and that
+you can buy at any home store or general retail outlet.
+According to EPA guídelines, all homes built before 1978
+that are being remodeled should be tested for lead paint.
+Any baby items, furniture, or toys that were made before
+1978 may have a finish or paint that contains dangerously
+high levels of lead.
+Medicines, including over-the-counter medicine
+and vitamins, are all potentially hazardous household
+products. Never try to get your children to take a vitamin
+or medication by calling it candy.\n\n
+Fact\n\n
+The most common cause of death by
+poisoning in children comes from accidental
+overdoses from the iron in children' s
+vitamins. Keep all medications in a single
+
+locked location and call the Poison Control
+Center immediately for any suspected
+ingestion of vitamins by children.\n\n
+Keep all medications, vitamins, supplements, and
+Over-the-counter medication securely locked away,
+never sitting on a counter. Even if a label states it is child
+resistant that does not guarantee it is childproof. Make
+sure that grandparents and all other child caretakers
+understand the potential hazards of medications and
+vitamins and the necessary safety measures, because
+20 percent of accidental poisonings of children happen
+when they are in the care of their grandparents."/>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

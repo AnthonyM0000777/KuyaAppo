@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Howsafe">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Motor-vehicle accidents injure millions of people and are
+the cause of death for over a million people worldwide
+each year. Drunk driving, speeding, and improper use (or
+lack of use) of safety or seat belts are the leading causes
+of motorvehicle accident injuries that lead to death.
+Motor-vehicle accidents have multiple causes including
+impaired driving, multitasking while driving, aggressive
+driving, equipment failure, and roadway maintenance and
+design problems.\n\n
+Safety Belts and Seats\n\n
+Everyone in a moving vehicle should use age appropriate
+restraints, including pregnant women, in order to ensure
+safety and be in compliance with the law. Children that
+are age twelve and under and those weighing less than
+eighty-five pounds should ride in the back seat, as
+airbags, which are primarily located in the front, are only
+designed to protect adults and have the potential to injure
+children. Some cars are equipped with child-safety locks
+that prevent a child from accidentally opening the doors
+from the inside.\n\n
+Your local department of transportation authority has
+detailed instructions and laws for child safety in motor
+vehicles. All babies who are under twenty pounds
+and twelve months old must be placed securely in a
+rear-facing car seat in the back seat. This system has
+been designed to prevent severe head injuries or death,
+which can occur if the car seats are in the wrong position,
+or located in the front when an air bag deploys. Everyone
+should refer to specific local and state regulations for the
+transport of infants\n\n.
+Toddlers between twenty and forty pounds and who
+are at least one year old can sit ina forward-facing car
+seat with harness straps in the back seat. Studies are
+also showing that it is safer to use rear-facing seats up
+to the age of four or five. Children who are less than 4'9
+        tall should sit in a booster seat. In cars with back seats
+        that are lower than the child' s ears, use a high-back
+booster seat for better head and neck protection. In cars
+with seat backs that are higher than the child' s ears,
+    use a backless booster seat. For all car seats, follow all
+    manufacturer recommendations and instructions.
+    Motor-Vehicle Safety\n\n
+    For motor-vehicle safety, always follow your vehicle
+    operation and maintenance recommendations. Most
+    auto manufacturers recommend oil changes every three
+    months or three thousand miles, whichever comes first.
+    Find a good mechanic to keep your car in tip-top shape
+    with regular tune ups if you are not able to work on it
+    yourself. Check your tire pressure at least once a month
+    to prevent unexpected flats, and make sure to rotate your
+    tires and check their alignment at your regular tune ups or
+    every other oil change.\n\n
+    Pay attention to warning signs, such as things that
+    don' t feel, sound, or smell right or if you find leaks or
+    stains where you park. Don' t forget that an ounce of
+    prevention is worth a pound of cure, particularly when
+    it may lead to an auto-related injury. Get your vehicle
+    ready for the changing seasons, because defending
+    your auto against the elements will lessen your chances
+    of weather-related accidents and roadside problems
+    and will even fend off costly repairs. Learn the basics of
+    caring for your vehicle so that you can check your fluids
+    regularly. If you are able to, keep your car ina garage, or
+    do your best to keep it in a dry, temperate place in order
+    to keep interior and exterior wear and tear at bay, thus
+    preserving the condition and optimal safety operation of
+    the car.\n\n
+    You need to have your identification, registration and
+    insurance cards, and a small amount of money with you
+    when you drive. If you have a cell phone, carry it with
+    you fully charged. Along with your first-aid emergency
+    equipment, your vehicle should also carry the following
+    items:\n\n
+    •Tire-changing equipment/spare tire(properly inflated)\n
+    • Rags, paper towels\n
+    • Window cleaner\n
+    • Jumper cables\n
+    • Can of tire inflator and sealant\n
+    • Motor oil, antifreeze, and brake fluid\n
+    • Container of water for radiator\n
+    • Sunglasses\n
+    • Plastic bags\n
+    "/>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

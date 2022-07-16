@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StayingHotel">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="When you arrive at your hotel, find out where the nearest
+safety exists are and plan your own safety escape. Ask
+at the desk how they want to be informed in case of an
+emergency, if they have emergency protocol, and how to
+use the phone for emergencies.\n\n
+Keep fire safety in mind while staying in a hotel. It' snot
+a good idea to use candles, matches, and lighters, and
+never dry clothing on heaters, a fireplace, or woodstove
+in your hotel room. In case of fire or if you hear a fire
+alarm, leave the hotel using the nearest fire-exit stairway
+and do not take tinme to collect any of your belongings. AS
+in any fire situation, feel the door for heat and check for
+smoke before opening it. If you feel heat on the door or
+see smoke, look around for a different way to leave.\n\n
+Bedbugs\n\n
+Bedbugs are tiny, flat bugs smaller than an apple seed.
+They live all over the world in every country and are
+found everywhere from youth hostels to five-star hotels.
+Bedbugs travel in suitcases and live in beds, carpets,
+behind baseboards, under wallpaper, and in small cracks
+and crevices throughout a room. There are a couple of
+ways to identify bedbugs in your hotel room. First, they
+tend to leave tiny reddish or black streaks on sheets.
+Second, they leave small, itchy bumps that you may find
+upon waking in the morning, often in linear groups of
+three commonly referred to as breakfast, lunch, and
+    dinner.\n\n
+    If you suspect you have been bitten or see telltale signs
+    of bedbugs, grab your suitcases and head to the desk
+    to ask for a new room. Also, be sure to shake out your
+    suitcases to rid them of any stowaways. You can then
+    treat any bites with 1% hydrocortisone or antihistamine
+    cream for the itch and inflammation.\n\n
+    Childproofing Your Hotel Room\n\n
+    If you have children, then you need to childproof your
+    hotel room. Your hotel may offer a childproofing kit,
+    so inquire when you get there. Pay attention to things
+    like blinds and loose or dangling cords. Watch your children around any electrical outlets, furniture with
+    sharp corners, or loose equipment. Move furniture
+    away from any windows if you can. Talk to your children
+    about never standing on chairs or jumping from bed to
+    bed, and don' t let them on the balconies alone. Like
+    all home-safety measures, you need to keep soaps,
+    shampoos, plastic bags, matches, and toiletries out of the
+    reach of children. Take special precautions about such
+    things as dry-cleaning bags, glasses, coffeemakers, and
+    hairdryers. Always carefully check the hot water for the
+    bath to make sure the water is not too hot. Make sure
+    that any alcohol in the mini fridge is out of reach of young
+    children, including partially empty glasses.\n\n
+    Children can suffer head injuries, crushed nerves,
+    internal injuries, and broken bones from pulling TV sets
+    on top of themselves. In many cases, these accidents
+    happen because televisions are set on top of a simple
+    stand or cart, although children have pulled them from
+    wall units, shelving, and from atop dressers as well. Make
+    sure that the television in your room is secured to the
+    dresser or table. Instruct your children not to climb, play
+    with, or pull on the television or the stand, and not to play
+    with cords, plugs, and television buttons.\n\n
+    Fact\n\n
+    Most experts don' trecommend sleeping
+    with a baby in an adult bed, because there is
+    a danger that the baby will slip between the
+    bed and the wall or under a pillow or blanket.
+    Call ahead to find out what kind of crib the
+    hotel offers so that you can bring your own
+    portable folding bed if necessary. These
+    infant beds are made to nestle in between
+    your pillows at the top of your bed and will
+    keep your infant safe.\n\n
+    When traveling with babies, make sure that you get a
+    room with a crib and double check that the crib is set
+    up securely and properly and that the mattress is firmly
+    supported and fits snugly. Just as at home, the sheets
+    need to fit the mattress securelv and the crib needs to need to fit the mattress securely and the crib needs to
+    stay clutter free. A crib should be manufactured after
+    1986 in the United States to meet safety regulations.
+    Exercise caution when using a crib provided by a hotel,
+    because many hotels have outdated and recalled
+    products, including cribs."/>
+
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -52,14 +52,15 @@ public class MainActivity extends AppCompatActivity implements NewsRVAdapter.New
     private NewsRVAdapter newsRVAdapter;
     private RelativeLayout homeRL;
     private String newsID,post;
-
-
     GoogleSignInClient mGoogleSignInClient;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
         setContentView (R.layout.activity_main);
+
 
         mAuth = FirebaseAuth.getInstance ();
        // newsID = mAuth.getCurrentUser ().getUid ();
@@ -199,63 +200,24 @@ public class MainActivity extends AppCompatActivity implements NewsRVAdapter.New
         switch (id) {
 
             case R.id.idEdtDashboard:
-                startActivity (new Intent (MainActivity.this, MainActivity.class));
-                this.finish ();
+                startActivity (new Intent (MainActivity.this, AdminDashboad.class));
                 return true;
+
 
                 //news headlines
             case R.id.idEdtHeadlines:
                 startActivity (new Intent (MainActivity.this, ApiMainActivity.class));
-                this.finish ();
                 return true;
 
-           case R.id.idEdtProfile1:
-              //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
-                //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
-             ///this.finish ();
-                return true;
 
-            case R.id.idEdtProfile:
+            case R.id.idEdtProfile1:
                 startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
-                this.finish ();
                 return true;
 
-            case R.id.idEdtSorting:
-                //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
-                //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
-                ///this.finish ();
-                return true;
 
-            //view upload
-            case R.id.idEdtView:
-                startActivity (new Intent (MainActivity.this, ViewUpload.class));
-                this.finish ();
-                return true;
-
-            case R.id.idSortAtoZ:
-                Collections.sort (newsRVModalArrayList, NewsRVModal.NewsAZComparator);
-                Toast.makeText (MainActivity.this, "Sorted by A-z", Toast.LENGTH_SHORT).show ();
-                newsRVAdapter.notifyDataSetChanged ();
-                // this.finish ();
-                return true;
-
-            case R.id.idSortZtoA:
-                Collections.sort (newsRVModalArrayList, NewsRVModal.NewsZAComparator);
-                Toast.makeText (MainActivity.this, "Sorted by Z-a", Toast.LENGTH_SHORT).show ();
-                newsRVAdapter.notifyDataSetChanged ();
-                // this.finish ();
-                return true;
-
-           /* case R.id.idSortDate:
-                Collections.sort (newsRVModalArrayList, NewsRVModal.NewsZAComparator);
-                Toast.makeText (MainActivity.this, "Sorted by Date", Toast.LENGTH_SHORT).show ();
-                newsRVAdapter.notifyDataSetChanged ();
-                // this.finish ();
-                return true;*/
 
             case R.id.idEdtAbout:
                 startActivity (new Intent (MainActivity.this, AboutUsActivity.class));
-                this.finish ();
                 return true;
 
 

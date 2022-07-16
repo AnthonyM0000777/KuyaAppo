@@ -4,7 +4,6 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 import java.util.Comparator;
-import java.util.Map;
 
 public class NewsRVModal implements Parcelable{
 
@@ -16,7 +15,7 @@ public class NewsRVModal implements Parcelable{
     private String newsID;
     private String newsDate;
     private String uid;
-    private String uploader;
+   // private String uploader;
 
 
     public String getNewsID() {
@@ -41,7 +40,8 @@ public class NewsRVModal implements Parcelable{
         newsID = in.readString();
         newsDate = in.readString ();
         uid = in.readString ();
-        uploader = in.readString ();
+        //uploader = in.readString ();
+
 
     }
 //sortng method
@@ -135,14 +135,14 @@ public class NewsRVModal implements Parcelable{
         this.uid = uid;
     }
 
-    public String getUploader(){
+   /* public String getUploader(){
         return uploader;
     }
     public void setUploader(String uploader){
         this.uploader = uploader;
     }
-
-    public NewsRVModal(String newsID,String newsName, String newsDescription, String newsImg, String newsLink, String newsDate, String uid, String uploader ) {
+*/
+    public NewsRVModal(String newsID,String newsName, String newsDescription, String newsImg, String newsLink, String newsDate, String uid) {
         this.newsName = newsName;
         this.newsDescription = newsDescription;
         this.newsImg = newsImg;
@@ -151,7 +151,8 @@ public class NewsRVModal implements Parcelable{
         this.newsID = newsID;
         this.newsDate = newsDate;
         this.uid = uid;
-        this.uploader = uploader;
+        //this.uploader = uploader;
+
     }
 
     @Override
@@ -169,6 +170,7 @@ public class NewsRVModal implements Parcelable{
         dest.writeString(newsID);
         dest.writeString (newsDate);
         dest.writeString (uid);
-        dest.writeString (uploader);
+        //dest.writeString (uploader);
+
     }
 }

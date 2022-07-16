@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emergencys2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Burns (Thermal, Chemical, and Other)"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/burns"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sunburn"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/burns"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/sunburn"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electrical Injury"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/sunburn"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/electrical"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Head Injuries and Head Trauma"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/electrical"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/headTrauma"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Headache and Head Pain"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/headTrauma"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/headache"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abdominal Pain"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/headache"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/abdominal"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nausea and Vomiting"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/abdominal"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/nausea"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asthma Attack"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/nausea"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/asthma"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

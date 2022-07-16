@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emergency5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cuts (Lacerations)"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/cuts"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Puncture Wounds"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/cuts"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/puncture"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Infections Due to Cuts"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/puncture"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/due"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tooth Loss, Dental Pain, and Dental Injuries"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/due"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/toothLoss"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diabetic Emergencies"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/toothLoss"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/diabetic"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Earache and Ear Injury"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/diabetic"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/earache"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food Poisoning"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/earache"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/foodPoison"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Allergic Reactions"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/foodPoison"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/allergic"/>
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Allegic">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="An allergic reaction is an acquired, abnormal
+inflammatory reaction to a substance (allergen) that
+is usually mild to moderate in most people. Pollens,
+medications, certain foods, insect stings and bites,
+dust mites, pet dander, perfumes, and detergents may
+cause an allergic reaction. Allergies are common in all
+age groups and reactions to allergens range in severity
+from mild to severe to a life- threatening allergic reaction
+called anaphylaxis.\n\n Even though a person may previously
+have experienced no reactions or only very mild reactions
+to an alergen for many years, in some cases repeated
+exposures (sensitization) may eventually lead to a more
+severe reaction without warning. As you become more
+sensitized to an allergen, even a mild exposure may at
+some point trigger a potentially life-threatening reaction.\n\n
+Alert!\n\n
+Anyone who has known serious allergies
+should wear a Medical Alert ID or tag and
+carry an epinephrine autoinjector pen with
+written instructions on how and when to use
+it. You' Il need a doctor' s prescription for
+the selfcare epinephrine injector and you
+can call1-800-IDALERT to get a medic alert
+bracelet.\n\n
+Allergies occur when your body' s defensive system, the
+immune system, comes into contact, by eating, touching,
+breathing, or injecting, with something it interprets as a
+foreign substance and a threat. Sometimes the immune
+system works to protect your body but other times it has
+difficulty distinguishing between the actual threats and
+substances that are not a threat. Those hyper-reactive
+systems tend to react with an inflammatory response
+to substances that aren' tactually harmful, such as
+certain foods. Allergic reactions can range from mild to
+severe reactions requiring immediate medical attention.
+Sometimes symptoms are localized and immediate, but
+they can also be general (systemic) and delayed.\n\n
+Signs and Symptoms\n\n
+Most allergic reactions are mild, and although they are
+normally not serious or life threatening, it' sa god idea
+to advise your doctor of the condition if it is new or unique
+to your medical history. The following are common
+symptoms of mild allergic reactions:\n\n
+• Itchy skin\n\n
+• Itchy, watery eyes\n\n
+• Itchy, runny nose with
+clear nasal discharge\n\n
+• Sneezing\n\n
+• Rashes and hives\n\n
+• Minor swelling
+Mild Reactions\n\n
+A localized itchy rash (contact dermatitis) can be
+prevented by avoiding contact with the allergen. Wash off
+any known allergens immediately with soap and water,
+keep the area clean and dry, and if needed treat with
+calamine lotion. For all allergy symptoms, check with
+your family doctor to see whether prescription or OTC
+allergy medication is advised, such as antihistamines,
+decongestants, or a combination of both. Your doctor
+may tell you to treat rashes with antihistamine cream or
+1% hydrocortisone cream. As always, determining what
+is causing the allergic reaction and avoiding it is the best
+COurse of action.\n\n
+Sinus Irrigation for Mild Allergies\n\n
+Sinus irrigation is a method of rinsing out and irrigating
+the inside of your nose and the sinuses to remove any
+allergens. It also helps clear any areas of infection
+that may be forming in your nasal passages, making
+breathing easier, as well as moisturizing your sinuses.
+It s necessary to use a salt concentration similar to that
+of your body, or isotonic, to prevent nasal-tissue swelling
+and damage to the tissues. You can buy commercial
+products or you can make your own solution (2 teaspoon
+salt, V2 teaspoon baking soda, and 1 pint warm watern) and
+store it in the refriaerator for up to two weeks.\n\n
+Use the following method of sinus irrigation for relief of
+nasal congestion due to allergies:\n\n
+1. Use a soft rubber-tip bulb syringe to irrigate the nose.\n\n
+2. Stand over a sink or in the shower with head forward,
+mouth open, and chin out.\n\n
+3. Insert the tip of the bulb syringe filled with solution
+in the nose, stop breathing, and squeeze the solution
+into nose, being careful not to swallow. If you need to
+swallow, stop and bend your head forward and allow
+solution to run out of your nose.\n\n
+4. Repeat on the other side, then blow your nose very
+gently, closing off one side at a time and blowing the
+mouth open.\n\n
+If you are bothered with allergens in the air, irrigate your
+sinuses twice daily at first and then every day to every
+third day or after activities that involve being outside
+among allergens. You may also use a pulsating system
+according to the manufacturer
+s instructions.\n\n
+Fact\n\n
+Never assume that because you or a family
+member has received allergy shots, you are
+completely protected. Families with known
+allergies should be especially aware of all
+emergency procedures, including the use of
+Epinephrine Auto-Injectors and CPR.
+Severe Allergic Reactions
+Severe allergic reactions are less common, and can be
+life threatening if not treated immediately. If a person is
+exhibiting any of the symptoms below, take them to a
+hospital emergency room, or call emergency number for
+emergency transport immediately:
+• Flushed face, neck, chest, arms, hands"/>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

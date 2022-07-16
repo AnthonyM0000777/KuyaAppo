@@ -13,60 +13,21 @@
             android:icon="@drawable/ic_baseline_dashboard_24"
             app:showAsAction="ifRoom"/>
 
+
         <item android:id="@+id/idEdtHeadlines"
-            android:title="News Headlines"
+            android:title="Global News"
             android:icon="@drawable/ic_baseline_view_headline_24"
             app:showAsAction="ifRoom"/>
 
         <item android:id="@+id/idEdtProfile1"
                 android:title="Profile"
                 android:icon="@drawable/ic_baseline_person_24"
-                app:showAsAction="ifRoom">
-
-                <menu>
-                    <item android:id="@+id/idEdtProfile"
-                        android:title="Profile"/>
-
-                    <item android:id="@+id/idEdtView"
-                       android:title="Uploads"/>
-                </menu>
-            </item>
-
-
-        <item android:id="@+id/idEdtSorting"
-            android:title="Sort"
-            android:icon="@drawable/ic_baseline_sort_24"
-            app:showAsAction="ifRoom">
-
-            <menu>
-                <item android:id="@+id/idSortAtoZ"
-                    android:title="A-z"/>
-
-                <item android:id="@+id/idSortZtoA"
-                    android:title="Z-a"/>
-            </menu>
-        </item>
+                app:showAsAction="ifRoom"/>
 
         <item android:id="@+id/idEdtAbout"
             android:title="About Us"
             android:icon="@drawable/ic_baseline_info_24"
             app:showAsAction="ifRoom"/>
-
-        <!--   <item android:id="@+id/idSortAtoZ"
-              android:title="Sort by z - a"
-              android:icon="@drawable/ic_baseline_sort_24"
-              app:showAsAction="ifRoom"/>
-
-          <item android:id="@+id/idSortZtoA"
-              android:title="Sort by a - z"
-              android:icon="@drawable/ic_baseline_sort_24"
-              app:showAsAction="ifRoom"/>-->
-
-        <!--  <item android:id="@+id/idSortDate"
-              android:title="Sort by Date"
-              android:icon="@drawable/ic_baseline_sort_24"
-              app:showAsAction="ifRoom"/>-->
-
 
             <item android:id="@+id/idEdtLogout"
                 android:title="Log Out"

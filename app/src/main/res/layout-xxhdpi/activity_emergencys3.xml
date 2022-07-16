@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emergencys3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bleeding"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/bleeding"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Internal Bleeding/Blunt Trauma"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/bleeding"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/internals"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penetrating Trauma"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/internals"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/penetrating"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spinal Injury"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/penetrating"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/spinal"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stroke"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/spinal"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/stroke"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poisoning"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/stroke"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/poisoning"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drug Overdose"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/poisoning"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/drug"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Near Drowning"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/drug"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/near"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carbon-Monoxide Poisoning"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/near"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/carbon"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

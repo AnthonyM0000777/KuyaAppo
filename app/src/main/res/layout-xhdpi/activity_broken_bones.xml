@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BrokenBones">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="In both children and adults, fractures are classified as
+open or compound when the ends of the bone have
+broken through the skin, raising the risk of infection. In
+no displaced fractures, the pieces on either side of the
+break remain lined up, and with displaced fractures the
+pieces of bone are not in line and may require surgery
+to align before casting. Hairline fractures have only a
+thin break in the bone, single fractures have only one
+break in the bone, segmental fractures have at least two
+and sometimes more breaks in the same bone, and in a
+comminuted fracture the bone is splintered or crushed.\n\n
+You can identify a broken bone if you or the injured
+person hears, or the injured person feels, the bone break.
+The area will also be very tender to the touch, particularly
+in the area of fracture. Other signs of a broken bone
+include:\n\n
+Swelling around the break\n\n
+• An unnatural position of the limb\n
+• Pain on any attempts to move the limb\n
+• Loss of a pulse below the injury\n
+• Bone protrusion through the skin\n
+• Abnornmal movement\n
+•A grating sensation\n
+• Loss of function of the limb\n
+• Bruising\n\n
+Call emergency number for
+any of the following:\n\n
+• Heavy bleeding\n
+• If even gentle pressure or movement causes pain\n
+• Any limb or joint appears deformed\n
+•A bone has pierced the skin\n
+• Any extremity of an injured arm or leg is numb or bluish
+at the tip\n
+• You think that a bone is broken in the neck, head, back,
+hip, pelvis, or upper leg\n\n
+First Aid for Broken Bones\n\n
+Remember to stay calm. Broken bones require medical
+attention, and fractures that are a result ofa major
+trauma or injury require emergency care. Do not move
+the injured person, but do keep them warm.\n\n
+First Aid for Broken Bones\n\n
+Remember to stay calm. Broken bones require medical
+attention, and fractures that are a result ofa major
+trauma or injury require emergency care. Do not move
+the injured person, but do keep them warm.\n\n
+1. Until medical help arrives, check for ABCS, treat for
+shock, and begin CPR if needed as outlined in Emergency
+Response menu.\n
+2. Apply pressure to any wounds with a sterile bandage,
+clean cloth, or clean piece of clothing to control and stop
+any heavy bleeding.\n
+3. Use cOvered ice packs to reduce swelling.
+How to Make a Splint\n\n
+If you think the bone is broken but it is not piercing the
+skin (closed fracture), you need to splint the limb before
+moving the injured person. It s important to immobilize
+the joint above and below where you believe the fracture
+site to be.\n\n
+Look around for something stiff and hard to use asa
+splint, such as a heavy, rigid stick. Or, you can use a
+rolled blanket or pack that will maintain a rigid state. If you
+have no other option, you can secure the injured body
+part to another, uninjured, body part to keep it stabilized
+and immobile (tape an injured finger to an adjacent,
+uninjured, finger).\n\n
+Also keep the folowing in mind:\n\n
+• In case of a broken bone that pierces the skin (open or
+compound fracture), you must apply pressure in order to
+control bleeding, but avoid pushing on any bone that is
+protruding through the skin. This is when those sanitary
+napkins you packed come in handy.\n
+• Don' tever try to straighten
+a broken, open-fractured
+limb; replace bone fragments; or return the limb to a
+natural position.\n
+• Don' t touch or try to clean the wound; just fasten a
+sterile or clean pad or cloth securely in place over the
+wound and secure it with bandages or cloth strips (belts,
+Scarves, neckties).\n
+• The splint must extend beyond the injured area to keep
+the limb from moving. Try to cover the joint below and the
+joint above the injury with the splint: do not overtighten,
+which can cut off the circulation.\n
+• Continue to check the area frequently for swelling,
+paleness, or numbness, and loosen the splint if needed.\n\n
+Alert!\n\n
+Do not move the injured person until a splint
+has been applied unless there is a greater
+danger of life-threatening urgency. If you do
+have to move a person in order to save her
+life, apply a splint as soon as you are able to.
+Wait for professional help and continue to monitor the
+area, be alert for signs of shock, and keep the injured
+person warm. If you are not able to call for help, you must
+prepare to carry the person to safety.\n\n
+Aftercare\n\n
+Your doctor may immobilize some fractures with a splint
+to keep the bone from moving, kept in place with Velcro
+or wrapped with gauze or a bandage. Most fractured
+bones are placed in a cast made with either plaster of
+Paris or synthetic fiberglass material. For any pain in
+the first few days, use acetaminophen or ibuprofen,
+unless your pain is severe-then ask your doctor for a
+prescription pain medication. Sometimes there is swelling
+after the cast is applied, causing it to be too tight, so you
+need to notify your doctor immediately if your fingers
+or toes turn white, purple, or blue or if the skin around
+the edges of the cast gets red or raw, as the cast is
+probably too wet inside from water or sweat. Try to avoid
+picking at and removing any padding from the edges of
+fiberglass"/>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

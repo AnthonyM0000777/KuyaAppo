@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cuuts"
+    android:fillViewport="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Cuts and abrasions of all kinds can happen every day,
+from scraped knees on a patio to deep cuts on fingers
+and hands in the kitchen and workshop. Cuts are skin
+wounds that involve separation of the skin and are usually
+caused by a sharp object like a knife or a piece of glass.
+Take the following steps to care for simple cuts and
+abrasions:\n\n
+1. Wash your hands with soap and water and then wash
+the wound under running water. For wounds that are
+bleeding, apply direct pressure with a sterile cloth or
+bandage and elevate the wound.\n\n
+2. Apply antibiotic cream, but avoid using iodine or
+hydrogen-peroxide solutions, as they can cause further
+damage to injured tissues and may cause allergic
+reactions in people reactive to iodine and shellfish.\n\n
+3. Dress the wound with a sterile gauze, preferably
+nonstick, bandage to protect the wound from infection
+and water loss until a scab forms.\n\n
+4. Keep the area around the wound clean and change
+any dirty dressings promptly.\n\n
+Change most dressings daily and replace dressings.
+when any fluids soak through, to decrease any chance
+that the wound will dry and stick to the dressing. Cleaning
+open wounds can sometimes cause bleeding, which
+can be easily stopped with direct pressure using a sterile
+gauze pad.\n\n
+
+Alert!\n\n
+Never dress a wound with obvious
+contamination. If you aren' table to get
+it clean, then cover it lightly with a sterile
+bandage and seek medical attention.
+First Aid for Deeper Cuts\n\n
+In the case of lacerations that are deep enough to see
+fatty tissue:\n\n
+1. Pull the edges of the wound together and use butterfly
+closures to secure them.\n\n
+2. Apply antiseptic or antibiotic ointment over butterfly
+closures, cover with a bandage, and seek medical
+attention.\n\n
+Essential\n\n
+Never wash deep cuts, because it may
+increase the rate of bleeding. Don' tremove
+blood-stained dressings from deep cuts, as
+this may restart bleeding. Instead, reinforce
+the old dressings by putting additional
+dressings on top until the bleeding stops.\n\n
+See a doctor:\n\n
+• For cuts that don' t stop bleeding after ten minutes or
+applying pressure\n\n
+• If there is a chance that nerves or tendons have been
+affected\n\n
+• If there is something embedded in the cut\n\n
+• If the cut is caused by an animal or human bite or was
+punctured by anything dirty that may cause infection\n\n
+• If the cut is on the mouth, face, hand, or genitals
+If stitches are needed, keep the wound closed with\n\n
+butterfly closures until you can get professional care. If
+the wound is very dirty or is likely to be so, such as with
+human or animal bites, you only have about six hours
+before the wound is too contaminated to stitch. Other
+wounds may go as long as eight hours after the injury
+before being stitched, but the longer you wait, the less
+likely that stitches will be possible and any scarring can
+be minimized. For any signs of complications such
+as numbness or decreased movement; tenderness,
+inflammation, swelling, or red streaks around the wound;
+or fever seek immediate medical attention.\n\n
+Fact\n\n
+Call your medical-care provider immediately
+for wounds longer than one-half inch that
+are gaping open and have edges that don' t
+stay together because as a rule these wounds
+need stitches.\n\n
+Control the Bleeding\n\n
+When a wound starts to bleed at any time, apply pressure
+to control the bleeding. If the cut is deep and bleeding is
+profuse, treat it as an emergency. Control the bleeding by
+placing a sterile gauze or pad over the cut and applying
+steady direct pressure. Lay the person down with feet
+elevated to help prevent shock. Never apply direct
+pressure to a wound with a protruding object or bone;
+instead, apply pressure to either side of the wound. If
+possible, elevate the cut above the level of the person s
+heart, and if bleeding is profuse and continuous, refer to
+Emergency Response menu, Managing Shock, and call
+emergency number immediately.\n\n
+First Aid for Abrasions\n\n
+When treating abrasions, follow these steps:
+1. Remove any debris such as dirt, fiber, and rocks from
+an abrasion before cleaning it.\n\n
+Control the Bleeding\n\n
+When a wound starts to bleed at any time, apply pressure
+to control the bleeding. If the cut is deep and bleeding is
+profuse, treat it as an emergency. Control the bleeding by
+placing a sterile gauze or pad over the cut and applying
+steady direct pressure. Lay the person down with feet
+elevated to help prevent shock. Never apply direct
+pressure to a wOund with a protruding object or bone;
+instead, apply pressure to either side of the wound. If
+possible, elevate the cut above the level of the person' s
+heart, and if bleeding is profuse and continuous, refer to
+Emergency Response menu, Managing Shock, and call
+emergency number immediately.\n\n
+First Aid for Abrasions\n\n
+When treating abrasions, follow these steps:\n\n
+1. Remove any debris such as dirt, fiber, and rocks from
+an abrasion before cleaning it.\n\n
+2. Use tweezers to remove small objects, and a
+nonalcoholic wipe to gently clean off the wound, wiping in
+one direction.\n\n
+3. Wash the wound with soap and water, apply an
+antibiot"/>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Foreign">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="The infamous Delhi-belly diarrhea may end your vacation
+or it may end up being mild and stay that wayif you take
+measures to avoid solid foods until the diarrhea goes
+away and rehydrate yourself with clean, bottled water.
+The World Health Organization (WHO) has formulated
+rehydration salts to treat diarrhea. You can buy packets
+of these salts at stores and pharmacies in most
+developing countries.\n\n
+First Aid for Diarrhea\n\n
+Most cases of diarrhea are self-limiting: that is, they run
+a short course and resolve on their own. Eating yogurt
+can help prevent diarrhea because it introduces helpful
+enzymes into your Gl tract. Nonprescription medications
+such as Bismuth subsalicylate may help treat diarrhea in
+adults only if you do not have other signs of ilness, such
+as fever, abdominal cramping or discomfort, or bloody
+stools. If you do get diarrhea, adults and children over two
+years of age should take the following steps.\n\n
+1. Let your stomach rest and avoid food for several hours
+or until you feel better.\n
+2. Rehydrate by taking frequent, small sips of bottled or
+boiled water or a rehydration drink, and eating small bites
+of salty crackers.\n
+3. If you have WHO rehydration salts, add one packet
+to bottled or treated water, using the proper amounts of
+salts and water as directed on the package.\n
+4. Followa simple diet of bland foods, such as bread,
+potatoes, bananas, crackers, and rice.\n
+5. Resume a regular diet when your diarrhea is gone.
+In children two years old or younger, continue to
+breastfeed or bottlefeed as normal, don' trestrict food,
+and use WHO rehydration salts along with food as long as
+diarrhea continues.\n\n
+Seek medical attention immediately for anyone with
+fever or persistent vomiting, if there is blood or pus
+in the stool, or if the diarrhea continues for more than in the stool, or if the diarrhea continues for more than
+forty-eight hours, because antibiotics may be needed.\n\n
+Essential\n\n
+In order to avoid becoming dehydrated and to
+stay healthy, make sure to drink at least two
+quarts of water a day, or at least one quart of
+water for every fifty pounds of body weight,
+while traveling. "/>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

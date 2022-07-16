@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aed">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:padding="16dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/bold"
+                    android:padding="10dp"
+                    android:textSize="23sp"
+                    android:text="According to the AHA, CPR is not a single skill, but a
+series of assessments and interventions, and carcdiac
+arrest is not just one problem, so the steps of CPR will
+vary depending on the type or cause of the arrest. For
+the purposes of this book, only lay-rescuer techniques
+and methods will be reviewed. It
+S worthy to note that
+lay rescuers are no longer taught to check for pulse or
+signs of circulation or taught to provide rescue breathing
+without chest compressions for an unresponsive person.
+Take the following steps when you witness anyone over
+the age of one-year-old collapse:\n\n
+1. Assess that it is safe to approach the fallen person.\n
+2. Use protective equipment and follow universal
+precautions. If you are able to, use common sense, and
+stay away from any obvious hazards.\n
+3. Attempt to wake the person by rubbing your knuckles
+firmly against the sternum (breastbone) and shouting,
+Are you okay?\n
+    4. If the person fails to rouse, immediately call
+    emergency number or shout for help, depending on
+    your situation. If there is an AED available, also shout for
+    someone to bring it.\n
+    5. If the person becomes conscious, is moaning, or
+    moves, do not start CPR.\n
+    6. Call emergency number if the person is not able to
+    speak or appears confused. If the person does not wake,
+    begin CPR and use an AED if available.\n\n
+    An AED is a small, portable electronic device that is used
+    to deliver an electric shock in an attempt to disrupt or
+    stop abnormal electrical activity in the heart. Abnormal
+    electrical activity correlates with an abnormal heart
+    rhythm, and a continual abnormal rhythm is not sufficient
+    to pump blood and deliver oxygen through the body. An
+    AED shock cannot restart a dead heart; the heart must
+    have a rhythm (even though the rhythm is abnormal). The
+    AED will automatically diagnose any cardiac arrhythmia
+    when attached by leads to an unconscious person. When
+    you see one of these lethal rhythms, you can then treat
+    the person with the AED electrical therapy or a shock
+    (defibrillation) that may interrupt the arrhythmia and allow
+    the heart to re-establish a normal and effective rhythm.\n\n
+Essential\n
+The AHA recommends that rescuers push
+hard, push fast (100 compressions per
+minute), and allow complete chest recoil
+between compressions, with minimal
+interruptions in compressions, for all persons.\n\n
+An AED is used to interrupt a lethal heart rhythm\n\n
+The steps for performing CPR are:\n\n
+1. Open the airway using the head-tilt, chin-lift method
+one hand on the forehead, fingers of the other hand
+under the bony part of the lower jaw, near the chin. Tilt
+the head back, gently lift the jaw, making sure not to close
+the mouth or push on soft parts beneath the chin. Avoid
+lifting the neck in the case of spinal injury.\n
+2. Check for normal breathing by putting your ear
+to the
+person' s mouth and turning your head to look for chest
+movement, while listening for air flowing through the
+mouth or nose and trying to detect breath on your cheek.
+You sent
+A person with periodic gasping is most likely in cardiac
+arrest and needs CPR.\n
+3. If there are no signs of breathing, pinch the nose;
+make a seal over the mouth with yours and give the
+person a breath strong enough for you to see the chest
+rise. When the chest falls, repeat the rescue breath once
+more for a total of two breaths. If available, use a CPR
+mask as a barrier between your mouth and the person
+mouth that you are rescuing. These first three steps are
+called rescue breathing.\n
+    4. Begin chest compressions by placing the heel of your
+    hand in the middle of the chest, over the lower half of
+    the breastbone at the nipple line. Place your other hand
+    on top and lace your fingers together (heel of one hand
+    on chest, heel of the other hand on top of that hand)
+    and compress the chest about one to two inches. Allow
+    the chest to recoil completely, and then perform thirty
+    compressions, at a rate of 100 compressions per minute.\n
+    5. After thirty chest compressions, immediately repeat
+    the two rescue breaths. Open the airway with head tilt,
+    chin-lift again. This time, go directly to rescue breaths
+    without checking for breathing again. Give one breath,
+    making sure the chest rises and falls, then give another.\n
+    6. Perform the cycle of thirty compressions followed
+    by two breaths for about two minutes. Then stop and
+    recheck for breathing. If the person is not breathing,
+    continue chest compressions and rescue breaths.\n
+
+    Other Considerations\n
+    The AHA now recommends that a series of
+    thirty compressions followed by tvwo breaths
+    (compressionventilation ratio of 30:2) be given to all
+    persons, regardless of age. Continue the cycle of
+    compressions and rescue breathing until professional
+    help arrives or until the person recovers and begins
+    breathing. In children age one to eight, use one or two
+    hands as necessary to compress the chest one-third to
+    one-half the depth of the chest. For the unresponsive
+    infant or child, perform five cycles of thirty compressions
+    and two breaths for about two minutes before leaving the
+    child to call emergency number and get an AED if one is
+    available.\n\n
+    CPR for Newborns and Infants\n\n
+    Newborn CPR has different recommendations than
+    those for infants. But the recommendations for newborn
+    CPR only apply to newborns in the first hours after birth
+    until the newborn leaves the hospital, so the general
+    public needs only to be concerned with infant CPR
+    guidelines that apply to babies less than approximately
+    one year of age. The rescue-breathing rate for infants
+    with pulses is about forty to sixty breaths per minute,
+    with chest compression to one-third the depth of the
+    chest. Deliver ninety compressions and thirty ventilations
+    per minute. Compress the infant chest just below the
+    nipple line (on lower half of sternum) using two fingers
+    (rather than a whole hand) to compress the chest witha
+    compression-ventilation ratio of 30:2.\n\n
+    Problems Associated with CPR\n\n
+    Some of the problems the AHA has identified regarding
+    performing CPR are excessive ventilation given during
+    CPR and compressions that are interrupted too frequently
+    and that are often too slow and too shallow. It s
+    believed that bystanders may be reluctant to perform
+    mouth-to-mouth resuscitation, the data illustrates that
+    transmission of infection is very low: nonetheless, use
+    of a barrier device (CPR mask) while giving ventilations
+    is still encouraged. If you are still reluctant to give
+    mouth-to-mouth ventilations, at least call for help and
+    start chest compressions immediately.\n\n
+    Alert!\n\n
+    If you or a family member have a preexisting
+    heart condition or are at high risk for heart
+    failure, your doctor may be able to prescribe
+    an AED that' s at least partially covered by
+    your medical plan."/>
+        </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

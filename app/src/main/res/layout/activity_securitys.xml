@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Securitys">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Even though you may be prepared, your safety and the
+safety of your family is more secure when the entire
+community works together. You can become involved
+by contacting Citizen Corps, which can connect you
+to disaster volunteer groups that prepare communities
+to respond to any emergency situation, terrorism,
+and disasters of all kinds. You can participate in the
+Citizen Corps community by volunteering for local
+law-enforcement activities through the Volunteers
+in Police Service (VIPS) Program. \n\nThe Community
+Emergency Response Team (CERT) Program also offers
+education and training to neighborhood watch groups,
+community organizations, faith communities, school
+staff, workplace employees, scouting organizations, and
+other groups for disaster preparedness and responses
+such as fire safety, light search and rescue, team
+organization, and disaster medical operations. You may
+then work to assist other neighborhoods or workplaces
+after an event when professional responders may not
+be immediately available. For questions about the CERT
+program or Citizen Corps, you may contact the National
+Office of Citizen Corps at citizencorps@dhs.gov.
+"/>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

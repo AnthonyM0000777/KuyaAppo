@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emergencys4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fever"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/fever"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Febrile Seizures"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/fever"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/febrile"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seizures"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/febrile"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/seizures"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fainting"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/seizures"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/fainting"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sore Throat"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/fainting"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/soreThroat"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Croup"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/soreThroat"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/croup"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Black Eyes"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/croup"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/blackEyes"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Broken Nose"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/blackEyes"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/brokenNose"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nosebleed"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/brokenNose"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/noseBleed"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Motion Sickness"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/noseBleed"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/motion"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High Blood Pressure(Hypertension)"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/motion"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/highBlood"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Panic Attack"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/highBlood"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/panicAttack"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

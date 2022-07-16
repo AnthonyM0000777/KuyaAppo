@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Electrical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="When a person comes into accidental contact with an
+electrical energy source, an electric shock OCcurs that
+may cause injury ranging from a burn to devastating
+damage or death. A person who has suffered an electric
+shock may have very obvious severe burns or may
+have little to no external evidence of injury. An electrical
+shock has the potential to cause cardiac arrest. \n\nA brief
+low-voltage shock that doesn' t cause any symptoms
+or burns of the skin doesn' trequire care or treatment,
+but for all highvoltage shocks or shocks that cause burns,
+go immediately to an emergency department. Children
+who experience electric-cord burns to the mouth need to
+be seen by a doctor immediately. For all critical injuries,
+call emergency number and proceed with emergency
+management as outlined in Emergency Response menu.\n\n
+Treating Electrical Burns\n\n
+Electrical burns are caused when current runs through a
+person' s body. Typically, there will be only small area
+burns at both the entry and exit sites, but be aware that
+there is likely an internal track of damage between the
+entry and exit burns. There may be swelling and charring
+at both points.\n\n
+1. Call enmergency number immediately.\n
+2. The person may be in shock, unconscious, or even
+in cardiac arrest. Check for breathing and a pulse in an
+unconscious person, and start CPR if necessary.\n
+3. If the person is conscious, pour cold water over the
+burns until help arrives, but never pour water near a live
+electrical source.\n
+Never approach a person with a suspected electrical
+burn until you are sure that contact with the electrical
+source has been broken and the current has been
+switched off."/>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

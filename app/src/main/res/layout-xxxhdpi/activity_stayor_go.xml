@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StayorGo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Your state and local governments have established
+emergency plans for disasters both natural and
+man-made, specific to your area. Depending on your
+community, the methods of alerting you may differ,
+but a common method is to broadcast via emergency
+radio and TV broadcasts. You may also hear a special
+siren, receive telephone calls, or emergency workers
+may come to your door. \n\nDuring disasters or imminent
+disasters, it is vital to keep a TV or radio on to hear
+updates and instructions from local authorities and
+government officials. Keep an NOA Weather Radio on
+in your home to wake you up and alert you to weather
+alerts. Whatever the disaster or emergency, if firefighters,
+law enforcement, or local authorities recommend
+evacuation, you need to leave immediately.\n\n
+In the case of hurricanes, you may have to make the
+decision whether you can ride out the storm in safety
+or if you need to evacuate. Generally, if your house is
+on the coastline or offshore islands, near a river, or in a
+flood plain, you should plan on evacuation. But if you live
+on higher ground and are not near any coastal lines, you
+may consider staying put. Be prepared by June when
+the hurricane season begins, so that you can have the
+information you need to evaluate the situation and make
+the best decision, whether to stay or leave.\n\n
+Essential\n\n
+During times of imminent disasters, prepare
+ahead of time by having at least a half tank
+of gas in your vehicle, and while driving,
+keep your car windows closed and the air
+conditioner or heater off.\n\n
+Find out the storm-surge history and elevation of
+your area, the safe routes to drive inland, and where
+official shelters are located. Listen to official bulletins
+on radio, TV, or NOAA Weather Radio, and stay tuned
+when a hurricane warning is issued for your area. If
+you decide to evacuate, drive safely and carefully by
+way of recommended evacuation routes to the nearest
+designated shelter.\n\n
+If a flood warning is issued, you may be directed by
+authorities to leave if you are located in an area with
+potential for rising waters or in low-lying areas. If you are
+allowed to stay in your home, continue tolisten to radio
+and television for updates. You also need to continue
+to prepare to evacuate should your home become
+damaged, or conditions change and you are told to leave
+by emergency personnel.\n\n
+In the case of wildfire, the smoke may be so severe
+that the health risks outweigh any possible benefits of
+staying in your home. Smoke from fires may irritate your
+eyes, and respiratory system, and wNorsen chronic lung
+and heart diseases. Or the fire may begin to encroach
+on your home, jeopardizing your safety and causing you
+to evacuate. If you decide or are instructed to evacuate,
+listen to and follow directions about where to go, such as
+shelter locations and the safest routes to take."/>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

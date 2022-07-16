@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fever">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Fevers are one way your body defends itself against
+many bacteria and viruses that like to live in the
+body' s normal temperature of 98.6°F. Increasing the
+temperature is one way the body works to make it harder
+for those sorts of invaders to survive, while activating
+your body' s immune system. A low fever is 98.8°F to
+100.8°F, mild to moderate fever is 101°F to 103°F, and a
+high fever is 104°F and above. Causes of fever include
+hot weather, immunizations, bacterial and viral infections,
+too much time in the sun, and allergies. Symptoms that
+accompany a fever often include a hot, flushed face,
+sweating, loss of appetite, nausea and vomiting, feeling
+hot, body aches, constipation, or diarrhea. High fevers
+are sometimes associated with delirium and seizures.\n\n
+Fact\n\n
+Rectal temperature is the most accurate
+indicator of the body' s core temperature.
+A rectal-temperature reading is one degree
+higher than an oral temperature, and a
+rectal temperature higher than 100.4°F is
+considered a fever. Axillary (under the arm)
+temperatures are generally one degree lower
+than oral temperatures.\n\n
+Any temperatures above 105°F orally can be serious and
+require immediate medical attention. For children with a
+fever up to 101°F and a runny nose, who are also acting
+cranky and tired, treat as you woulda cold or flu, with
+nonaspirin OTC medicine for fevers-such as children' s
+or infant s acetaminophen or ibuprofen, following
+package directions.\n\n
+How to Take a Temperature\n\n
+Most thermometers today have digital readouts for
+oral, rectal, under the arm (axillary), and even ear canal
+readings. Always read the directions so you understand
+what the thermometer s beeps indicate and when
+it' s time to read the thermometer. Glass mercury thermometers are no longer recommended because
+of the danger associated with mercury exposure or
+ingestion.\n\n
+To taking a child' s temperature rectally you should:
+1. Put a dab of petroleum jelly or other lubricant on the
+bulb end of the thermometer. Place child on her stomach.\n\n
+2. Carefully insert the thermometer one-half to one inch
+into the rectum.\n\n
+3. Hold the thermometer and keep the child still for three
+minutes (don' tlet go of the thermometer).\n\n
+4. Remove the thermometer and read as recommended
+by the manufacturer.\n\n
+A rectal temperature is an option for persons of any age
+when taking an oral temperature is not possible or may be
+problematic.\n\n
+To take an oral temperature, place the bulb end of the
+thermometer under the tongue, close the mouth for the
+recommended time (usually three minutes), remove, and
+read.\n\n
+Under the arm (axillary) temperatures are not the most
+accurate way to take a temperature, but if you need
+to use this method, you can use an oral thermometer
+for an armpit reading. Axillary readings are about one
+degree less than an oral temperature reading. Place the
+thermometer under the arm with arm down, and hold
+arms across the chest. Wait five minutes or the time
+recommended by your thermometer' s manufacturer,
+remove the thermometer, and read the temperature.
+Seek medical attention for any of the following:\n\n
+•Babies younger than three months of age with a rectal
+temperature of 100.4°F or higher, even with no other
+symptoms\n
+• Babies older than three months of age with
+temperature of 102°F or higher\n
+• Newborns with a lower-than-normal temperature, or
+less than 97°F rectally\n
+• Children younger than age two with fever for longer
+than one day\n
+• Children age twO or older with fever for longer than
+three days\n
+• Children with fever after being left in a hot car or any
+other hot environmentseek medical care immediately\n
+• Adults with a temperature higher than 103°F or a fever
+for more than three days\n
+Call your medical-care provider immediately for fever
+with any of the following:\n\n
+• Severe headache\n
+• Swelling of the throat (particularly severe swelling)\n
+• Skin rashes\n
+• Sudden unusual sensitivity
+to bright light\n
+• Stiff neck and pain when bending the head forward or
+inability to bend neck forward\n
+• Mental confusion\n
+• Continual vomiting\n
+• Chest pain or difficulty breathing\n
+• Excessive listlessness or irritability\n
+• Abdominal pain or pain during urination\n
+• Any other symptoms of concern\n
+Alert!\n\n
+If a fever continues to climb, or a person is
+not able to keep fluids down after twenty-four
+hours, seek medical attention.\n\n
+First Aid for Fever\n\n
+Take the following steps for fever:\n\n
+1. Use a thermonmeter to monitor the temperature.\n\n
+2. Remove blankets and excess clothing.\n\n
+3. Keep the room cool.\n\n
+4. Give sponge baths in lukewarm water.\n\n
+5. Hydrate with plenty of fluids (watch for light-colored
+urine often, indicating a person is well hydrated).\n\n
+6. Use acetaminophen to lower tenmperature as directed
+on the package.\n\n
+
+Don't\n\n
+• Give aspirin to anyone with fever\n\n
+• Use rubbing alcohol in a bath or rubbed on the skin
+See your medical-care provider for any irregular
+breathing or shortness of breathe, stiff neck, confusion,
+rashes, persistent sore throat, vomiting and diarrhea,
+painful urination, or seizures. Fevers below 102°F in
+adults d"/>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Numbers">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="You may be afraid, embarrassed, or wary of calling
+emergency number (example: 911) if you are not sure
+whether the medical condition or complaint is really an
+emergency.\n\n
+There are many conditions that require immediate
+attention, and you should not wait before calling
+emergency number. Instead of risking serious
+consequences or death if you are not sure, it s wise to
+call for help. The following are conditions that warrant
+calling emergency number, although certainly not an
+exhaustive list:\n\n
+• Severe allergic reaction\n
+• Chest pain or heart attack, shortness of breath
+Severe asthma attack or respiratory arrest\n
+• Loss of consciousness or responsiveness\n
+• Confusion, dizziness and fainting, or seizures\n
+• Drug overdose, poisoning, or chemical exposure\n
+• Heat stroke\n
+• Rectal bleeding, bloody diarrhea, bleeding with
+weakness, or vonmiting blood\n
+• Blurred speech, weakness, any signs of stroke\n
+• Uncontrolled bleeding, including nosebleeds
+Serious burns\n
+• Broken bones accompanied by signs of shock or spinal
+injury\n
+• Suicidal behavior, self-harming or violent behavior\n\n
+Alert!\n
+If you have warning signs of a heart attack,
+call emergency number immediately
+-there is a very limited amount of time
+before damage to the muscle of the heart
+is permanent. Emergency medical services
+(EMS) are trained to treat cardiac arrest
+on scene and in transit, and you will be
+treated faster at the hospital if you arrive by
+ambulance.\n\n
+
+The dispatcher s computer is likely to show your
+location, unless you are on a cell phone or calling
+from work or another location where the phones are
+connected to a switchboard. Try to remain calm and
+answer all questions quickly and as accurately as you
+are able. The dispatcher will need all of the following
+information.\n\n
+• Nature of the emergency\n
+• When emergency first occurred\n
+• Exact location or address where help is needed\n
+• Phone number that you are calling from\n
+• Your name and who else is involved\n\n
+Follow all instructions given by the emergency number
+dispatcher and stay on the phone until the dispatcher
+tells you to hang up, or for as long as it is safe to do so.
+Stay calm, be clear, listen to the dispatcher carefully, and
+answer as concisely as possible.\n\n
+Essential\n
+It' s the emergency number dispatcher' s
+job to know how to ask the right questions.
+Pay attention and answer all questions as best
+you can. Don' t hang up until you are told to;
+if you are on a cell phone you may have to
+give your exact location and other information
+as your location will not be visible to the
+dispatcher.\n\n
+
+Teach young children how to phone enmergency number
+by using a toy phone or an old, nonworking cell phone.
+Explain to them that emergencies include car accidents,
+crimes like when someone is hurting another person or
+breaking into the house, when someone in the family
+is suddenly very sick (for example, having a hard time
+speaking, breathing, or turns blue), if anyone collapses or
+passes out, or if the house is on fire.\n\n
+Fact\n
+Most children over five years of age are
+capable of understanding and learning how
+and when to call emergency number. Instruct
+children to call emergency number only for
+real emergencies. Make sure they understand
+that the police and firefighters will come when
+they call emergency number."/>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

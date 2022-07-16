@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Smoke">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Structural fires cause a large number of smoke-inhalation
+related deaths each year. Often, people don' t develop
+symptoms of smoke inhalation for twenty-four to
+forty-eight hours after the fire, and may not be diagnosed
+or treated correctly and in a timely manner. Inhaled
+smoke may cause damage to the body such as burns
+to the tissues in the mouth, nose, and upper respiratory
+system from the hot air. Some substances in smoke can
+be toxic to cells or can cause damage by contact with
+tissues. Smoke may also harm the body by interfering
+with the oxygen supply by preventing oxygen from
+reaching cells, causing cell and tissue death.
+Signs and symptoms of smoke inhalation include the
+following\n\n
+• Singed nose hairs\n
+• Burns on the throat and inside the nose
+Swelling of the throat\n
+• Coughing\n
+• Hoarseness\n
+•Fluid in the lungs resulting in noisy breathing\n
+• Shortness of breath\n
+• Respiratory arrest and loss of consciousness\n\n
+First Aid for Smoke Inhalation\n\n
+Check for ABCS, begin CPR if needed, and manage for
+shock as outlined in Emergency Response menu. In
+addition:\n\n
+1. Make sure the person is getting enough oxygen by
+taking steps to open the airway.\n
+2. A person with smoke inhalation can get worse quickly,
+so exercise caution when deciding whether to transport
+the person to a hospital yourselfwhen in doubt, call
+emergency number.\n
+3.Call emergency number for anyone who has a hoarse
+voice, difficulty breathing, long coughing spells, or mental
+confusion.\n\n
+Those with moderate symptoms and prompt treatment
+tend to recover completely, but some people may
+develop chronic respiratory or pulmonary (lung)
+disorders, particularly people with existing respiratory
+problems such as asthma."/>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

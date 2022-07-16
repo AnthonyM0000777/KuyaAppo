@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Keeppss">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text=" In order to be prepared for any event, from splinters
+to major accidents, when on the road it s important
+to keep a comprehensive first-aid kit in your vehicle.
+The best way to decide what you might need to include
+involves taking a few minutes to try and imagine various
+conditions and scenarios you might experience where
+you regularly travel. Are there mountains and cliffs? Are
+there bodies of water next to the roads? Are the roads
+lighted at night? Do you travel or live in a remote location
+with unreliable cellphone coverage? What is the weather
+like throughout the year? In addition to the items listed in
+First Aid Basics menu for your in-home first-aid kit, and
+depending on where you typically drive and the condition
+of the vehicle you drive, the following items may be useful
+additions to your vehicle first-aid kit:\n\n
+• Large, wide-lens flashlight\n
+• Penlight\n
+Several triangle reflectors\n
+• Reflective vest(s)\n
+• Small, multipurpose fire extinguisher\n
+• Road flares\n
+• Prepaid and fully charged cell phone\n
+• Durable, multipurpose gloves\n
+Several yards of coiled rope\n
+• Duct tape\n
+• Bungee cords\n
+• Space blankets\n
+• All-purpose scissors\n
+• Note pad, pencil, and\n
+• fluorescent marker\n
+• Adjustable wrench\n
+•A few small sand bags\n
+• Extra batteries\n
+• Automated External Defibrillator (AED)\n
+• Hand sanitizer\n
+• Flares\n
+• CB radio\n
+• Extra water bottles\n
+• Walkie-talkies\n
+• A disposable camera\n\n
+Carry Insurance Cards and Medical
+History\n\n
+When you are on the road, make sure to always carry
+current medical-insurance cards and updated medical
+histories for everyone that rides with you. If you are in
+an accident or someone becomes critically ill in the car,
+having the necessary information will help you get the
+right care from first responders to emergency-room
+medical providers.\n\n
+Alert!\n\n
+The Health Insurance Portability and
+Accountability Act (HIPAA) guarantees your
+privacy in regard to medical records. If you
+carry medical records in your vehicle, include
+a note that emergency medical personnel
+have your permission to access and transport
+the information."/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

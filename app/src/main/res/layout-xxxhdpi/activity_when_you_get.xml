@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WhenYouGet">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="When you get to your destination outside of the United
+States, find out where the U.S. embassy or consulate
+is located and how to get there, as they can help you
+find necessary medical care. Also get directions to the
+nearest hospital or clinic. Consult with your guidebook,
+hotel, or tourist office for recommendations on local
+doctors. In remote areas, you may have to rely ona
+police station, military base, or missionary post to give
+you help and information.\n\n Ask how and where you can
+make international calls and access the Internet at your
+vacation destination. Check out the area and locations
+of the closest grocery store where you can buy bottled
+water and other safe, packaged food and beverages.
+Remember to never eat food from street vendors. In
+foreign countries where there are concerns about clean
+water, it s important to remember to wash wounds only
+with bottled water"/>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

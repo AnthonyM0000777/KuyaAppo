@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frostbite">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Prolonged exposure to cold weather or brief exposure
+to extreme cold temperatures can result ina cold injury.
+Cold injury affecting the body' s shell is called frostbite,
+while cold injury involving the body' s core is known
+as hypothermia. It is possible to suffer each of these
+separately, although they often occur simultaneously.
+The body' s response to cold temperature is to constrict
+blood vessels, limiting blood flow to extremities,
+especially the fingers and toes, along with the release
+of hormones that cause shivering to increase heat
+production.\n\n
+Frostbite\n\n
+Frostbite happens when tissues freeze after exposure to
+temperatures below the freezing point of skin, commonly
+affecting the nose, cheeks, ears, fingers, and toes.
+Frostbite may be either superficial or deep. Symptoms
+of superficial frostbite include burning, numbness,
+tingling, itching, or cold sensations and the affected areas
+appear white and frozen, but if pressed on retain some
+resistance. Symptoms of deep frostbite include first a
+decrease and then a complete loss in sensation. Other
+symptoms include swelling, blood-filled blisters, and
+white or yellowish skin that appears waxy and will turn a
+purplish blue when rewarmed. The area will become hard
+with no resistance when pressed on, sometimes looking
+blackened and dead. Deep frostbite causes considerable
+pain when the blood flow is re-established and the area
+is rewarmed followed by a dull continuous ache and
+throbbing sensation in the first two to three days and
+lasting for weeks to months as healthy tissue separates
+from dead tissue.\n\n
+First Aid for Frostbite\n\n
+For any signs of frostbite, take the following steps:
+1. Get out of the cold if you can and call for help while
+keeping the affected part elevated.\n\n
+2. Remove jewelry and clothes that may be blocking
+blood flow and begin to hydrate with nonalcoholic,
+noncaffeinated fluids.\n\n
+3. Apply a dry, sterile dressing and separate frostbitten fingers or toes with cotton, and get to a medical facility as
+quickly as possible.\n\n
+4. Never attempt to rewarm a frostbitten area because
+it may freeze again and the thaw-refreeze cycle is
+extremely harmful.\n\n
+5. Don' trub the frozen area with snow or anything else
+as rubbing causes further tissue damage (the amount of
+tissue damage is directly related to the time frozen, not to
+the degree of temperature).\n\n
+Hypothermia\n\n
+When you are exposed to cold temperatures or to
+cool, damp environments for prolonged periods, your
+body s control mechanisms may not be able to keep
+your body temperature normal and hypothermia can
+result. Hypothermia happens when your internal body
+temperature is less than 95F, with gradual symptoms
+such as shivering, slurred speech, slow breathing, cold,
+pale skin, loss of coordination, fatigue, lethargy, or
+apathy. Children and elderly people have a higher risk of
+developing hypothermia.\n\n
+First Aid for Hypothermia\n\n
+Follow these steps for first-aid treatment of hypothermia:
+1. Call enmergency number and monitor the person
+airway, breathing, and circulation as outlined in
+Emergency Response menu while waiting for help to
+arrive.\n\n
+2. If you are able to, move the person out of the cold, and
+at the very least, attempt to protect the person from the
+wind and from the cold ground.\n\n
+3. Remove all of the person' s wet clothing and cover
+them with a warm, dry covering. Never apply direct
+heat like a hot-water bottle or heating pad; use warm
+packs applied to the neck, chest wall, and groin. Avoid
+attempting to warm the arms and legs, because the heat
+will force cold blood back to the heart, lungs, and brain,
+causinga drop in the core body temperature that can be
+fatal.\n\n
+4. If the person is not vomiting, give them warm,
+nonalcoholic drinks. Handle the person gently, don' t
+massage or rub them because a person with hypothermia.\n\n
+First Aid for Hypothermia\n\n
+Follow these steps for first-aid treatment of hypothermia:\n\n
+1. Call emergency number and monitor the person' s
+airway, breathing, and circulation as outlined in
+Emergency Response menu while waiting for help to
+arrive.\n\n
+2. If you are able to, move the person out of the cold, and
+at the very least, attempt to protect the person from the
+wind and from the cold ground.\n\n
+3. Remove all of the person
+S wet clothing and cover
+them with a warnm, dry covering. Never apply direct
+heat like a hot-water bottle or heating pad; use warm
+packs applied to the neck, chest wall, and groin. Avoid
+attempting to warm the arms and legs, because the heat
+will force cold blood back to the heart, lungs, and brain,
+causing a drop in the core body temperature that can be
+fatal.\n\n
+4. If the person is not vomiting, give them warm,
+nonalcoholic drinks. Handle the person gently, don' t
+massage or rub them because a person with hypothermia
+is at risk of cardiac arrest"/>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

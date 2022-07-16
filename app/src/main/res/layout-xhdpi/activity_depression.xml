@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Depression">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Depression is much more common in adults, although
+it does occur in children and teens as well. Because
+children have different behaviors than adults, their
+symptoms of depression are also different. While a
+depressed adult may seem sad or may cry, children
+are more likely to act out and behave badly or have
+out-of-proportion and inappropriate anger. \n\nThey may
+have a decreased interest in activities they normally
+enjoy, become pickier about food, and be irritable. Most
+people will have bouts of sadness or feel low from time to
+time and lasting for a few days, but this is not the same
+as major depression. A person with major depression will
+have at least five of the following symptoms persistently
+for at least two weeks:\n\n
+• Sadness, depressed mood, crying\n
+• Irritability, lack of satisfaction in accomplishments\n
+• Easy frustration, lack of follow through\n
+• Poor self-esteem, low motivation, and reluctance to
+accept new projects\n
+• Decreased interest in activities that were previously
+pleasurable\n
+• Changes in appetite; rapid weight gain or loss\n
+• Changes in sleep patterns; sleeping too much or to0
+little\n
+• Slowed body movements; slow, soft speech\n
+• Fatigue, lack of energy\n
+• Poor concentration, attention, and memory\n
+• Thoughts or expressions of death or suicide\n\n
+Another type of depression is manic depression, or
+bipolar disorder, that alternates with symptoms of
+depression and those of being wired and exhibiting
+reckless behavior such as shoplifting or gambling.
+When in a manic or wired state, a person may tend to be
+grandiose, not sleep, exhibit careless sexual activity, talk
+nonstop, and be rebellious or irritable.\n\n
+Fact\n\n
+According to the National Alliance on Mental
+Illness (NAMI), major depression is the most
+commonly diagnosed mental disorder, is a
+serious and often debilitating illness, and affects close to seventeen million Americans.\n\n
+Talk about Problems\n\
+Everyone gets sad and blue sometimes, but if you, your
+loved one, or your child are having problems related
+to grades or school attendance, relationships, alcohol,
+drugs, or sex, or are exhibiting uncontrolled behavior, the
+problem may be a depression that can be helped with
+treatment. Depression that isn' t treated may end up
+getting worse and last longer. Talk to the person you love
+and tell them that depression, or problems with substance
+abuse, doesn' t mean that they are weak, or a failure,
+or not trying hard enough. It means they have a real
+medical illness and need treatment, usually talk therapy,
+medicine, or both together. Be sure to emphasize that
+most people who seek treatment for depression start
+to feel better in just a few weeks. Let the person with
+a substance-abuse problem know that they have your
+support, and encourage them to get the professional help
+that they need. Assure the person that they are not alone,
+and that there are many people who can help, such as
+professionals at mental-health centers, the family doctor,
+Someone in the clergy, or a schOol counselor or nurse"/>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

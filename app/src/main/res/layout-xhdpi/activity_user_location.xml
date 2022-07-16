@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".UserLocation"
+    android:background="@drawable/bg">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/medium"
+                android:padding="10dp"
+                android:text="To ask for help from officials in Cuyapo just press one Image its automatically sent to the admin."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="290dp"
+                android:fillViewport="true"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="2"
+                        android:columnOrderPreserved="false"
+                        android:rowCount="3">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="12dp"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:padding="15dp">
+
+                                <ImageView
+                                    android:id="@+id/SendButton"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:src="@drawable/sendto" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="12dp"
+                                    android:fontFamily="@font/bold"
+                                    android:text="MDRRMO"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/mdrRmo"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="09081545770"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="12dp"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:padding="15dp">
+
+                                <ImageView
+                                    android:id="@+id/SendButton1"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:src="@drawable/sendto" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="12dp"
+                                    android:fontFamily="@font/bold"
+                                    android:text="PNP"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/pnp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="09279613417"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="12dp"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:padding="15dp">
+
+                                <ImageView
+                                    android:id="@+id/SendButton2"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:src="@drawable/sendto" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="12dp"
+                                    android:fontFamily="@font/bold"
+                                    android:text="BFP"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/bfp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="09171782884"
+                                    android:textColor="@color/black"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="12dp"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:padding="15dp">
+
+                                <ImageView
+                                    android:id="@+id/SendButton3"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:src="@drawable/sendto" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="12dp"
+                                    android:fontFamily="@font/bold"
+                                    android:text="RHU"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/rhu"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="09177132085"
+                                    android:textColor="@color/black"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="12dp"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:padding="15dp">
+
+                                <ImageView
+                                    android:id="@+id/SendButton4"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:src="@drawable/sendto" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="12dp"
+                                    android:fontFamily="@font/bold"
+                                    android:text="TARELCO"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/tarelco"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="09338211855"
+                                    android:textColor="@color/black"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="12dp"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:padding="15dp">
+
+                                <ImageView
+                                    android:id="@+id/SendButton5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:src="@drawable/sendto" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="12dp"
+                                    android:fontFamily="@font/bold"
+                                    android:text="BALIBAGO"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/balibago"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="09362728182"
+                                    android:textColor="@color/black"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="12dp"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:padding="15dp">
+
+                                <ImageView
+                                    android:id="@+id/SendButton6"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:src="@drawable/sendto" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="12dp"
+                                    android:fontFamily="@font/bold"
+                                    android:text="AMBULANCE"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/ambulance"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="09067607063"
+                                    android:textColor="@color/black"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </GridLayout>
+                </LinearLayout>
+            </ScrollView>
+
+        </RelativeLayout>
+
+
+
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Headache">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Tension headaches are the most common headaches,
+caused by tight and rigid muscles in your shoulders, neck,
+scalp, and jaw, most likely due to stress, depression,
+or anxiety. You may suffer with tension headaches if
+you work too much, miss meals, or use alcohol and
+don' tget enough sleep. Migraines, cluster headaches,
+and sinus headaches are also common, but whatever
+type of headache you suffer, it' s good to know what
+lifestyle changes you can make, relaxation techniques
+you can use, and pain relievers you can take to relieve
+them. \n\nThere are many causes of headaches, but severe
+headaches are less common and can signal a serious
+disorder. You need to inform your doctor of any sudden
+severe headaches, if you have a headache after a blow
+to the head, or if you have a headache and a stiff neck,
+fever, loss of consciousness, confusion, a sudden
+worsening in your usual pattern of headaches, or pain in
+the eye or ear.\n\n
+Evaluating a Headache\n\n
+In order to evaluate the cause of your headache, you
+need to give your doctor what is calleda headache
+        history by describing your headache symptoms and
+characteristics as completely as you are able to. Let your
+doctor know the following information:\n\n
+• Age when the headaches started\n
+• How frequently they occur\n
+• If you have one or multiple types of headaches\n
+• Frequency of headaches\n
+• Any known triggers such as situations, foods, or
+medicines\n
+• Family history of headaches\n
+• Symptoms that occur between headaches\n
+• If headaches affect your ability to function\n
+• If physical activity causes or aggravates the headache\n
+• Anything else associated with the headache\n\n
+Also describe where the pain is located and what it
+feels like (stabbing, pounding, throbbing), the severity of
+the pain on a scale from 1 (mild) to 10 (severe, causing
+crying), how long the headaches last, if they appear
+suddenly without warning or with other symptoms, time
+of day they usually occur, and if you experience changes
+in vision, blind spots, or bright lights before the headache.\n\n
+Include any other symptoms or warning signs such as
+weakness, nausea, sensitivity to light or noise, appetite
+changes, changes in attitude or behavior, and if you have
+ever been treated for headaches and any medicines you
+are currently taking.\n\n
+Fact\n\n
+Most tension headaches can be easily treated
+with OTC medications such as aspirin (adults
+only), ibuprofen, and acetaminophen. If
+you feel a headache coming on take a pain
+reliever early as they are most effective if
+taken before the pain gets too bad.\n\n
+Migraines are more common in women, and people
+who have migraines may need to take prescription
+medication. Migraine symptoms include pain that usually
+affects only one side of your head, accompanied by
+nausea, vomiting, sensitivity to light or sound, and pain
+that gets worse with normal activity that can last from
+four to seventy-two hours.\n\n
+Cluster headaches only affect 1 percent of adults, and
+are characterized by sudden and sharp or severe pain
+affecting onlv one side of vour head. accomnanied by affecting only one side of your head, accompanied by
+teary eyes and nasal congestion. These headaches
+usually occur in a span of two to twelve weeks with one
+or more cluster headaches a day. Each cluster headache
+usually lasts forty-five to ninety minutes, leading to
+restlessness and pacing or rocking.\n\n
+Chronic use of any medication may cause headaches
+known as rebound headaches, and anyone who uses
+medication regularly is at risk. The only treatment
+for rebound headaches is reducing or stopping the
+medication that' s causing the headaches. Headaches
+that follow a specific activity such as exercise, sex, or
+bouts of coughing typically last from five minutes to
+forty-eight hours. This type of headache can be a sign of
+high blood pressure.\n\n
+First Aid for Headaches\n\n
+When migraines strike because of increased sensitivity
+to light and sound, try to rest ina quiet, dark room, and
+apply hot or cold compresses to your head or neck.
+Sometimes massage and very small amounts of caffeine
+will also help. Most headaches are minor and can be
+treated with an OTC pain reliever. For unexplained
+head pain or head pain that steadly worsens, call your
+medical-care provider. Call emergency number for a
+headache that occurs suddenly and severely with:\n\n
+•Fever\n
+• Stiff neck\n
+• Rash\n
+• Changes in vision\n
+• Dizziness\n
+• Mental confusion\n
+• Seizures\n
+• Weakness\n
+• Loss of balance\n
+• Numbness\n
+• Difficulty speaking\n\n
+Seek medical attention for any headache that:\n\n
+• Is severe following a recent sore throat or respiratory
+infection\n
+• Starts or worsens after a head injury, fall, or bump\n
+• Starts or worsens atitera head injury, tall, or bump\n
+• ls a new type of pain and you are age fifty or older\n
+• Is excruciating\n
+• Affects just one, reddened eye\n
+• Worsens over the course of the day\n
+• Persists for several days\n\n
+Tension headaches may be relieved by lowering body
+temperature by taking a cool shower. Blood vessels
+increase in size during headaches, and as caffeine
+works to constrict the blood vessels,"/>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

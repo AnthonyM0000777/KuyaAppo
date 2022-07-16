@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Burns">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="One of the most common and most painful injuries is
+a burn injury. Burns are caused by extreme heat (both
+wet and dry), chemicals, electricity, radiation, and even
+extreme cold. They can affect the skin, eyes, lungs, and
+other internal organs. The severity of a burn is generally
+classified in one of three categories, based on the depth
+of the burn and damage.\n\n
+1. First-degree burns (usualy referred to as superficial
+burns) involve only the outermost layer of skin, called
+the epidermis. If treated quickly and blisters do not form,
+first-degree burns usually heal very well. Sunburns are a
+Common form of first-degree burns.\n\n
+2. Second-degree burns (usually referred to as partial
+thickness burns) are more serious because a deeper
+layer of skin is affected and because they are easily
+infected. Second-degree burns are the most painful
+because more tissue is damaged, but the nerve endings
+are still preserved. These burns heal well and don' t
+require medical attention unless they are larger than two
+to three inches in diameter or they occur on the hands,
+face, buttocks, penis, or vaginal area.\n\n
+3. Third-degree burns (usually referred to as
+full-thickness burns) are the most serious burns, involving
+all of the layers of the skin. In third-degree burns, the
+skin may appear white, black, and or leathery-looking
+and there may be very little pain, although the areas
+surrounding the burn might be extremely painful. All
+third-degree burns require medical treatment. Call
+emergency number for emergency rescue and transport
+or take the person to the nearest emergency room.
+Never apply adhesive dressings or any lotions,
+ointments, or creams to a first or second degree burn
+that you are treating at home unless the skin is broken.
+For any broken blisters, wash carefully with antibacterial
+soap and tepid water, apply antibiotic ointment, and
+re-bandage.\n\n
+When to Call for Help\n\n
+For all burns, if you are unsure of the seriousness, call
+emergency number or go to an emergency department.
+All burns on children, as well as any of the following, need
+to be seen by a doctor:\n\n
+• Third-degree burns\n
+• Second-degree burns larger than an area the size of
+the palm of your hand\n
+• First-degree burns larger than a five-palm-sized area\n
+• Burns that extend all the way around an arm or leg\n
+• Any mixed
+pattern of varying degrees of burns
+Burns to the genital area, face, hands, or feet\n\n
+First Aid for Severe Burns\n\n
+Any burned person who is experiencing dizziness or
+confusion, weakness, fever or chills, or shivering needs
+immediate medical attention. For serious burns, always
+call emergency number first, and then perform the
+following steps, remembering to stay safe, assess the
+situation, and use universal precautions if you are able to:\n\n
+1. Extinguish the cause of the burn if you are able to with
+water or by wrapping the injured person in a heavy towel,
+coat, or blanket and rolling them on the ground. Make
+sure none of the smoldering materials are in contact with
+the injured person, but don' tremove any burnt clothing.\n\n
+2. Check for ABCS as outlined in Chapter 2, clear the
+airway if necessary, and begin CPR.\n\n
+3. Cool the burned area with running water as outlined for
+treatment of minor burns, being careful not to overcool
+the injured person.\n\n
+4. Wait for help to arrive, or if transporting the person
+yourself, cover the burned area with a dry, sterile
+bandage or a clean nonfibrous cloth such as a sheet, not
+a blanket or towel, as fibers may stick to injured tissues.
+Don' tapply ointments, creams, or lotions, and don t
+break any blisters.\n\n
+Second-degree burns that are two inches or larger in
+diameter and all third-degree burns require emergency
+medical assistance.\n\n
+Treating Minor Burns\n\n
+Minor burns, or first-degree burns, and smal
+second-degree burns can be treated properly at home
+with the following steps:\n\n
+1. For chemical burns, remove chemical source and all
+clothing or jewelry having contact with the chemical.\n\n
+2. Cool the burn under running water, immerse the
+burn in cold water, or cover it with cold packs for about
+fifteen to twenty minutes in order to stop the burn from
+damaging surrounding tissue and to reduce pain. Cover
+cold packs, and never apply ice directly to the skin.\n\n
+3. After a first-degree burn has cooled completely, apply
+lotion or moisturizer to soothe and prevent dryness.\n\n
+4. Cover the burn with a loosely wrapped sterile gauze
+bandage if necessary to keep pressure and air off the
+burn to reduce pain. If you can do so without causing
+irritation to the area, leave the burn uncovered because
+minor burns heal faster and more completely when they
+are not covered.\n\n
+5. Use OTC pain relievers such as aspirin (adults only),
+ibuprofen, naproxen, and acetaminophen as needed for
+pain.\n\n
+6. For any very tender, fluid-filled blisters, you may snip
+a tiny hole with small scissors that have been sterilized in
+alcohol. For these and any broken blisters, wash carefully
+with antibacterial soap and tepid water, apply antibiotic
+ointment, and rebandage.
+As minor burns heal"/>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

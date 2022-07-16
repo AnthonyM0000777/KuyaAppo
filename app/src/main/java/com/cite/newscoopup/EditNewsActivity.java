@@ -1,9 +1,5 @@
 package com.cite.newscoopup;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +7,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
@@ -36,13 +36,14 @@ public class EditNewsActivity extends AppCompatActivity {
     private Button addNewsBtn, deleteNewsBtn;
     private FirebaseAuth mAuth;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
         setContentView (R.layout.activity_edit_news);
 
         Calendar calFordDate = Calendar.getInstance ();
-        SimpleDateFormat currentDate = new SimpleDateFormat ("  MMMM-DD-yyyy ");
+        SimpleDateFormat currentDate = new SimpleDateFormat ("  MM-dd-yyyy ");
         saveCurrentDate = currentDate.format (calFordDate.getTime ());
 
         Calendar calFordTime = Calendar.getInstance ();
@@ -99,13 +100,13 @@ public class EditNewsActivity extends AppCompatActivity {
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         loadingPB.setVisibility(View.GONE);
                         databaseReference.updateChildren(map);
-                        Toast.makeText(EditNewsActivity.this, "News Updated", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(EditNewsActivity.this, "Post Updated", Toast.LENGTH_SHORT).show();
                         startActivity(new Intent (EditNewsActivity.this, MainActivity.class));
                     }
 
                     @Override
                     public void onCancelled(@NonNull DatabaseError error) {
-                        Toast.makeText(EditNewsActivity.this, "Fail to update News", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(EditNewsActivity.this, "Fail to update post", Toast.LENGTH_SHORT).show();
                     }
                 });
             }
@@ -130,7 +131,7 @@ public class EditNewsActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         databaseReference.removeValue();
-                        Toast.makeText(EditNewsActivity.this  , "News Deleted", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(EditNewsActivity.this  , "Post Deleted", Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(EditNewsActivity.this, MainActivity.class));
                         finish ();
                     }

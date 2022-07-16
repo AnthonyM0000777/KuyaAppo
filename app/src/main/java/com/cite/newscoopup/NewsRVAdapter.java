@@ -1,7 +1,6 @@
 package com.cite.newscoopup;
 
 import android.annotation.SuppressLint;
-import android.content.ClipData;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,7 +16,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 
 public class NewsRVAdapter extends RecyclerView.Adapter<NewsRVAdapter.ViewHolder> {
     private ArrayList<NewsRVModal> newsRVModalArrayList;
@@ -44,7 +42,7 @@ public class NewsRVAdapter extends RecyclerView.Adapter<NewsRVAdapter.ViewHolder
         NewsRVModal newsRVModal = newsRVModalArrayList.get(position);
         holder.newsDate.setText (newsRVModal.getNewsDate());
         holder.newsTV.setText (newsRVModal.getNewsName());
-        holder.uploader.setText (newsRVModal.getUploader ());
+        //holder.uploader.setText (newsRVModal.getUploader ());
         Picasso.get().load(newsRVModal.getNewsImg()).into(holder.newsIV);
         setAnimation(holder.itemView, position);
         holder.newsIV.setOnClickListener(new View.OnClickListener() {
@@ -79,7 +77,7 @@ public class NewsRVAdapter extends RecyclerView.Adapter<NewsRVAdapter.ViewHolder
             newsDate = itemView.findViewById (R.id.idTVNewsDate);
             newsIV = itemView.findViewById(R.id.idIVNews);
             newsTV = itemView.findViewById(R.id.idTVNewsName);
-            uploader = itemView.findViewById(R.id.idTVUploadBy);
+            //uploader = itemView.findViewById(R.id.idTVUploadBy);
         }
     }
 

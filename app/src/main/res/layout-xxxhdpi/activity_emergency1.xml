@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Emergency1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="This app' s intention is to give you solid
+first-aid principles and an introduction to
+emergency response. The most important
+first step in first aid is to do no further harm.
+The correct principles for action are covered
+in detail in the book, but the following list
+briefly outlines some of the more common
+first-aid myths.\n\n\n
+1.) Never slap a choing person on the back
+-let the person cough and the object may
+dislodge itself. If the person stops coughing
+or breathing, then perform the Heimlich
+maneuver.\n\n
+2.) Never cut and suck the skin of or apply a
+tourniquet to a person with a snakebite.
+Sucking may introduce more bacteria and
+spread the venom, and a tourniquet will cut
+off blood supply to the area.\n\n
+3.) Peeing on a jellyfish sting won't help the
+pain.\n\n
+4.) Don' t breathe into a paper bag for
+hyperventilation.\n\n
+5.) Don't drink alcohol to warm up when cold, it
+will only lead to hypothermia in cold weather.\n\n
+6.) Don't drink alcohol for a toothache or any
+other pain.\n\n
+7.) Don't put butter, Crisco, or any other type of
+grease on a burn; grease can trap heat and
+lead to infection and scarring.\n\n
+8.) Don't put a raw steak on a black eye or any
+other injury: the bacteria on the meat may
+Contaminate the wound or the eye.\n\n
+9.) Don't use hydrogen peroxide to clean
+wounds, it may kill the body s defensive
+cells that are rushing to the wound to take
+care of invading bacteria.\n\n
+10.) People don't swallow their tongues during
+seizures, so don t try to hold the tongue or
+put anything in the mouth. Don't restrain the
+person either.\n\n
+11.) Don't squeeze the stinger on a bee sting
+or try to pull it out with tweezers this will
+squeeze venom into the wound; use a credit
+card to scrape it away.\n\n
+12.) Don't throw your head back during a
+nosebleed-it will cause blood to run down
+your throat and you may vomit. Instead, lean
+forward slightly and pinch your nose for ten
+full minutes.\n\n
+13.) If you have something embedded in your skin,
+you should not pull it out if there is a chance
+the object is sealing a wound and preventing
+bleeding. Get medical help if you are not sure.\n\n
+14.) Don't continue to run with shin splints;
+running while injured will increase your injury.\n\n
+15.) Don't put vinegar on a sunburn; instead,
+apply cool compresses.\n\n
+16.) You can't stop motion sickness by staring at
+a point on the horizon.\n\n
+17.) Poison ivy is not contagious, but the oil is. If
+the oil is on you, it can be spread to others.\n\n
+18.) Don't use rubbing alcohol to cool down a
+fever-it will absorb into the skin and may
+cause further illness."
+            android:id="@+id/txtview1"/>
+    </ScrollView>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Internals">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="You can almost always identify external bleeding, but
+internal bleeding is more difficult to detect and to treat.
+Losing blood inside the body may lead to insufficient
+blood flow to the tissues and organs, and dangerously
+low or loss of blood pressure due to insufficient volume
+of blood or plasma, called hypovolemic shock, which will
+result in death if untreated.\n\n
+Essential\n\n
+Call your medical provider immediately for
+bleeding from any body opening such as the
+mouth, ears, nose, or rectum because it is
+a sign of internal bleeding that is a serious
+condition requiring urgent medical care.\n\n
+Internal bleeding can be the result of such things as
+motor-vehicle accidents and domestic violence, causing
+internal trauma and fractures; bleeding duodenal or
+gastric ulcers; brain hemorrhage; and ectopic pregnancy
+(pregnancy occurring outside the uterus that is life
+threatening and requires immediate medical attention).
+Severe internal bleeding is usually caused bya blunt
+trauma, a violent force such as in motor-vehicle
+accidents, or from puncture wounds such as knife or
+gunshot wounds. Whenever signs of shock are present,
+you must suspect internal bleeding.\n\n
+The more common signs of internal bleeding are:\n\n
+• Bruises (contusions), which may indicate deeper
+damage\n
+• Anxiety and restlessness\n
+• Excessive thirst\n
+• Nausea and vomiting\n
+• Rapid breathing (tachypnea)\n
+• Cold and clammy skin\n
+• Pale ashen or bluish skin\n
+•A rapid, weak pulse (tachycardia)\n
+• Any bruising or discoloration at the area
+of injury\n
+• Blood in the stool, or stool that appears black and tarlike\n
+• Blood in the urine\n
+• Swelling, distended (bloated) abdomen \n
+• Anxiety and restlessness\n
+• Excessive thirst\n
+• Nausea and vomiting\n
+•Rapid breathing (tachypnea)\n
+• Cold and clammy skin\n
+• Pale ashen or bluish skin\n
+•A rapid, weak pulse (tachycardia)\n
+• Any bruising or discoloration at the area of injury\n
+• Blood in the stool, or stool that appears black and tarlike\n
+• Blood in the urine\n
+• Swelling, distended (bloated)
+abdomen\n
+• Vomiting dark red (resembling coffee grounds)\n
+• Decreased level of consciousness\n
+• Severe headache\n
+First Aid for Internal Bleeding\n\n
+Use the following steps to treat internal bleeding:\n\n
+1. Apply a cold pack or ice pack covered with a cloth to
+bruises in order to reduce pain and swelling.\n
+2. Call emergency number and place the injured person
+with legs elevated if there is no chest injury.\n
+3. In a case of chest injury, elevate the head and torso
+and keep the person warm until help arrives.\n
+4. Manage shock as outlined in Emergency Response
+menu.\n
+5. Don' tallow the person to eat or drink or take any
+medication unless you are advised to do so by a doctor.\n\n
+Essential\n\n
+Examine the injured person for bruises,
+grazes, or discoloration in the chest area,
+markings from a seat belt, chest pain, and
+difficulty breathing: these may be signs of
+internal bleeding, so you need to be alert, as
+you may need to manage for shock."/>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

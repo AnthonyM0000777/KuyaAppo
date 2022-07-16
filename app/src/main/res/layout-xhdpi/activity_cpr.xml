@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cpr">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="The origins of cardiopulmonary resuscitation (CPR) can
+be traced back to 1740, when the Paris Academy of
+Sciences first formally recommended mouth-to-mouth
+resuscitation for near-drowning victims. Over a
+hundred years later in 1891, the first documented and
+effective chest compression in humans was performed
+by Dr. Friedrich Maass. Through the years the use of
+external chest compressions in human resuscitation
+was attempted and analyzed, and it was proven that
+expired air by a rescuer is sufficient to oxygenate an
+unresponsive person. CPR was then officially developed
+and instituted in 1960, anda program by the American
+Heart Association (AHA) provided CPR training and
+encouraged the use of CPR by the general public. The
+American Red Cross and other agencies came on
+board to institute performance standards, standardized
+training, and certification for CPR for intervention
+of sudden cardiac arrest and acute life-threatening
+cardiopulmonary problems.\n\n
+Every five years the AHA guidelines for CPR and
+emergency cardiac care are reviewed, improved, and
+updated to improve survival rates of life-threatening
+events. AHA establishes these guidelines with the
+cooperation of other organizations, peer-reviewed
+studies, and other systematic evidence-based study
+and review. The following is a review of the most recent
+(2005) AHA CPR and resuscitation protocol."/>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

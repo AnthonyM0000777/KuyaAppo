@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stations">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Any workplace that involves potential eye injuries
+such as working with corrosive, irritating, toxic, or
+tissue-damaging materials needs to be equipped with an
+emergency eyewash station to protect you from serious
+eye damage or blindness. Workplaces that have potential
+chemical, biological, or radiological hazards need to
+be equipped with emergency shower stations. All other
+workplaces need to have a central emergency location
+where emergency supplies are located. The station or
+area should include the following:\n\n
+• Emergency phone numbers\n
+• The location of a fire-alarm manual pull-station posted\n
+• Two portable fire extinguishers\n
+• First-aid supplies\n
+• Flashlights and batteries\n
+• Approved power strips and extension cords\n
+•A portable AM/FM radio with batteries and emergency\n
+• radio or walkie-talkie\n
+•A laboratory spill kit if needed\n\n
+Essential\n\n
+All workers need to be educated about any
+onsite hazards such as flammable materials,
+toxic chemicals, radioactive sources, or
+water-reactive substances. Also, Someone
+needs to be the designated in charge
+        person during work hours.
+        Your workplace first-aid kit should have the essential
+        items outlined in First Aid Basics menu in quantities
+        sufficient for the numbers of people employed, as well as
+    the following items:\n\n
+    •1or more large, absorbent compresses\n
+    • 16 or more 1 x 3 adhesive bandages
+    Several rolls of adhesive tape\n
+    • Smelling salts or ammonia inhalants\n
+    • 10 or more packets of povidone-iodine\n
+    •A dozen pairs of medical-exam gloves (latex and
+    nonlatex)\n
+    • 4 or more sterile pads\n
+    •1 large triangular bandage\n
+    •1eye patch\n
+    •1ounce of eye wash\n
+    •1 chemical cold pack\n
+    • 2 wide roller bandages\n
+    •3 wide roller bandages\n
+    • CPR barrier device\n\n
+    Where ls Your AED?\n\n
+    Learning to use the AED should also be a part of your
+    emergency protocol, planning, and training. According
+    to OSHA, cardiac arrest causes 15 percent of workplace
+    fatalities, and 40 percent of these lives could be saved
+    with the use of an AED within five minutes of arrest.
+    Having an AED that can be reached in two or three
+    minutes by every location of your workplace is a matter
+    of life and death.\n\n
+    Fact\n\n
+    CPR rescue attempts that use an AED
+    improve survival rates by as much as 49
+    percent, according to the American Heart
+    Association. That s why it' s critical to have
+    access to an AED particularly in locations with
+    large population groups and in homes where
+    family members have serious health problems
+    particularly heart disease."/>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Samaritan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Because of today' s litigious society, there may be a
+certain reluctance to help out in emergency situations.
+Due to the fear of liability that may stop someone from
+getting involved, each state has laws or regulations
+known as Good Samaritan laws to protect you from any
+liability related to rescues or rescue attempts.\n\n The intent
+of Good Samaritan laws is to protect those who come
+to the aid of others for no other reason than good will,
+without any expectation of reward. If your daily job is
+some type of rescue worker, then you are accountable
+for any mistakes and aren' t covered under Good
+Samaritan laws, because it is expected that you know
+what you are doing and that should do a good job.\n\n
+Fact\n\n
+Other ways to stay out of court include
+taking a CPR and first-aid class; staying
+updated and current on your skills following
+training; acting confidently while using
+common sense; calling emergency number
+immediately; not trying to do anything you' re
+not trained to do or that is out of your comfort
+zone; and not accepting gifts or rewards.
+Depending on the state you live in, if you help someone
+at an accident and afterward are rewarded monetarily
+or otherwise, your Good Samaritan protection may be
+excluded. So the way to ensure protection from any
+liability when helping others during rescue situations
+is to always act on behalf of the injured party with no
+expectation of reward. If you want primarily to be a
+hero, not to help out a fellow human being, then you risk
+making typical mistakes not covered by Good Samaritan
+laws.\n\n
+Some general expectations of Good Samaritan laws
+are that you perform first aid to the best of your ability,
+and that once you have stepped forward and accepted
+responsibility for helping, you do not leave until other
+qualified help is on the scene and has relieved you. Of
+course, if you feel that your own life is in danger, you have the freedom to leave, and if you are performing
+CPR and you simply must stop from utter exhaustion, you
+may also stop without fear of reprisal. Good Samaritan
+laws may not protect you from every possible event,
+but they do take into account that it s human nature to
+make mistakes, and they do protect against reasonable
+mistakes. However, in that reasonable may be
+        difficult to define, some people who think they should
+    be covered under the Good Samaritan law may find
+    themselves being sued. Ultimately, those lawsuits don' t
+    usually get to court, and if they do, they tend to lose."/>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

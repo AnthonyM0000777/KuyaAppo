@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Elderly">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Older persons often lack strength and flexibility and may
+have bones that tend to be porous and more brittle.
+Further, their senses of sight, hearing, touch, and smell
+are likely to decline with less accurate judgment and
+reaction time. All of these factors make the elderly
+more vulnerable to accidents. The elderly need to take
+precautions including the following basics:\n\n
+• Post emergency numbers next to each telephone and
+have several cordless phones available if possible.\n
+• Install door lever- action handles that are easy to open
+and close; keep door thresholds low and beveled; and
+avoid throw rugs.\n
+• Carpeting and rugs should not be worn or torn, and
+nonskid backing should be used on loose rugs.\n
+• Keep outside steps and railings maintained in good
+condition.\n
+• Use good lighting inside and out.\n
+Store medications in a safe place and make sure all
+prescriptions are current; throw out all medications that
+are past the expiration date.\n
+• Use a nonskid mat or strips on the standing area in
+the bathtub or shower, shower doors of safety glass or
+plastic, and install grab bars on the walls by the bathtub
+and toilet.\n\n
+Essential\n\n
+By keeping track of medications, you can
+avoid problems including overdosing, mixing
+the wrong medications, taking too many of
+the same type of medication, and taking the
+wrong medication. Compile a record that
+includes the name of the medication and
+what it' s used for, directions for use, the
+color and shape of the pills, when it should be
+taken, any precautions, date of prescription,
+and the dispensing pharmacy."/>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

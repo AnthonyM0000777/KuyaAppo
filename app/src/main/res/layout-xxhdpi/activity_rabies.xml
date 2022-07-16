@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rabies">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Rabies is a disease that affects humans who have been
+bitten by an animal infected with the rabies virus, and
+is almost always deadly in infected humans who do not
+receive treatment. In order to become infected, you must
+have contact with an infected animal and exposure to
+their saliva or brain or nerve tissue via open wounds in
+your skin or mucous membranes such as your eyes or
+mouth. Infected animals often appear sick, vicious, or
+crazy, hence the expression mad dog.\n\n But infected
+animals may also seem confused, submissive, and even
+Overly friendly or normal. The time from infection to
+development of symptoms is thirty to sixty days, but may
+range from fewer to ten days to several years. Symptoms
+may progress as follows:\n\n
+• Pain, tingling, or itching from the bite area\n
+• Flu-like symptoms of fever, chills, fatigue, muscle
+aches, and irritability\n
+• High fever\n
+• Confusion\n
+• Agitation\n\n
+Seizures and coma\n\n
+When extremely ill with Rabies, it s common to develop
+irregular contractions and spasms of the breathing
+muscles when around water, referred to as hydrophobia,
+or by feeling a little breeze, called aerophobia.\n\n
+Fact\n\n
+Even the smallest bite can transmit rabies, so
+all bites or scratches by a rabid animal call
+for administration of a rabies shot. Call your
+medical care provider even if you are not
+sure, in order to be examined and evaluated
+for possible treatment.\n\n
+First Aid for Rabies\n\n
+Call your doctor, local public health department, or
+hospital
+s emergency department immediately after
+any exposure to a rabid animal. Treatment may involve any exposure may
+administration of human rabies immune globulin (HRIG)
+and injection of the first in a series of rabies vaccines,
+along with treatment for serious bites wounds and a
+tetanus booster. You can do the following yourself:\n\n
+1. Wash the wound immediately with soap, water, and an
+antiseptic iodine solution.\n
+2. Get the owner
+s name, address, and phone number
+if the animal is a pet so that the animal can be monitored.\n
+3. Contact the local animal-control authorities for any
+wild animals or stray dogs or cats so they can attempt to
+catch the animal.\n
+4. Don' tattempt to capture or subdue an animal
+yourself. If the animal was a bat, shut all windows in the
+room after everyone has been evacuated if you can do
+this with no repeated exposure to the bat."/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

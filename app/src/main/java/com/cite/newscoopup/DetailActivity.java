@@ -14,6 +14,8 @@ public class DetailActivity extends AppCompatActivity {
     TextView title, author, time, detail, content;
     ImageView imgNews;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);

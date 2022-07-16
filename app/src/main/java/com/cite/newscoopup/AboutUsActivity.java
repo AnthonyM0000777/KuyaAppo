@@ -31,6 +31,7 @@ public class AboutUsActivity extends AppCompatActivity {
     private String userID;
     private ImageView fb, email;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
@@ -53,13 +54,13 @@ public class AboutUsActivity extends AppCompatActivity {
         fb.setOnClickListener (new View.OnClickListener () {
             @Override
             public void onClick(View v) {
-                gotoUrl("https://www.facebook.com/Tony1z/");
+                gotoUrl("https://www.facebook.com/pofile.php?id=100067156040939");
             }
         });
         email.setOnClickListener (new View.OnClickListener () {
             @Override
             public void onClick(View v) {
-                gotoUrl("https://mail.google.com/mail/u/0/?tab=rm#inbox?compose=new");
+                gotoUrl("https://mail.google.com");
             }
         });
     }
@@ -81,43 +82,23 @@ public class AboutUsActivity extends AppCompatActivity {
         int id = item.getItemId ();
         switch (id) {
             case R.id.idEdtDashboard:
-                startActivity (new Intent (AboutUsActivity.this, MainActivity.class));
-                this.finish ();
+                startActivity (new Intent (AboutUsActivity.this, AdminDashboad.class));
                 return true;
+
 
             //news headlines
             case R.id.idEdtHeadlines:
                 startActivity (new Intent (AboutUsActivity.this, ApiMainActivity.class));
-                this.finish ();
                 return true;
+
 
             case R.id.idEdtProfile1:
-                //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
-                //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
-                ///this.finish ();
-                return true;
-
-            case R.id.idEdtProfile:
                 startActivity (new Intent (AboutUsActivity.this, EditProfileActivity.class));
-                this.finish ();
-                return true;
-
-            case R.id.idEdtSorting:
-                //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
-                //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
-                ///this.finish ();
-                return true;
-
-            //view upload
-            case R.id.idEdtView:
-                startActivity (new Intent (AboutUsActivity.this, ViewUpload.class));
-                this.finish ();
                 return true;
 
 
             case R.id.idEdtAbout:
                 startActivity (new Intent (AboutUsActivity.this, AboutUsActivity.class));
-                this.finish ();
                 return true;
 
 

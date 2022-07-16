@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emergency2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't Panic!"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"
+                android:id="@+id/panic"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Proper Supplies"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/panic"
+                android:id="@+id/proper"
+                android:layout_marginTop="10dp"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"/>
+
+            <TextView
+                android:id="@+id/medical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/proper"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/bold"
+                android:padding="10dp"
+                android:text="Gathering Medical Information"
+                android:textSize="23sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calling Emergency Number"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/medical"
+                android:id="@+id/number"
+                android:layout_marginTop="10dp"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"/>
+
+
+            <TextView
+                android:id="@+id/universal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/number"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/bold"
+                android:padding="10dp"
+                android:text="Universal Precautions"
+                android:textSize="23sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Proper Training"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/universal"
+                android:id="@+id/training"
+                android:layout_marginTop="10dp"
+                android:textSize="23sp"
+                android:fontFamily="@font/bold"/>
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

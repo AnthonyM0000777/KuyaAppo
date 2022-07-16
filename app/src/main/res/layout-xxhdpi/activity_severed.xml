@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Severed">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="No matter what the cause, a severed limb is a traumatic
+event for first-aid providers and for the injured person,
+so it is vital to remain calm and proceed with a rapid
+response.\n\n
+The following steps should be followed for any severed
+limb:\n\n
+1. Call emergency number immediately.\n
+2. Assess for ABCS, start CPR, and manage for shock as
+needed (see Chapter 2).\n
+3. Do not apply a tourniquet; instead, control the bleeding
+by raising the limb and applying direct pressure.\n
+4. Applya sterile and secure dressing.\n
+5. Regardless of the condition of the limb or limb
+fragments, wrap them in cling film or put them in a plastic
+bag, wrap the bag with something soft like a towel, and
+put it into another plastic bag containing crushed ice.\n
+6. Label the bag with the time of the injury and the
+injured
+person' s name and give it to emergency responders as
+sOon as possible.\n\n
+Never attempt to wash a severed limb or apply any
+antiseptic or disinfectant. Also, do not let the limb or
+limb fragments come into direct contact with ice. Finally,
+don' tuse anything but plastic to wrap the severed limb."/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

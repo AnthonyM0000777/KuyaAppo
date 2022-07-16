@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Motionss">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Motion sickness Occurs when your brain gets signals
+that do not match the signals from your inner ears,
+eyes, muscles, and joints. You may experience motion
+sickness, also known as airsickness, carsickness, and
+seasickness, while traveling by car, train, airplanes,
+and particularly by boat or ship. Symptoms of motion
+sickness include dizziness, fatigue, and nausea often
+progressing to vomiting. Some people are naturally
+prone to motion sickness, and motion sickness is also
+associated with migraines, but others are only bothered
+during extreme turbulence while on a boat or plane.\n\n
+First Aid for Motion Sickness\n\n
+Motion sickness can be treated in the following ways:\n\n
+• The best location to prevent seasickness is an interior
+location of a large ship, or facing forward and looking
+outside a ship or plane window.\n
+•For short trips, the OTC medications meclizine, brand
+name Dramamine, and Bonine, are effective and can also
+be used for intermittent symptoms.\n
+• On long trips, the prescription medication
+Transderm-Scop is a patch that can be worn behind the
+ear for as long as three days at a time.\n
+Side effects of these medications are typically
+drowsiness, sedation, and dry mouth. Do not use
+motion-sickness medication if you have glaucoma or
+urinary obstruction.\n\n
+Fact\n\n
+In studies, ginger root has been shown to
+be as effective as medications for motion
+sickness and nausea and has few to no side
+effects. Try taking one gram of ginger in
+capsule form twelve hours prior to traveling
+and up to four grams a day during activities
+that cause motion sickness."/>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Strokes">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Strokes are a medical emnergency and need immediate
+treatment because when blood flow to your brain stops
+for any reason, brain cells begin to die within a matter
+of minutes. The more common type of stroke is called
+ischemic stroke and occurs when a blood clot from
+any part of your body travels to and blocks a blood
+vessel in the brain. The second type of stroke is called
+hemorrhagic stroke, resulting from a blood vessel in the
+brain that breaks and bleeds into the brain. Transient
+ischemic attacks (TIA), or mini strokes, happen when the
+blood supply to the brain is briefly interrupted, usually for
+a periocd of about one minute but less than five minutes,
+and don' tcause injury to the brain, due to the short
+duration. TIA is an important predictor of stroke.
+The warning signs of a TIA or stroke are all sudden and
+include:\n\n
+• Numbness or weakness of the face, arm, or leg,
+particularly on just one side of the body\n
+• Confusion\n
+• Trouble speaking or understanding\n
+• Trouble seeing in one or both eyes\n
+• Difficulty walking\n
+• Dizziness\n
+• Loss of balance or coordination\n
+• Severe headache with no known cause\n
+First Aid for Stroke\n\n
+For any symptoms call emergency number immediately,
+as prompt medical attention can prevent a fatal or
+disabling stroke from occurring. Then do the following:\n\n
+1. Check for ABCS and start CPR if necessary.\n
+2. Place unconscious person in the recovery position as
+outlined in Emergency Response menu.\n
+3. Lay the person down gently, supporting his head and
+shoulders with a pillow or folded garment.\n
+4. Don' tgive him anything to eat or drink.\n
+5. Reassure the person that help is on the way.
+"/>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

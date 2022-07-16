@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Highblood">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="ur arteries. Even with very high, or even
+dangerously high, blood pressure, you don' tusually
+have symptoms, although some people with very high
+blood pressure may have dull headaches, dizziness, or
+frequent nosebleeds.\n\n
+Your risk of high blood pressure increases as you age,
+and although high blood pressure is more common
+in men, women often develop high blood pressure
+after menopause. Hypertension is very common
+among African Americans and correlates with serious
+complications including stroke and heart attack.\n\n
+Question?\n\n
+Why is high blood pressure called a silent
+disease?\n\n
+Hypertension, or high blood pressure, is
+known as a silent disease because you can
+have it for years vwithout any symptoms, but
+uncontrolled high bloocd pressure increases
+your risk of serious health problems such as
+heart attack and stroke.\n\n
+First Aid for Hypertension\n\n
+Hypertension runs in families, so it has genetic risk
+factors, but you can control other risk factors by
+increasing your level of physical activity, which helps
+your heart along with your waistline. The management
+and control of high blood pressure includes the following
+lifestyle modifications and medications:\n\n
+• Quit smoking and keep alcohol consumption
+to no
+more than two drinks a day.\n
+• Lose weight so that you maintain a healthy weight.\n
+• Exercise regularly.\n
+• Reduce sodium (salt) intake.\n\n
+Take medicines directed.\n\n
+Your risk of high blood pressure increases as you age,
+and although high blood pressure is more common
+in men, women often develop high blood pressure
+after menopause. Hypertension is very Common
+among African Americans and correlates with serious
+complications including stroke and heart attack.\n\n
+Question?\n\n
+Why is high blood pressure called a silent
+disease?\n\n
+Hypertension, or high blood pressure, is
+known as a silent disease because you can
+have it for years without any symptoms, but
+uncontrolled high blood pressure increases
+your risk of serious health problems such as
+heart attack and stroke.\n\n
+First Aid for Hypertension\n\n
+Hypertension runs in families, so it has genetic risk
+factors, but you can control other risk factors by
+increasing your level of physical activity, which helps
+your heart along with your waistline. The management
+and control of high blood pressure includes the following
+lifestyle modifications and medications:\n\n
+• Quit smoking and keep alcohol consumption to no
+more than two drinks a day.\n
+• Lose weight so that you maintain a healthy weight.\n
+• Exercise regularly.\n
+• Reduce sodium (salt) intake.\n
+• Take medicines as directed.\n\n
+The American Heart Association recommends a
+minimum of thirty minutes of exercise every other day
+for heart health, and the Surgeon General recommends
+thirty minutes of physical activity daily for overall health.
+Practicing stress-reduction techniques such as deep
+breathing and mediation, along with a healthy lifestyle,
+helps decrease stress and lower blood pressure."/>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

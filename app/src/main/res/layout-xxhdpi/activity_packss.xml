@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Packss">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="You don' twant to end up paying $4 or more for a single
+bandage or pack of acetaminophen at the concierge
+desk, or even worse, have to do without, so take care
+in planning your vacation kit. Your vacation first-aid kit
+should include the same items as the kit you have at
+home, plus the following:\n\n
+• A chemical cold pack or two for treating bruises and
+sprains\n
+•Suntan lotion (SPF 15- SPF 30 is recommended)\n
+• Bismuth subsalicylate for traveler
+s diarrhea\n
+• Moleskin for blisters\n
+• Lip balm\n
+• Moist towelettes for cleaning hands\n
+• Hand sanitizer\n
+• OTC medications for nausea\n
+• Water-purification tablets\n
+• Insect repellent\n
+• Elastic bandages for support or swelling\n
+• Topical pain reliever\n
+• Zip-top freezer bags\n
+• Insect-sting relief pads\n
+• Sanitary napkins (they are sterile and great for
+compresses to stop bleeding)\n
+•Butterfly bandages\n
+• A copy of your family medical history\n
+•A list or chart including phone numbers of pediatricians
+and family doctors\n
+• Any prescription medications
+you are taking in the
+original bottles; or, if you are using traveler s containers,
+be sure to record dosages and exact names of each drug\n
+•First-aid manual\n
+• Guidebook\n
+•A phrase book that covers vocabulary on illnesses
+and
+talking to a doctor
+Some people also like to take such things as cold
+medicine, a nasal decongestant, zinc lozenges, vitamin C
+and echinacea, and a can opener and bottle opener.
+A great container for your traveling first-aid kit could
+be a small cooler with a zipper and shoulder strap. They
+have the ability to keep items at an even temperature, are
+lightweight and easy to fit in with other luggage, and easy
+to carry.\n\n
+Essential\n\n
+Make sure to bring your doctor s
+phone number and the number of any
+recommended specialists in travel medicine
+in case you need a consultation or a second
+opinion while traveling. Keep these numbers
+handy and make sure that everyone traveling
+with you knows where to find thenm.\n\n
+Sunglasses are a must for sunny destinations, but make
+sure to avoid yellow- or blue-lens sunglasses because
+they tend to distort colors and are not safe choices for
+driving. Sunglasses should block 99 -100 percent of UVA
+and UVB rays according to the American Academy of
+Ophthalmology, so make sure to check the label when
+you purchase a pair--it should tell you the amount of
+protection the sunglasses provide."/>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

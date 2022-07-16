@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Spinal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Spinal-cord injuries are often associated with unsafe
+conditions such as traffic accidents, falls, rock slides, and
+avalanches, so it' s critical for you to check the safety of
+the scene before helping. Call emergency number, and
+after assessing for ABCS, ask the injured person what
+their name is, if they knoW where they are and what time
+of day it is, and if they remember what happened, in order
+to determine their level of consciousness. An incorrect
+answer to the first three questions is an indicator of head
+injury and possibly a corresponding spinal-cord injury.\n\n
+Any signs of drug or alcohol use or other injuries that
+are causing the person enough pain to ignore spinal
+discomfort need to be taken into consideration. Pressing
+lightly on a fingernail on each hand and a toenail on
+each foot and not seeing pink coloring return within two
+seconds of the release of pressure may indicate loss of
+circulation due to a spinal injury. Ask the person toO move
+his fingers and toes, because difficulty moving or lack of
+movement indicates a spinal injury. Numbness or tingling
+when gently squeezing the fingers and toes also indicates
+possible spinal injury.\n\n
+If you have any doubt, always assume a spinal-cord
+injury is present. You must stabilize the neck by remaining
+at the injured person
+s head, holding the neck immobile
+gently but firmly with one hand on each side of the head.
+If you have to move the person for any reason, you must
+logroll the person as outlined in Emergency Response
+menu. Keep the injured person
+S neck stabilized until
+help arrives."/>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

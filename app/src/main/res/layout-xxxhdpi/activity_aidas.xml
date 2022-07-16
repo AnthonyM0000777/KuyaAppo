@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aidas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="There are three critical steps in emergency first aid.
+A person needs all three common denonminators to
+live, and basic life support or CPR, together with early
+defibrillation, is proven to improve long-term survival
+after a cardiac arrest. While this book outlines the basic
+steps for cardiopulmonary resuscitation, it should not
+be relied on for instruction; rather, it should be used
+for an introduction and followed by formal training and
+exercises. You can find CPR and first-aid classes by
+calling the American Heart Association or the American
+Red Cross.\n\n
+The ABCS of first aid is a mnemonic that stands for
+airway, breathing, and circulation:
+Airway: Is the airway unobstructed? Use measures to
+clear the airway.\n\n
+Breathing: Is the person breathing? Start rescue
+breathing.
+Circulation: Is the person' s heart beating? Start chest
+compressions."/>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

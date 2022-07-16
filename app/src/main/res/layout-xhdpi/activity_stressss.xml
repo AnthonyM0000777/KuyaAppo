@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stressss">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/bold"
+        android:padding="10dp"
+        android:textSize="23sp"
+        android:text=" little stress gives you the energy and motivation to
+meet challenges, goals, and deadlines at work. Stress
+pushes you to achieve so that you accomplish things that
+result in feelings of satisfaction and happiness. But too
+much stress has negative impacts, Such as exhaustion,
+frustration, dissatisfaction, and even mental and physical
+health problems, and eventually total burn out.\n\n
+Unrealistic demands in a job and insufficient control
+over job tasks and situations often lead to unhealthy
+amounts of stress. Job uncertainty, such as fear of
+layoff and increased demands for overtime, are also
+typical negative stressors. Feeling pressured or having
+little encouragement and praise at work can also lead
+to stress, burnout, and decreased job satisfaction.
+An accumulation of stressors has the potential to
+create negative and unhealthy stress. Stressors can
+result from factors such as degree of responsibility,
+conflicting job demands, and working too much or too
+little, which can lead to boredom. Pace and variety of
+work, personal feelings about the meaningfulness of
+work, level of autonomy, or the ability to make decisions
+about your job and tasks are factors that may contribute
+to stress. Environmental factors such as noise, light,
+room temperature, and air quality may add to physical
+problems as well as emotional stress. Shift work and
+work hours that can lead to sleep deprivation are often
+stressors that can lead to burnout.\n\n
+Dealing with Workplace Stress\n\n
+Workplace stresses and degree of stress have a lot of
+variation, so strategies to reduce or prevent stress also
+have to be multifaceted. Environmental stressors like
+noise control, poor lighting, and ergonomics need to
+addressed, but it' s up to you to report these stressors
+to your boss or management. If you feel you have too
+much responsibility and too little authority, are subject to
+unfair labor practices, or have an inadequate, undefined
+job description, you can address concerns by talking
+with your supervisors first and then your union or other
+organizations or grievance or personnel offices. Ask
+to have your job description clarified, and don' t stay differently
+The old expression, Find a job you love and you |Il
+never Work another day in your life,
+holds true. \n\nAnd
+while it may not be possible to change jobs, you can
+approach your supervisor with all of your concerns
+and about providing stress-management training; and
+you can take advantage of your employee-assistance
+program (EAP) if available; this will improve your ability to
+cope with difficult work situations. In order to keep stress
+at bay, practice the following stress-reduction techniques
+in your daily life:\n\n
+1. Get an adequate amount of sleep (make sleep a
+priority).\n
+2. Develop a support system to share your feelings and
+get validation and support.\n
+3. Maintain a regular exercise program.\n
+4. Eat a nutritious and balanced diet.\n
+5. Reduce or eliminate caffeine and sugar.\n
+6. Don't use alcohol or drugs to self-medicate.\n
+    7. Set aside some Me
+    time every day.\n\n
+    Beyond Stress
+    Burnout is a state of extreme emotional and physical
+    exhaustion caused by prolonged and excessive stress
+    over time. It may occur after feeling overwhelmed and
+    unable to meet continual and constant demands. As the
+    stressors continue, a person will begin to lose any interest
+    or motivation that first brought them to pursue their job or
+    take on their current role. Burnout reduces productivity
+    radically, causes feelings of fatigue and apathy, and
+    increasingly powerless, hopeless, cynical, and resentful.
+    Burnout can eventually threaten your job, your health,
+    and your relationships. You are usually aware of being
+    under a lot of stress, but you may not always notice
+    burnout when it happens. Burnout' s roots are in Burnout can eventually threaten your job, your health,
+    and your relationships. You are usually aware of being
+    under a lot of stress, but you may not always notice
+    burnout when it happens. Burnout s roots are in
+    excessive stress, and it sa gradual process, so learn to
+    recognize symptoms and address them early on. Signs
+    and symptoms of burnout include:\n\n
+    •Feelings of frustration and powerlessness\n
+    • Hopelessness\n
+    • Being emotionally drained\n
+    • Detachment, isolation, and withdrawal (both at work
+    and at home)\n
+    • Feeling trapped\n
+    •Feelings of failure\n
+    • Irritability\n
+    • Sadness\n
+    • Cynicism\n\n
+    Many of the stress-prevention techniques outlined
+    previously can also help prevent burnout. But the best
+    way to head off job burnout is to change what you are
+    doing, whether that means changing careers or jobs in
+    your workplace. If neither of these is an option for you,
+    there are still a number of steps you can take to recover
+    from burnout, including talking to your employer about
+    clarifying your job description. You may be unrealistically
+    overextended or doing work you didn' t sign on for and
+    are not getting paid for. Request a transfer to another
+    department, or ask for new or more varied duties.\n\n
+    Alert!\n\n
+    By law, you have the right to feel comfortable,
+    stay saf"/>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

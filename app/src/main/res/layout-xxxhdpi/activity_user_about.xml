@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsActivity"
+    android:background="@drawable/bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/us"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="215dp"
+                android:fontFamily="@font/bold"
+                android:gravity="center_horizontal"
+                android:text="Developer Informations"
+                android:textAlignment="center"
+                android:textColor="@color/black_shade_2"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/us"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/bold"
+                android:gravity="center_horizontal"
+                android:text="Anthony Magat"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/desc0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/desc"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/medium"
+                android:text="Programmer"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/desc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/desc0"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/bold"
+                android:gravity="center_horizontal"
+                android:text="Maria Theresa Langcauon "
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/desc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/desc1"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/medium"
+                android:text="Leader"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal" />
+
+
+            <TextView
+                android:id="@+id/desc3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/desc2"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/bold"
+                android:gravity="center_horizontal"
+                android:text="Dennis Yares"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+
+            <TextView
+                android:id="@+id/desc4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/desc3"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/medium"
+                android:text="Designer"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/desc5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/desc4"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/bold"
+                android:gravity="center_horizontal"
+                android:text="Danvell John Remoblas"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/desc8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/desc5"
+                android:fontFamily="@font/medium"
+                android:text="Documenter"
+                android:layout_centerVertical="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/desc6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/desc8"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/bold"
+                android:gravity="center_horizontal"
+                android:text="Samuel Bayot Jr."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/desc7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/desc6"
+                android:fontFamily="@font/medium"
+                android:text="QA Tester"
+                android:layout_centerVertical="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal" />
+
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/desc7"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/bold"
+                android:text="Contact Us"
+                android:textAlignment="center"
+                android:textColor="@color/black_shade_2"
+                android:textSize="30dp"
+                android:gravity="center_horizontal" />
+
+
+            <LinearLayout
+                android:id="@+id/idLL"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@id/contact"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/idFB"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="30dp"
+                    app:srcCompat="@drawable/fb1"></ImageView>
+
+                <ImageView
+                    android:id="@+id/idEmail"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="32dp"
+                    app:srcCompat="@drawable/g1"></ImageView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/idAbout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idLL"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/bold"
+                android:text="About"
+                android:textAlignment="center"
+                android:textColor="@color/black_shade_2"
+                android:textSize="25dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/idus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idAbout"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/medium"
+                android:gravity="center_horizontal"
+                android:text="Trusted and reliable, with KuyaAPPo mobile based application!\nMDRRMO rescue app and see the latest news updates in Cuyapo Nueva Ecija."
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

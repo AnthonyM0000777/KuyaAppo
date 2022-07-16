@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HeadTrauma">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="lipping-, tripping-, and falling-related injuries account
+for thousands of deaths each year and millions of
+disabling injuries. When someone does fall, broken bones
+are often the result, but sometimes falls result in a more
+serious injury referred to as a head trauma or head injury.
+In fact, head injuries from slipping, tripping, or falling are
+one of the most common causes of disability and death in
+both children and adults.\n\n
+Head injuries may be mild to severe injuries that occur
+to the scalp and skull, such as lacerations and skull
+fractures, injuries to the brain and underlying tissues
+and blod vessels in the head. Depending on the extent
+of the head trauma, a head injury can also be called a
+brain injury, or traumatic brain injury (TBI). Concussions
+are head injuries that may cause immediate loss of
+awareness or alertness for a few minutes or a few hours
+after the event. Contusions are bruises to the brain that
+cause bleeding and swelling inside the brain in the area of
+impact to the head. A skull fracture is a break in the skull
+bone.\n\n
+In head injuries that are caused by falling ora direct blow
+to the head, such as shaking a child, a whiplash-type
+injury occurs, and bruising and damage to the brain, the
+tissue, and blood vessels is caused when the brain jolts
+backward, striking the skull on one side and rebounding
+to strike the other side. This jarring can also cause tearing
+of the lining, tissues, and blood vessels, causing internal
+bruising, bleeding, or swelling of the brain.\n\n
+Symptoms of Head Injuries\n\n
+Mild head injuries do not require medical attention. The
+symptonms of a mild head injury may include:\n\n
+•A raised, swollen area ranging from a bump or bruise to
+small, shallow cuts in the scalp\n
+• Headache
+Symptoms of moderate-to-severe head injury include:\n\n
+• Confusion\n
+• Loss of consciousness\n
+• Blurry vision
+Blurry\n
+• Severe headache\n
+• Vomiting\n
+• Slurred speech\n
+• Inability or difficulty walking\n
+• Dizziness\n
+• Weakness on one side or area of the body\n
+• Sweating, pale skin\n
+• Seizures\n
+• Blood or clear fluid draining from the ears or nose\n
+• Unequal pupils\n
+• Deep cuts or lacerations in the scalp, an open wound in
+the head, or a foreign object penetrating the head or skull
+There also may be behavior changes including irritability
+and loss of short-term memory, such as being unable to
+accurately remember the incident or events prior to it.\n\n
+First Aid for Head Injury\n\n
+In the case of any signs of moderate-to-severe head
+injury, call emergency number immediately. You can treat
+and care for minor head injuries safely at home, but you
+should always call your doctor or seek medical attention if
+you have any concern about how serious the head injury
+is. In the case of bleeding under the scalp or bruises that
+use ice
+are outside the skull known as
+goose eggs,\n\n
+packs immediately in order to reduce sweling. Goose
+eggs are common and go away on their own in time.
+Never apply ice directly to the skin, but cover it with a
+cloth or towel, or use a bag of frozen vegetables wrapped
+in cloth or store-bought chemical ice packs and apply for
+twenty to thirty minutes ata time, about every two to four
+hours in the first twenty-four hours.\n\n
+Minor injuries usually occur from heights that are less
+than the height of the person, and occur on a soft
+area like carpeting, with no loss of consciousness. For
+these injuries, apply ice to lessen swelling and watch
+the person closely, prescribe bed rest with the head
+elevated and give fluids and a mild pain reliever such as
+acetaminophen as needed. Treat any superficial cuts as
+outlined in Common In-Home Incidents menu. Any deep
+cuts need to be seen by a doctor and examined for any
+foreign matter and hidden injuries. The cuts will also be cleaned and closed with stitches, staples, or glue, and
+a tetanus shot will be given if the injured person has not
+received one in the last five to ten years.\n\n
+Essential\n\n
+To make an ice pack, put one-third cup of
+70% isopropyl alcohol and two-thirds cup
+of water in a plastic zip-topstyle bag. This
+mixture will turn into a slush. You may make
+these packs ahead of time and freeze them to
+use as needed. Use crushed ice in water with
+small children because drinking this mixture
+can be poisonous."/>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

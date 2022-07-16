@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodPoison">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Any activity involving food has the potential to create
+food poisoning or food-borne illness. Wash your hands
+before you start to cook or work in the kitchen and keep
+all food-preparation surfaces clean, using separate
+cutting boards for separate jobs so that you don' tcross
+contaminate. Always wash fresh food before chopping,
+cutting, or eating it. When you are handling meats, follow
+the directions on the package labels. If you question the
+freshness of food in your refrigerator, then throw it out.\n\n
+Food poisoning has two main categories: infective
+agents and toxic agents. Infective agents are mostly
+viruses, bacteria, and parasites. Toxic agents include
+such things as poisonous mushrOoms, pesticides on
+fruits and vegetables, and improperly prepared exotic
+foods. Most food-poisoning cases where a specific
+Contaminant is found are caused by viruses and bacteria.\n\n
+Toxic agents don t cause food poisoning as often
+as infectious agents do, and are usually related to an
+isolated episode caused by poor food preparation or
+something like picking wild mushrooms. When eaten,
+pesticides such as those found on unwashed vegetables
+or fruits may cause mild to severe illness with symptoms
+of weakness, increased salivation, blurred vision,
+headache, cramps, diarrhea, and shaking of the arms
+and legs. In recent years, some foods have been recalled
+by manufacturers due to contamination that has caused
+illnesses and even deaths.\n\n
+First Aid for Food Poisoning\n\n
+Use the following guidelines for treating food poisoning:
+• Anyone who is experiencing short episodes of
+vomiting and small amounts of diarrhea that last less
+than twenty-four hours can be cared for at home
+by abstaining from solid food during the nausea and
+vomiting phase and drinking plenty of fluids, ideally clear
+liquids.\n\n
+• Try to avoid alcoholic, caffeinated, or sugary drinks,
+and use over-the-counter rehydration products that
+are made specifically for children, such as Pedialyte
+and Rehydralyte, and sports drinks like Gatorade and
+Powerade diluted with water (full-strength energy drinks.\n\n
+Toxic agents don' t cause food poisoning as often
+as infectious agents do, and are usually related to an
+isolated episode caused by poor food preparation or
+something like picking wild mushrooms. When eaten,
+pesticides such as those found on unwashed vegetables
+or fruits may cause mild to severe illness with symptoms
+of weakness, increased salivation, blurred vision,
+headache, cramps, diarrhea, and shaking of the arms
+and legs. In recent years, some foods have been recalled
+by manufacturers due to contamination that has caused
+illnesses and even deaths.\n\n
+First Aid for Food Poisoning\n\n
+Use the following guidelines for treating food poisoning:\n\n
+• Anyone who is experiencing short episodes of
+vomiting and small amounts of diarrhea that last less
+than twenty-four hours can be cared for at home
+by abstaining from solid food during the nausea and
+vomiting phase and drinking plenty of fluids, ideally clear
+liquids.\n\n
+• Try to avoid alcoholic, caffeinated, or sugary drinks,
+and use over-the-counter rehydration products that
+are made specifically for children, such as Pedialyte
+and Rehydralyte, and sports drinks like Gatorade and
+Powerade diluted with water (full-strength energy drinks
+contain too much sugar and may Worsen diarrhea) for
+adults.\n\n
+• After nausea and vomiting have stopped and you have
+been able to tolerate fluids, resume eating regular food
+slowly beginning with plain foods such as rice, wheat
+cereals and breads, potatoes, bland cereals, lean meats,
+and baked chicken that are easy on the stomach. Unless
+you have lactose intolerance you can safely drink milk
+also.\n\n
+Most of the time, you do not need an OTC medicine
+to stop diarrhea, but they are usually safe if used as
+directed and only by adults. If you have any concerns
+or symptoms of dehydration or nausea, vomiting, and
+diarrhea that last longer than twenty-four hours, bloody
+diarrhea and/or high fever, seek medical attention."/>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Asthmas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Asthma affects the breathing passages of the lungs
+(bronchioles) due to chronic inflammation. This
+inflammation causes the airways of the person with
+asthma to become highly sensitive to a variety of
+triggers,
+    and when triggered, the passages swell
+    and fill with muCus. This in turn causes the muscles
+    within the breathing passages to contract or spasm
+    (bronchospasm), which results in further narrowing
+    of the airway passages, making it difficult for air to be
+    exhaled from the lungs. It' s this resistance to exhaling
+    that results in the typical symptoms of an asthma attack,
+    including wheezing, difficulty breathing, pain or tightness
+    in the chest, anxiety, coughing, choking sensation,
+    Sweating, increased pulse, and recurrent, spasmodic
+    coughing that is often worse during the night.\n\n
+    If you have asthma, you have to learn to live with the
+    condition and be aware of any danger of attacks when
+    exposed to something that is a trigger for you. Asthma
+    can' tbe cured, but it can be controlled, particularly if
+    it is diagnosed early and treatment is begun right away.
+    You should always see your doctor regularly and follow
+    your treatment recommendations. Report any changes
+    or worsening of your symptoms and any side effects
+    of your medications. Treatment is designed to prevent
+    and control symptoms and asthma attacks, particularly
+    attacks that are severe enough to require a visit to an
+    emergency department or hospitalization.\n\n
+    Fact\n\n
+    According to the National Institutes of Health,
+    asthma affects more than seventeen million
+    people in the United States that results in
+    millions of lost days of productivity and
+    thousands of hospitalizations every year
+    Sometimes it might happen: You might have an asthma
+    emergency. Here are some of the signs that you should
+    look for that indicate your symptoms are getting worse:\n\n
+    • Sweating\n
+    • Breathing so hard that you have difficulty speaking\n
+    • Using your abdominal muscles to breathe out and skin
+    is denting in around your ribs with breathing\n
+    • Bluish color around lips and fingernails\n
+    • Nostrils beginning to widen when breathing in\n
+    • Wheezing, breathing hard, or coughing-even after the
+    rescue medications have been given\n\n
+    First Aid for Asthma\n\n
+    Anyone with asthma needs to be continually aware of
+    what triggers her symptoms and to avoid those triggers,
+    as well as how to manage symptoms. Take the following
+    steps to help control asthma attacks:\n\n
+    • ldentify your triggers and how you can avoid them.\n
+    • Quit smoking both cigarettes and other substances.\n
+    • Don tuse any nonprescription inhalers because they
+    are very short-acting drugs that are not likely to prevent
+    an asthma attack and may cause undesirable side
+    effects.\n
+    • Avoid nonprescription remedies, herbs, or dietary
+    supplements, even those that are considered to be
+    completely natural until discussing them with your
+    doctor because some may have side effects and others
+    may interfere with your medications.\n
+    • Don' t take more asthma medication than is
+    prescribed because overuse can also be dangerous.
+    In the case of an asthma attack, take two puffs of your
+    prescribed rescue medication (inhaled beta-agonist),
+    waiting one minute between puffs (or as recommended
+    by your doctor), and call your doctor if you are not getting
+    quick relief. If you are already taking oral or inhaled
+    steroids and your treatments are not lasting four hours,
+    you need to notify your doctor. These are only general
+    guidelines, so always follow your doctor s instructions
+    closely.\n
+    For any asthma attack with severe shortness of breath,
+    call emergency number immediately; do not drive
+    yourself."/>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

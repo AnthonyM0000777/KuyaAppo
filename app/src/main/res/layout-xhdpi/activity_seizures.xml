@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seizures">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Sudden, abnormal electrical activity in the brain may
+cause seizures. There are many different types of
+seizures, and some only have mild symptoms. The two
+main groups are focal or partial seizures that occur in just
+one part of the brain, while generalized seizures occur
+due to abnormal activity on both sides of the brain. Most
+seizures do not cause lasting harm and occur for thirty
+seconds to two minutes. Seizures lasting longer than
+five minutes, seizures that occur one after the other, and
+seizures that a person doesn' t wake up between should
+be considered medical emergencies. Seizures have many
+causes, including certain diseases, medications, high
+fevers, and head injuries. Those with a brain disorder that
+causes recurring seizures have epilepsy.\n\n
+Essential\n\n
+Don' tput anything in a person' s mouth or
+try to hold his tongue (it can' t be swallowed
+during a seizure). Don trestrain the person
+or give liquids during or immediately after
+seizure. Lay the person gently on a soft
+surface, loosen clothing, turn his head to
+the side, and reassure the persSon when he
+arouses.\n\n
+First Aid for Seizures\n\n
+Take the following steps for someone having a seizure:
+1. Lay the person down gentily on a soft surface, place a
+folded jacket or pillow under her head, and look for any
+medical identification.\n\n
+2. Do not restrain the person; instead, turn her head to
+one side in order to keep the airway open and to protect
+the airway in case of vomiting.\n\n
+3. Loosen ties, shirt collars, and clothing, and remove any
+glasses.\n\n
+4. Reassure the person when she regains
+For any single seizures that last less than five minutes,
+ask the person for any known medical history of seizure
+to determine if hospital evaluation is necessary. For any
+multiple seizures, a seizure that lasts for five minutes or
+more, or if the person is pregnant, injured, or diabetic, call
+emergency number."/>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,17 +1,16 @@
 package com.cite.newscoopup;
 
-import android.os.Parcel;
-
 public class User {
-    public String fullName, userName;
+    public String fullName, userName, number;
 
     public User() {
 
     }
 
-    public User(String fullName, String userName) {
+    public User(String fullName, String userName, String number) {
         this.fullName = fullName;
         this.userName = userName;
+        this.number = number;
     }
 
     public String getFullName() {
@@ -28,5 +27,13 @@ public class User {
 
     public void setUserName(String userName) {
         this.userName = userName;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
     }
 }

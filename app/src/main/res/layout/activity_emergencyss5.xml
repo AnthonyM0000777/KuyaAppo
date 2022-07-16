@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emergencyss5">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="An Overview of Emergency Preparedness"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"
+            android:id="@+id/overview"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Have a Family Plan"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/overview"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"
+            android:id="@+id/familyPlan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Should You Stay or Should You Go?"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/familyPlan"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"
+            android:id="@+id/stayOrGo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shelter in Place"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/stayOrGo"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"
+            android:id="@+id/shelter"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Security Consideration"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/shelter"
+            android:textSize="23sp"
+            android:fontFamily="@font/bold"
+            android:id="@+id/security"/>
+
+    </RelativeLayout>
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

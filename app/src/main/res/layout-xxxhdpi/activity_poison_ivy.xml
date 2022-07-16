@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PoisonIvy">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="More than half the people in the United States are
+sensitive to poison ivy, poison oak, and poison sumac
+and develop an itchy, blistering rash after coming in
+contact with these plants. Poison ivy is generally found
+east of the Rocky Mountains, grows as either a vine or
+a shrub, and has leaves that have a smooth surface,
+slightly notched edges, and often clusters in groups of
+three. Poison oak is a small bush, sometimes a climbing
+vine, with smooth edged leaves clustered in groups of
+three, five, or seven and more commonly found west of
+the Rockies. \n\nPoison sumac leaves are generally smooth
+and oval shaped with seven to thirteen on each stem and
+grow in wet areas of the Southeast. The appearance of
+each of these plants can vary depending on region and
+seasons.\n\n
+Fact\n\n
+Plant oils that are removed within ten minutes
+may not cause the rash. Wash thoroughly
+with soap and water or use rubbing alcohol to
+remove any oils from your skin.
+Symptoms of Poison lvy, Oak, and
+Sumac Rash
+Exposure to any of these plants in sensitive people
+causes an itching rash usually appearing within
+twentyfour to seventy-two hours. The rash begins with
+small red bumps, developing into blisters of variable size
+later. The rash also may crust or o0ze and is often in
+streaks (straight lines), but can take any shape or pattern,
+and different areas of the body can develop a rash at
+different times, which may make it seem like the rash is
+spreading.\n\n
+First Aid for Poison lvy, Oak, and Sumac
+Rash\n\n
+Blisters may break open, but the fluid from blisters does
+not spread the rash; it s only spread by actual exposure Symptoms of Poison lvy, Oak, and
+Sumac Rash\n\n
+Exposure to any of these plants in sensitive people
+causes an itching rash usually appearing within
+twentyfour to seventy-two hours. The rash begins with
+small red bumps, developing into blisters of variable size
+later. The rash also may crust or ooze and is often in
+streaks (straight lines), but can take any shape or pattern,
+and different areas of the body can develop a rash at
+different times, which may make it seem like the rash is
+spreading.\n\n
+First Aid for Poison lvy, Oak, and Sumac
+Rash
+Blisters may break open, but the fluid from blisters does
+not spread the rash; it sonly spread by actual exposure
+to the oil that may linger on hands, clothing and shoes, or
+tools that act as carriers. Take special care while burning
+campfires in areas with poison ivy, as inhaling the smoke
+of a burning poison ivy plant can be life threatening.
+When you are exposed to any of these plants or their
+oils:\n\n
+1. Wash with soap and water thoroughly as soon as
+possible.\n\n
+2. Apply cold compresses with water or milk,
+calamine lotion, or Aveeno oatmeal bath; and take oral
+antihistamines such as Benadryl (diphenhydramine
+hydrochloride) and 1% hydrocortisone to help alleviate
+symptoms.\n\n
+3. For feelings of lightheadedness, lie down and raise
+your legs higher than your head to help blood flow to your
+brain.\n\n
+4. If you begin to wheeze or have difficulty breathing,
+use an inhaled bronchodilator such as albuterol or
+epinephrine if it is available in order to dilate the airvway,
+or if you have prescribed epinephrine, use it as you have
+been instructed.\n\n
+Your doctor may also prescribe oral steroids to treat your
+poison ivy.\n\n
+
+"/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

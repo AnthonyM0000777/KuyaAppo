@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreventSuicide">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="If you are able to talk with the person frankly, listen
+closely, allow as much time as necessary, don' t
+minimize the person' s feelings, and do not offer
+any judgments. Talking about suicide decreases the
+probability that the person will act on their suicidal
+feelings. Include the following points in any discussion
+about suicide:\n\n
+• Ask the person frankly if they are considering suicide.
+If the answer is yes, ask if they have a plan to commit
+suicide, and if so, how and where they plan to carry it out.\n
+• Express your concerns and fears, but do not minimize
+or judge their feelings.\n
+• Ask what you can do, and talk about who might be able
+to help, such as family or close friends.\n
+• Explain that there is also professional help available
+from community agencies and crisis centers, as well as
+counseling and treatment.\n
+• Together, make a plan for the next few hours and days,
+including contacting any professionals, and if you are
+able, go with the person to get help.\n
+• Keep an eye on the person and the situation, and give
+them support and praise for their courage and strength in
+opening up and seeking help.\n
+Realize what your own limitations are, and involve others
+in helping, supporting, and protecting the person in
+danger.\n\n
+Fact\n\n
+If you or someone you know is contemplating
+suicide, talk to your family doctor, call
+the National Suicide Prevention Lifeline
+at 1-800-273-TALK (1-800-273-8255),
+or contact the National Youth Violence
+Prevention Resource Center at
+1-866-SAFEYOUTH (1-866-723-3968),
+1-866-620-4160 (TTY), or e-mail your
+questions to NYVPRC@safeyouth.org.
+"/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

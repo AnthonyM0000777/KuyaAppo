@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shelter">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="You may also be given instructions in an emnergency that
+involves HAZMAT, or chemical, biological, or radiological
+contaminants that are released into the environment,
+accidentally or intentionally, to seek shelter-in-place
+to keep you safe and indoors. When officials instruct
+the public to seek shelter-in-place, they want it to be
+immediate, which means wherever you are, whether
+the event occurs when you are at home or at work, you
+should not leave or drive or go outside.\n\n
+During a shelter-in-place event, you must select and
+take refuge in a small interior room that is above ground
+level with no, or few, windows. Some chemicals may
+seep and pool into basements even if the windows
+are closed, because they are heavier than air, which is
+why you want to choose an upper-story room during
+any sort of HAZMAT threat. Plana room that has your
+home' s land telephone line because cell phones may be
+damaged or the lines overwhelmed during an emergency.
+Remember, shelter-in-place does not require you to seal
+off your entire home or building, only the room where you
+have taken refuge.\n\n
+To create a shelter-in-place at home, perform the
+following steps:\n\n
+1. Close and lock all windows and doors to the exterior.\n
+2. Turn off fans, heating, and air-conditioning systems.\n
+3. Close your fireplace dampers.\n
+4. When there is also danger of explosion, close curtains,
+window shades, and blinds.\n
+5. Take your family disaster-supplies kit along with your
+radio, your pets, and their food and water supplies.\n
+6. Using heavy plastic sheeting and duct tape, seal all
+cracks around any vents, windows, and the door.\n
+7. Keep your radio or television on and stay inside until
+you are told by officials that it is safe or you are instructed
+to evacuate.\n\n
+If you are at work, participate in closing the business and
+ask any clients, customers, or visitors in the building to
+stay in order to provide them with safety. Then do then
+following:\n\n
+1. If it is safe to do, everyone in the building should
+make contact with their persons to contact in case of
+emergency, letting them know where they are and that
+they are safe.\n
+2. Put all phones on call forward, telephone-answering
+systems, or other available services.\n
+3. Record a voice mail saying that the business is closed
+and that all employees and other persons plan to remain
+inside the building until they are instructed by authorities
+that it is safe to leave.\n
+4. Close and lock all exterior doors, windows, and other
+exterior openings.\n
+5. For any danger of explosions, close curtains, window
+shades, and blinds just as you would in your home
+shelter-in-place.\n
+6. Fans and heating and air-conditioning systems should
+be turned off, sealed, or disabled by employees that
+understand the building' s systems, particularly those
+systems that automatically vent and exchange inside air
+with outside air.\n
+7. Everyone then needs to gather in the safe room, and
+shut and lock the doors.\n
+8. Record the name of everyone in the room. Then call
+the designated emergency contact for your business to
+report the number of people in the room, their names,
+and whether they are an employee, customer, visitor, or
+client.\n\n
+Essential\n\n
+Wherever you may be during a HAZMAT
+event, remember that shelter-in-place
+instructions are usually instituted for only
+a few hours, not days or weeks, so don' t
+be alarmed about oxygen, food, and water
+running out.\n\n
+If you are at school, the school needs to close and
+the school' s emergency plan needs to be activated
+immediately, and all students, faculty, visitors, and
+staff need to come inside. Follow all previously stated
+shelter-in-place procedures. In addition, the following
+steps should be taken:\n\n
+1. At least one land-line telephone that shows the
+school' s listed number when calling from the school
+should be in the rooms used for shelter-in-place.\n
+2. The school secretary or some other designated person
+needs to answer telephone inquiries from concerned
+parents.\n
+3. There needs to be a provision for communication
+between all rooms where people are sheltering in- place.
+4. Students should be allowed to use their cell phones to
+contact parents and guardians.\n
+5. ldeally, announcements should be made over the
+school-wide public- address system.\n
+6. Change the school voice-mail message to indicate
+that the school is closed and the students and staff are
+staying inside until advised that it is safe to leave by
+authorities.\n\n
+Use several rooms such as classrooms, any large
+storage or utility rooms, meeting rooms, and even
+gymnasiums that don' thave exterior windows so that
+there will be no problemns associated with overcrowding.
+If you are in your vehicle and hear a shelter-in-place
+announcement:\n\n
+1. If you are very close to home, work, or a public
+building, drive there immediately and go inside.\n
+2. If you are unable to get to any building promptly and
+safely, pull over to the side of the road and park in the
+shade or under a bridge to keep the car' sinterior from
+becoming overheated.\n
+3. Turn off the engine and close the wind"/>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

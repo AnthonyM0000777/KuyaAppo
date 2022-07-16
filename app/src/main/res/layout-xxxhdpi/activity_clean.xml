@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Clean">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Clutter in homes may lead to accidents, and dust, grime,
+and dust mites contribute to illness and allergies. A study
+by the National Institute of Nursing Research showed that
+households that use hot water and bleach in the laundry
+have an almost 25 percent less incidence of infections
+than households that don tuse bleach.\n\n
+Essential\n\n
+For cleaning, use a mixture of one-fourth
+cup of household bleach in one gallon of
+room-temperature water for disinfectant
+purposes. Apply the mixture lightly to
+surfaces, let it sit for ten minutes, and then
+rinse.\n\n
+Take the following steps to help keep you safer and your
+home clean and hygienic:\n\n
+• Take your trash out every day.\n
+• Change your sheets at least once a week and wash all
+bed linens in hot water once a week to keep down the
+proliferation of dust mites that contribute to alergies.\n
+• Vacuum your home frequently also to keep dust and
+allergies at bay.\n
+• Seal holes and cracks in the floor and around
+baseboards, fireplaces, and pipes to keep dirt and insects
+Out.\n
+• Bathe pets once a month and keep them off couches,
+chairs, and beds to prevent their fur and dander from
+Contaminating the home.\n\n
+And though they seem like excellent sanitation products,
+keep in mind that antibacterial hand soaps wash away the
+good flora with the bad, so practice good hand washing
+techniques with mild soap and warm water instead."/>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

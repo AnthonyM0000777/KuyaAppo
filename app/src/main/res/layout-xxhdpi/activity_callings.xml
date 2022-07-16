@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Callings">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Any time you have a serious emergency requiring
+emergency response at work, you should call
+emergency number. Go to First Aid Basics menu for
+more information on when to call emergency number.
+In addition, you should call emergency number if you
+or your coworkers have any doubts or Concerns, even
+if you aren' t sure the dispatcher knows how to help.\n\n
+When calling emergency number from work, you need
+to remember to dial any prefixes necessary to obtain an
+outside line before dialing emergency number. In most
+emergency number calls, a computer in the dispatch
+center shows the number and address of the phone
+you' re using, but at a workplace the location of the
+main switchboard may be the only location appearing on
+the dispatcher s computer, so it s important that you
+provide accurate directions."/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

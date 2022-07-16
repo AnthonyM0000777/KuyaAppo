@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idRLBSheetUser"
+    android:background="@color/black_shade_1"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/idTVNewsName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="3dp"
+                android:fontFamily="@font/medium"
+                android:padding="4dp"
+                android:text="News Name"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/idIVNews"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="7dp"
+                android:padding="5dp"
+                android:layout_below="@id/idTVNewsName"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/idTVNewsDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idIVNews"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/medium"
+                android:padding="3dp"
+                android:text="Description"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <!--TextView
+                android:id="@+id/nameUpload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idIVNews"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/medium"
+                android:padding="3dp"
+                android:text="Uploaded By:"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/idTVUploadBy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idIVNews"
+                android:layout_marginStart="86dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/medium"
+                android:padding="3dp"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="italic" /-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idIVNews"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:paddingTop="700dp"
+                android:weightSum="2">
+
+                <!-- <Button
+                    android:id="@+id/idBtnEditNews"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/bold"
+                    android:text="Edit Post"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+
+                <Button
+                    android:id="@+id/idBtnVIewDetails"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/bold"
+                    android:text="View More"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+        -->
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fainting">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="ood flow to the brain. Some causes
+of fainting include heat and dehydration, emotional
+distress, rising from a sitting position too quickly, certain
+medications, a drop in blood sugar (hypoglycemia), and
+heart problems.'\n\n
+Essential\n\n
+Most people recover from fainting quickly
+and completely and the cause is usually not
+serious, although it can be a sign of a serious
+problem; if you faint, you need to discuss it
+with your doctor.\n\n
+Vasovagal syncope (fainting) is the most common cause
+of fainting, triggered by a stimulus that results in an
+exaggerated response in the part of your nervous system
+that regulates involuntary body functions such as heart
+rate and blood flow. When this response is triggered,
+your heart rate and blood pressure drop, reducing blood
+flow to your brain and causing fainting, lasting seconds
+to a few minutes. Some common triggers of vasovagal
+syncope include having a bowel movement, standing for
+long periods, dehydration, the sight of blood, coughing,
+urination, and emotional distress. Sometimes, though,
+there is no apparent cause.\n\n
+First Aid for Fainting\n\n
+If you ever feel faint, you should lie or sit down with your
+head between your knees. If you see someone else faint
+you should:\n\n
+1. Place the person on her back with legs elevated above
+the heart if possible, to restore blood flow to the brain.\n\n
+2. If the person doesn' tregain consciousness after a
+minute, call emergency number.\n\n
+3. Check for ABCS, begin CPR if needed, and watch for
+any vomiting."/>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

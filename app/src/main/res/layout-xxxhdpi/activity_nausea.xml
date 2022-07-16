@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nausea">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="Everyone experiences nausea and vomiting from time to
+time that usually goes away quickly and can be managed
+at home, usually with medicine to decrease the nausea
+and fluid replacement for dehydration. Fluid rehydration
+also usually helps correct any electrolyte imbalance,
+which may in turn stop the vomiting.\n\n
+First Aid for Nausea and Vomiting\n\n
+Take the following steps to treat nausea and vomiting:
+1. Hydrate with clear liquids (clear soup, broth, juice,
+herbal tea) beginning with small sips and increasing to
+four to eight ounces at a time, or one ounce or less at a
+time for children.\n\n
+2. Avoid milk and other dairy products that may worsen
+nausea and vomiting.\n\n
+3. After tolerating clear liquids, begin to eat soft, plain
+food such as oatmeal and yogurt.\n\n
+4. Give children oral rehydration solutions such as
+Pedialyte and Rehydrate.\n\n
+5. Avoid cola, tea, fruit juice, and sports drinks because
+they don' tadequately replace fluid or electrolytes.\n\n
+6. Avoid plain water, as it does not contain electrolytes
+and can dilute electrolytes ina dehydrated body and
+cause an imbalance that may lead to seizures.\n\n
+If you are not able to keep fluids down, you must seek
+medical attention so that you can be rehydrated with an
+
+Fact\n\n
+The World Health Organization has
+established this recipe for fluid rehydration.
+Mix two tablespoons of sugar or honey (only
+use honey for one year of age and older),
+one-fourth teaspoon of plain table salt, and also usually helps correct any electrolyte imbalance,
+which may in turn stop the vomiting.\n\n
+First Aid for Nausea and Vomiting\n\n
+Take the following steps to treat nausea and vomiting:
+1. Hydrate with clear liquids (clear soup, broth, juice,
+herbal tea) beginning with small sips and increasing to
+four to eight ounces at a time, or one ounce or less at a
+time for children.\n\n
+2. Avoid milk and other dairy products that may worsen
+nausea and vomiting.\n\n
+3. After tolerating clear liquids, begin to eat soft, plain
+food such as oatmeal and yogurt.\n\n
+4. Give children oral rehydration solutions such as
+Pedialyte and Rehydrate.\n\n
+5. Avoid cola, tea, fruit juice, and sports drinks because
+they don ' tadequately replace fluid or electrolytes.\n\n
+6. Avoid plain water, as it does not contain electrolytes
+and can dilute electrolytes in a dehydrated body and
+cause an imbalance that may lead to seizures.\n\n
+If you are not able to keep fluids down, you must seek
+medical attention so that you can be rehydrated with an
+
+Fact\n\n
+The World Health Organization has
+established this recipe for fluid rehydration.
+Mix two tablespoons of sugar or honey (only
+use honey for one year of age and older),
+one-fourth teaspoon of plain table salt, and
+one-fourth teaspoon of baking soda in one
+uart of clean or bottled water. Use this
+you would any other rehydrating fluid.
+"/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

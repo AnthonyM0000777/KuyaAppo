@@ -24,6 +24,7 @@ import com.google.firebase.database.ValueEventListener;
         private String newsIDD;
         private int countPost = 0;
 
+
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate (savedInstanceState);
@@ -64,43 +65,22 @@ import com.google.firebase.database.ValueEventListener;
             int id = item.getItemId ();
             switch (id) {
                 case R.id.idEdtDashboard:
-                    startActivity (new Intent (ViewUpload.this, MainActivity.class));
-                    this.finish ();
+                    startActivity (new Intent (ViewUpload.this, AdminDashboad.class));
                     return true;
 
                 //news headlines
                 case R.id.idEdtHeadlines:
                     startActivity (new Intent (ViewUpload.this, ApiMainActivity.class));
-                    this.finish ();
                     return true;
 
                 case R.id.idEdtProfile1:
-                    //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
-                    //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
-                    ///this.finish ();
-                    return true;
-
-                case R.id.idEdtProfile:
                     startActivity (new Intent (ViewUpload.this, EditProfileActivity.class));
-                    this.finish ();
                     return true;
 
-                case R.id.idEdtSorting:
-                    //  Toast.makeText (this, "", Toast.LENGTH_SHORT).show ();
-                    //startActivity (new Intent (MainActivity.this, EditProfileActivity.class));
-                    ///this.finish ();
-                    return true;
-
-                //view upload
-                case R.id.idEdtView:
-                    startActivity (new Intent (ViewUpload.this, ViewUpload.class));
-                    this.finish ();
-                    return true;
 
 
                 case R.id.idEdtAbout:
                     startActivity (new Intent (ViewUpload.this, AboutUsActivity.class));
-                    this.finish ();
                     return true;
 
 

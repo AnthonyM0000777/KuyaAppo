@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dislocation">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="An injury that forces the ends of your bones from their
+normal position is a dislocation. Dislocations are usualy
+a result of some sort of trauma, such as a fall or a blow,
+but they can also be a result of an underlying disease
+such as rheumatoid arthritis. Contact sports like football
+and hockey, and those that may result in falls, like
+downhill skiing and volleyball, have a high occurrence of
+dislocation injuries. Dislocations happen in both major
+joints like the shoulder, hip, knee, elbow, or ankle and in
+smaller joints like fingers, thumbs, or toes. This sort of
+injury causes temporary deformity and inability to move
+the joint, usually along with sudden and severe pain.
+Dislocations need immediate medical attention.\n\n
+First Aid for Dislocations\n\n
+Get medical attention as soon as possible with any
+suspected dislocation so that you can have the bones
+repositioned properly. Until you can get medical attention,
+do the following:\n\n
+1. Splint and immobilize the affected joint and never try
+force it back into place, which can potentially damage the
+joint, surrounding muscles, ligaments, nerves, or blood
+vessels.\n
+2. Apply an ice pack to reduce any swelling caused by
+internal bleeding and the buildup of fluids around the
+injury."/>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

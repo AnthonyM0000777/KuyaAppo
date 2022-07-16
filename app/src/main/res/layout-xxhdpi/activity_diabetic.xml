@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Diabetic">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:padding="10dp"
+            android:textSize="23sp"
+            android:text="When a person has diabetes, her body doesn' tproduce
+and properly use insulin, the hormone required by the
+body to convert sugar, starches, and other food into
+energy. Prolonged blood-sugar extremes in diabetics can
+cause loss of consciousness known as a diabetic coma./n/n
+What to Watch For\n\n
+Symptoms of high blood sugar or low blood sugar
+often appear gradually and some or all of the following
+symptoms can signal the onset of a diabetic coma:\n\n
+• Fruity-smelling breath\n\n
+•Frequent urination\n\n
+• Fast heart rate\n\n
+• Deep and rapid breathing\n\n
+• Extreme thirst\n\n
+• Dry mouth\n\n
+• Warm, dry, red skin\n\n
+• Drowsiness\n\n
+• Nausea with upper abdominal pain\n\n
+• Vomiting\n\n
+• Loss of consciousness\n\n
+• Agitation, behavior changes, irritability\n\n
+Fact\n\n
+Both hyperglycemia (very high blood sugar)
+and hypoglycemia (very low blood sugar) can
+lead to a diabetic coma, a life-threatening
+condition\n\n
+What to Do\n\n
+In the case of hypoglycemia or hyperglycemia, take the
+following steps:\n\n
+1. If you know the person is diabetic, or if you find a
+Medic Alert bracelet stating the person is diabetic, ask if
+she has taken her required insulin. If she has not or you
+are unsure, call emergency number for help.\n\n
+2. In the case of low blood sugar, or hypoglycemia, give
+her some form of sugar such as fruit juice. Don' tgive
+hard candy to someone who is very ill or in an altered
+state because of the risk of choking.\n\n
+Many people are aware of how to treat their diabetes
+and how to test their blood-glucose levels. If tested blood
+remains below 60 mg/dL or if the person continues to
+have symptoms of severe hypoglycemia, hyperglycemia,
+or insulin reaction, call emergency number and get to an
+emergency department.\n\n
+Essential\n\n
+You should consider using an EMS
+notification system called The Bottle of
+        Life, a large medicine bottle marked on
+    the top and sides with large red crosses.
+    All medications and conditions are listed on
+    a piece of paper inside the bottle and kept
+    inside the refrigerator where first responders
+    are trained to look for it."/>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
