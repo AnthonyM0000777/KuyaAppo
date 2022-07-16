@@ -8,15 +8,12 @@ package com.cite.newscoopup;
         import androidx.recyclerview.widget.RecyclerView;
 
         import android.content.Intent;
-        import android.net.Uri;
         import android.os.Bundle;
         import android.view.LayoutInflater;
         import android.view.Menu;
         import android.view.MenuItem;
         import android.view.View;
-        import android.widget.Button;
         import android.widget.ImageView;
-        import android.widget.LinearLayout;
         import android.widget.ProgressBar;
         import android.widget.RelativeLayout;
         import android.widget.TextView;
@@ -25,8 +22,6 @@ package com.cite.newscoopup;
         import com.google.android.gms.auth.api.signin.GoogleSignIn;
         import com.google.android.gms.auth.api.signin.GoogleSignInClient;
         import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
-        import com.google.android.gms.tasks.OnCompleteListener;
-        import com.google.android.gms.tasks.Task;
         import com.google.android.material.bottomsheet.BottomSheetDialog;
         import com.google.android.material.floatingactionbutton.FloatingActionButton;
         import com.google.firebase.auth.FirebaseAuth;
@@ -38,8 +33,6 @@ package com.cite.newscoopup;
         import com.squareup.picasso.Picasso;
 
         import java.util.ArrayList;
-        import java.util.Collections;
-        import java.util.Comparator;
 
 public class UserMain extends AppCompatActivity implements NewsRVAdapter.NewsClickInterface {
 

@@ -29,27 +29,27 @@
         android:theme="@style/Theme.NewScoopUp"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".MainCity"
+            android:name="com.cite.newscoopup.MainCity"
             android:exported="false" />
         <activity
-            android:name=".MainWeather"
+            android:name="com.cite.newscoopup.MainWeather"
             android:exported="false" />
         <activity
-            android:name=".AppWeather"
+            android:name="com.cite.newscoopup.AppWeather"
             android:exported="false" />
         <activity
-            android:name=".User_Dashboard"
+            android:name="com.cite.newscoopup.User_Dashboard"
             android:exported="false"
             android:hardwareAccelerated="true"
             android:label="Dashboard" />
         <activity
-            android:name=".WatchVideo"
+            android:name="com.cite.newscoopup.WatchVideo"
             android:exported="false"
             android:hardwareAccelerated="true"
             android:label="Disaster Drill Tutorials" />
 
         <service
-            android:name=".FirebaseMessagingService"
+            android:name="com.cite.newscoopup.FirebaseMessagingService"
             android:exported="true"
             android:permission="TODO"
             tools:ignore="ExportedService">
@@ -59,490 +59,490 @@
         </service>
 
         <activity
-            android:name=".SendNotificationToAllDevice"
+            android:name="com.cite.newscoopup.SendNotificationToAllDevice"
             android:exported="false"
             android:hardwareAccelerated="true"
             android:label="Sent Updates To All Users" />
         <activity
-            android:name=".HazardMapsAdmin"
+            android:name="com.cite.newscoopup.HazardMapsAdmin"
             android:exported="false"
             android:label="Hazard Maps" />
         <activity
-            android:name=".HazardMaps"
+            android:name="com.cite.newscoopup.HazardMaps"
             android:exported="false"
             android:hardwareAccelerated="true"
             android:label="Hazard Maps" />
         <activity
-            android:name=".Securitys"
+            android:name="com.cite.newscoopup.Securitys"
             android:exported="false"
             android:label="Security Considerations" />
         <activity
-            android:name=".Shelter"
+            android:name="com.cite.newscoopup.Shelter"
             android:exported="false"
             android:label="Shelter in Place" />
         <activity
-            android:name=".StayorGo"
+            android:name="com.cite.newscoopup.StayorGo"
             android:exported="false"
             android:label="Should you Stay or Should you Go?" />
         <activity
-            android:name=".FamilyPlan"
+            android:name="com.cite.newscoopup.FamilyPlan"
             android:exported="false"
             android:label="Have a Family Plan" />
         <activity
-            android:name=".Overviews"
+            android:name="com.cite.newscoopup.Overviews"
             android:exported="false"
             android:label="An Overview of Emergency Preparedness" />
         <activity
-            android:name=".AboutDrugs"
+            android:name="com.cite.newscoopup.AboutDrugs"
             android:exported="false"
             android:label="Talk to your Kids About Drugs" />
         <activity
-            android:name=".TalkKids"
+            android:name="com.cite.newscoopup.TalkKids"
             android:exported="false"
             android:label="Talk to your Kids About Suicide" />
         <activity
-            android:name=".PreventSuicide"
+            android:name="com.cite.newscoopup.PreventSuicide"
             android:exported="false"
             android:label="Preventing Suicide" />
         <activity
-            android:name=".Suicide"
+            android:name="com.cite.newscoopup.Suicide"
             android:exported="false"
             android:label="Suicide" />
         <activity
-            android:name=".Depression"
+            android:name="com.cite.newscoopup.Depression"
             android:exported="false"
             android:label="Depression Signs to Look For" />
         <activity
-            android:name=".Concerning"
+            android:name="com.cite.newscoopup.Concerning"
             android:exported="false"
             android:label="More Advice Concerning the Great Outdoors" />
         <activity
-            android:name=".Tentss"
+            android:name="com.cite.newscoopup.Tentss"
             android:exported="false"
             android:label="Staying in a Tent" />
         <activity
-            android:name=".StayingHotel"
+            android:name="com.cite.newscoopup.StayingHotel"
             android:exported="false"
             android:label="Staying in a Hotel Room" />
         <activity
-            android:name=".Foreign"
+            android:name="com.cite.newscoopup.Foreign"
             android:exported="false"
             android:label="Diarrhea in Foreign Countries" />
         <activity
-            android:name=".WhenYouGet"
+            android:name="com.cite.newscoopup.WhenYouGet"
             android:exported="false"
             android:label="What to Ask When you Get There" />
         <activity
-            android:name=".WhatToAsk"
+            android:name="com.cite.newscoopup.WhatToAsk"
             android:exported="false"
             android:label="What to Ask Before you GO" />
         <activity
-            android:name=".Packss"
+            android:name="com.cite.newscoopup.Packss"
             android:exported="false"
             android:label="What to Pack" />
         <activity
-            android:name=".Callings"
+            android:name="com.cite.newscoopup.Callings"
             android:exported="false"
             android:label="Calling Emergency Number from Work" />
         <activity
-            android:name=".EmergencyKit"
+            android:name="com.cite.newscoopup.EmergencyKit"
             android:exported="false"
             android:label="Keeping your Own Emergency Kit" />
         <activity
-            android:name=".Stations"
+            android:name="com.cite.newscoopup.Stations"
             android:exported="false"
             android:label="Where is your Emergency Station?" />
         <activity
-            android:name=".Stressss"
+            android:name="com.cite.newscoopup.Stressss"
             android:exported="false"
             android:label="Stress and Personal Safety in the Workplace" />
         <activity
-            android:name=".Preventing"
+            android:name="com.cite.newscoopup.Preventing"
             android:exported="false"
             android:label="Preventing Injuries in the Workplace" />
         <activity
-            android:name=".Workplace"
+            android:name="com.cite.newscoopup.Workplace"
             android:exported="false"
             android:label="How Safe is your Workplace?" />
         <activity
-            android:name=".Howsafe"
+            android:name="com.cite.newscoopup.Howsafe"
             android:exported="false"
             android:label="How Safe is your Car?" />
         <activity
-            android:name=".Samaritan"
+            android:name="com.cite.newscoopup.Samaritan"
             android:exported="false"
             android:label="Good Samaritan Laws in your State" />
         <activity
-            android:name=".Keeppss"
+            android:name="com.cite.newscoopup.Keeppss"
             android:exported="false"
             android:label="Keep a Useful Kit in the Car" />
         <activity
-            android:name=".Responders"
+            android:name="com.cite.newscoopup.Responders"
             android:exported="false"
             android:label="First Steps of a First Responder" />
         <activity
-            android:name=".Smoke"
+            android:name="com.cite.newscoopup.Smoke"
             android:exported="false"
             android:label="Smoke Inhalation" />
         <activity
-            android:name=".Dislocation"
+            android:name="com.cite.newscoopup.Dislocation"
             android:exported="false"
             android:label="Dislocation" />
         <activity
-            android:name=".Fractures"
+            android:name="com.cite.newscoopup.Fractures"
             android:exported="false"
             android:label="Fractures of the Pelvis" />
         <activity
-            android:name=".BrokenBones"
+            android:name="com.cite.newscoopup.BrokenBones"
             android:exported="false"
             android:label="Broken Bones" />
         <activity
-            android:name=".Sprains"
+            android:name="com.cite.newscoopup.Sprains"
             android:exported="false"
             android:label="Sprains" />
         <activity
-            android:name=".Severed"
+            android:name="com.cite.newscoopup.Severed"
             android:exported="false"
             android:label="Severed Limb" />
         <activity
-            android:name=".Rabies"
+            android:name="com.cite.newscoopup.Rabies"
             android:exported="false"
             android:label="Rabies" />
         <activity
-            android:name=".Tetanus"
+            android:name="com.cite.newscoopup.Tetanus"
             android:exported="false"
             android:label="Tetanus" />
         <activity
-            android:name=".Miscarriage"
+            android:name="com.cite.newscoopup.Miscarriage"
             android:exported="false"
             android:label="Miscarriage" />
         <activity
-            android:name=".Childbirth"
+            android:name="com.cite.newscoopup.Childbirth"
             android:exported="false"
             android:label="Childbirth (Emergency Delivery)" />
         <activity
-            android:name=".PanicAttack"
+            android:name="com.cite.newscoopup.PanicAttack"
             android:exported="false"
             android:label="Panic Attack" />
         <activity
-            android:name=".Highblood"
+            android:name="com.cite.newscoopup.Highblood"
             android:exported="false"
             android:label="High Blood Pressure (Hypertension)" />
         <activity
-            android:name=".Motionss"
+            android:name="com.cite.newscoopup.Motionss"
             android:exported="false"
             android:label="Motion Sickness" />
         <activity
-            android:name=".Nosebleed"
+            android:name="com.cite.newscoopup.Nosebleed"
             android:exported="false"
             android:label="Nosebleed" />
         <activity
-            android:name=".BrokenNose"
+            android:name="com.cite.newscoopup.BrokenNose"
             android:exported="false"
             android:label="Broken Nose" />
         <activity
-            android:name=".BlackEyes"
+            android:name="com.cite.newscoopup.BlackEyes"
             android:exported="false"
             android:label="Black Eyes" />
         <activity
-            android:name=".Croupss"
+            android:name="com.cite.newscoopup.Croupss"
             android:exported="false"
             android:label="Croup" />
         <activity
-            android:name=".SoreThroat"
+            android:name="com.cite.newscoopup.SoreThroat"
             android:exported="false"
             android:label="Sore Throat" />
         <activity
-            android:name=".Fainting"
+            android:name="com.cite.newscoopup.Fainting"
             android:exported="false"
             android:label="Fainting" />
         <activity
-            android:name=".Seizures"
+            android:name="com.cite.newscoopup.Seizures"
             android:exported="false"
             android:label="Seizures" />
         <activity
-            android:name=".Febrile"
+            android:name="com.cite.newscoopup.Febrile"
             android:exported="false"
             android:label="Febrile Seizures" />
         <activity
-            android:name=".Fever"
+            android:name="com.cite.newscoopup.Fever"
             android:exported="false"
             android:label="Fever" />
         <activity
-            android:name=".Carbon"
+            android:name="com.cite.newscoopup.Carbon"
             android:exported="false"
             android:label="Carbon Monoxide Poisoning" />
         <activity
-            android:name=".Nearss"
+            android:name="com.cite.newscoopup.Nearss"
             android:exported="false"
             android:label="Near Drowning" />
         <activity
-            android:name=".Drugs"
+            android:name="com.cite.newscoopup.Drugs"
             android:exported="false"
             android:label="Drug Overdose" />
         <activity
-            android:name=".Poisoning"
+            android:name="com.cite.newscoopup.Poisoning"
             android:exported="false"
             android:label="Poisoning" />
         <activity
-            android:name=".Strokes"
+            android:name="com.cite.newscoopup.Strokes"
             android:exported="false"
             android:label="Stroke" />
         <activity
-            android:name=".Spinal"
+            android:name="com.cite.newscoopup.Spinal"
             android:exported="false"
             android:label="Spinal Injury" />
         <activity
-            android:name=".Penetrating"
+            android:name="com.cite.newscoopup.Penetrating"
             android:exported="false"
             android:label="Penetrating" />
         <activity
-            android:name=".Internals"
+            android:name="com.cite.newscoopup.Internals"
             android:exported="false"
             android:label="Internal Bleeding/Blunt Trauma" />
         <activity
-            android:name=".Bleeding"
+            android:name="com.cite.newscoopup.Bleeding"
             android:exported="false"
             android:label="Bleeding" />
         <activity
-            android:name=".Asthmas"
+            android:name="com.cite.newscoopup.Asthmas"
             android:exported="false"
             android:label="Asthma Attack" />
         <activity
-            android:name=".Nausea"
+            android:name="com.cite.newscoopup.Nausea"
             android:exported="false"
             android:label="Nausea and Vomiting" />
         <activity
-            android:name=".Abdominal"
+            android:name="com.cite.newscoopup.Abdominal"
             android:exported="false"
             android:label="Abdominal Pain" />
         <activity
-            android:name=".Headache"
+            android:name="com.cite.newscoopup.Headache"
             android:exported="false"
             android:label="Headache and Head Pain" />
         <activity
-            android:name=".HeadTrauma"
+            android:name="com.cite.newscoopup.HeadTrauma"
             android:exported="false"
             android:label="Head Injuries and Head Trauma" />
         <activity
-            android:name=".Electrical"
+            android:name="com.cite.newscoopup.Electrical"
             android:exported="false"
             android:label="Electrical Injury" />
         <activity
-            android:name=".Sunburn"
+            android:name="com.cite.newscoopup.Sunburn"
             android:exported="false"
             android:label="Sunburn" />
         <activity
-            android:name=".Burns"
+            android:name="com.cite.newscoopup.Burns"
             android:exported="false"
             android:label="Burns (Thermal, Chemical, and Other" />
         <activity
-            android:name=".Jellyfish"
+            android:name="com.cite.newscoopup.Jellyfish"
             android:exported="false"
             android:label="Jellyfish Stings" />
         <activity
-            android:name=".Hearts"
+            android:name="com.cite.newscoopup.Hearts"
             android:exported="false"
             android:label="Heat Emergencies" />
         <activity
-            android:name=".Dehydration"
+            android:name="com.cite.newscoopup.Dehydration"
             android:exported="false"
             android:label="Dehydration" />
         <activity
-            android:name=".Blindness"
+            android:name="com.cite.newscoopup.Blindness"
             android:exported="false"
             android:label="Snow Blindness" />
         <activity
-            android:name=".Frostbite"
+            android:name="com.cite.newscoopup.Frostbite"
             android:exported="false"
             android:label="Frostbite and Hypothermia" />
         <activity
-            android:name=".PoisonIvy"
+            android:name="com.cite.newscoopup.PoisonIvy"
             android:exported="false"
             android:label="Poison Ivy, Oak, and Sumac" />
         <activity
-            android:name=".Stings"
+            android:name="com.cite.newscoopup.Stings"
             android:exported="false"
             android:label="Insect Stings" />
         <activity
-            android:name=".Animal"
+            android:name="com.cite.newscoopup.Animal"
             android:exported="false"
             android:label="Animal, Human, and Insect Bites" />
         <activity
-            android:name=".Allegic"
+            android:name="com.cite.newscoopup.Allegic"
             android:exported="false"
             android:label="Allergic Reactions" />
         <activity
-            android:name=".FoodPoison"
+            android:name="com.cite.newscoopup.FoodPoison"
             android:exported="false"
             android:label="Food Poisoning" />
         <activity
-            android:name=".Earache"
+            android:name="com.cite.newscoopup.Earache"
             android:exported="false"
             android:label="Earache and Ear Injury" />
         <activity
-            android:name=".Diabetic"
+            android:name="com.cite.newscoopup.Diabetic"
             android:exported="false"
             android:label="Diabetic Emergencies" />
         <activity
-            android:name=".ToothLoss"
+            android:name="com.cite.newscoopup.ToothLoss"
             android:exported="false"
             android:label="Tooth Loss, Dental Pain, and Dental Injuries" />
         <activity
-            android:name=".Duedue"
+            android:name="com.cite.newscoopup.Duedue"
             android:exported="false"
             android:label="Infections Due to Cuts" />
         <activity
-            android:name=".Puntures"
+            android:name="com.cite.newscoopup.Puntures"
             android:exported="false"
             android:label="Puncture Wounds" />
         <activity
-            android:name=".Cuuts"
+            android:name="com.cite.newscoopup.Cuuts"
             android:exported="false"
             android:label="Cuts (Lacerations)" />
         <activity
-            android:name=".Preventsss"
+            android:name="com.cite.newscoopup.Preventsss"
             android:exported="false"
             android:label="An Ounce of Prevention" />
         <activity
-            android:name=".Clean"
+            android:name="com.cite.newscoopup.Clean"
             android:exported="false"
             android:label="Keeping It Clean" />
         <activity
-            android:name=".Elderly"
+            android:name="com.cite.newscoopup.Elderly"
             android:exported="false"
             android:label="Protecting the Elderly" />
         <activity
-            android:name=".Homes"
+            android:name="com.cite.newscoopup.Homes"
             android:exported="false"
             android:label="Childproofing Your Home" />
         <activity
-            android:name=".Shock"
+            android:name="com.cite.newscoopup.Shock"
             android:exported="false"
             android:label="Managing Shock" />
         <activity
-            android:name=".Objectx"
+            android:name="com.cite.newscoopup.Objectx"
             android:exported="false"
             android:label="Swallowing Foreign Objects" />
         <activity
-            android:name=".Maneuver"
+            android:name="com.cite.newscoopup.Maneuver"
             android:exported="false"
             android:label="Heimlich Maneuver" />
         <activity
-            android:name=".Choking"
+            android:name="com.cite.newscoopup.Choking"
             android:exported="false"
             android:label="Choking" />
         <activity
-            android:name=".Attack"
+            android:name="com.cite.newscoopup.Attack"
             android:exported="false"
             android:label="Signs of Heart Attack" />
         <activity
-            android:name=".Posit"
+            android:name="com.cite.newscoopup.Posit"
             android:exported="false"
             android:label="Recovery Position" />
         <activity
-            android:name=".Aidas"
+            android:name="com.cite.newscoopup.Aidas"
             android:exported="false"
             android:label="The ABCs of First Aid" />
         <activity
-            android:name=".Aed"
+            android:name="com.cite.newscoopup.Aed"
             android:exported="false"
             android:label="Basic CPR and AED" />
         <activity
-            android:name=".Cpr"
+            android:name="com.cite.newscoopup.Cpr"
             android:exported="false"
             android:label="History of CPR" />
         <activity
-            android:name=".Training"
+            android:name="com.cite.newscoopup.Training"
             android:exported="false"
             android:label="The Proper Training" />
         <activity
-            android:name=".Universal"
+            android:name="com.cite.newscoopup.Universal"
             android:exported="false"
             android:label="Universal Precautions" />
         <activity
-            android:name=".Numbers"
+            android:name="com.cite.newscoopup.Numbers"
             android:exported="false"
             android:label="Calling Emergency Number" />
         <activity
-            android:name=".Medicals"
+            android:name="com.cite.newscoopup.Medicals"
             android:exported="false"
             android:label="Gathering Medical Information" />
         <activity
-            android:name=".Proper"
+            android:name="com.cite.newscoopup.Proper"
             android:exported="false"
             android:label="The Proper Supplies" />
         <activity
-            android:name=".Panic"
+            android:name="com.cite.newscoopup.Panic"
             android:exported="false"
             android:label="Don&apos;t Panic" />
         <activity
-            android:name=".AdminEmergency"
+            android:name="com.cite.newscoopup.AdminEmergency"
             android:exported="false"
             android:hardwareAccelerated="true"
             android:label="First Aids and Emergency Techniques" />
         <activity
-            android:name=".MedicalNeeds"
+            android:name="com.cite.newscoopup.MedicalNeeds"
             android:exported="false"
             android:label="Wildfire" />
         <activity
-            android:name=".Emergencyss5"
+            android:name="com.cite.newscoopup.Emergencyss5"
             android:exported="false"
             android:label="Emergency Preparedness" />
         <activity
-            android:name=".Emergencyss4"
+            android:name="com.cite.newscoopup.Emergencyss4"
             android:exported="false"
             android:label="Other Safety Concerns" />
         <activity
-            android:name=".Emergencyss3"
+            android:name="com.cite.newscoopup.Emergencyss3"
             android:exported="false"
             android:label="Vacation Safety" />
         <activity
-            android:name=".Emergencyss2"
+            android:name="com.cite.newscoopup.Emergencyss2"
             android:exported="false"
             android:label="First Aid at Work" />
         <activity
-            android:name=".Emergencyss1"
+            android:name="com.cite.newscoopup.Emergencyss1"
             android:exported="false"
             android:label="One for the Road" />
         <activity
-            android:name=".Emergencys5"
+            android:name="com.cite.newscoopup.Emergencys5"
             android:exported="false"
             android:label="Event Alerts" />
         <activity
-            android:name=".Emergencys4"
+            android:name="com.cite.newscoopup.Emergencys4"
             android:exported="false"
             android:label="Common Conditions" />
         <activity
-            android:name=".Emergencys3"
+            android:name="com.cite.newscoopup.Emergencys3"
             android:exported="false"
             android:label="Serious Incidents" />
         <activity
-            android:name=".Emergencys2"
+            android:name="com.cite.newscoopup.Emergencys2"
             android:exported="false"
             android:label="Anywhere Events" />
         <activity
-            android:name=".Emergencys1"
+            android:name="com.cite.newscoopup.Emergencys1"
             android:exported="false"
             android:label="Outdoor Events" />
         <activity
-            android:name=".Emergency5"
+            android:name="com.cite.newscoopup.Emergency5"
             android:exported="false"
             android:label="Common In-Home Incidents" />
         <activity
-            android:name=".Emergency4"
+            android:name="com.cite.newscoopup.Emergency4"
             android:exported="false"
             android:label="Prevention Measures" />
         <activity
-            android:name=".Emergency3"
+            android:name="com.cite.newscoopup.Emergency3"
             android:exported="false"
             android:label="Emergency Response" />
         <activity
-            android:name=".Emergency2"
+            android:name="com.cite.newscoopup.Emergency2"
             android:exported="false"
             android:label="First-Aid Basics" />
         <activity
-            android:name=".Emergency1"
+            android:name="com.cite.newscoopup.Emergency1"
             android:exported="false"
             android:label="First-Aid Myths" />
         <!--
@@ -562,101 +562,101 @@
 
         <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
         <activity
-            android:name=".RetrieveMapsActivity"
+            android:name="com.cite.newscoopup.RetrieveMapsActivity"
             android:exported="false"
             android:label="@string/title_activity_retrieve_maps" />
         <activity
-            android:name=".UserFirstAirKit"
+            android:name="com.cite.newscoopup.UserFirstAirKit"
             android:exported="false"
             android:hardwareAccelerated="true"
             android:label="First Aids and Emergency Techniques" />
         <activity
-            android:name=".UserTsunami"
+            android:name="com.cite.newscoopup.UserTsunami"
             android:exported="false"
             android:label="Tsunamis" />
         <activity
-            android:name=".UserFloods"
+            android:name="com.cite.newscoopup.UserFloods"
             android:exported="false"
             android:label="Floods" />
         <activity
-            android:name=".UserLandslide"
+            android:name="com.cite.newscoopup.UserLandslide"
             android:exported="false"
             android:label="Landslides" />
         <activity
-            android:name=".UserHuricane"
+            android:name="com.cite.newscoopup.UserHuricane"
             android:exported="false"
             android:label="Hurricanes" />
         <activity
-            android:name=".UserEarthquake"
+            android:name="com.cite.newscoopup.UserEarthquake"
             android:exported="false"
             android:label="Earthquakes" />
         <activity
-            android:name=".UserGetLocatiob"
+            android:name="com.cite.newscoopup.UserGetLocatiob"
             android:exported="false"
             android:label="Get Location" />
         <activity
-            android:name=".UserTips"
+            android:name="com.cite.newscoopup.UserTips"
             android:exported="false"
             android:hardwareAccelerated="true"
             android:label="Helpful Tips" />
         <activity
-            android:name=".UserContact"
+            android:name="com.cite.newscoopup.UserContact"
             android:exported="false" />
         <activity
-            android:name=".UserLocation"
+            android:name="com.cite.newscoopup.UserLocation"
             android:exported="false"
             android:label="Send Location" />
         <activity
-            android:name=".UserAbout"
+            android:name="com.cite.newscoopup.UserAbout"
             android:exported="false"
             android:label="About Us" />
         <activity
-            android:name=".UserProfile"
+            android:name="com.cite.newscoopup.UserProfile"
             android:exported="false"
             android:label="Profile" />
         <activity
-            android:name=".UserMain"
+            android:name="com.cite.newscoopup.UserMain"
             android:exported="false"
             android:hardwareAccelerated="true"
             android:label="News/Events" />
         <activity
-            android:name=".History"
+            android:name="com.cite.newscoopup.History"
             android:exported="false"
             android:hardwareAccelerated="true"
             android:label="Location History" />
         <activity
-            android:name=".Tips"
+            android:name="com.cite.newscoopup.Tips"
             android:exported="false"
             android:hardwareAccelerated="true"
             android:label="Helpful Tips" />
         <activity
-            android:name=".AdminDashboad"
+            android:name="com.cite.newscoopup.AdminDashboad"
             android:exported="false"
             android:hardwareAccelerated="true"
             android:label="Dashboard" />
         <activity
-            android:name=".ApiMainActivity"
+            android:name="com.cite.newscoopup.ApiMainActivity"
             android:exported="false"
             android:hardwareAccelerated="true"
             android:label="Global News" />
         <activity
-            android:name=".DetailActivity"
+            android:name="com.cite.newscoopup.DetailActivity"
             android:exported="false"
             android:label="Global News" />
         <activity
-            android:name=".ViewUpload"
+            android:name="com.cite.newscoopup.ViewUpload"
             android:exported="false"
             android:label="Uploads" />
         <activity
-            android:name=".AboutUsActivity"
+            android:name="com.cite.newscoopup.AboutUsActivity"
             android:exported="false"
             android:label="About Us" />
         <activity
-            android:name=".EditProfileActivity"
+            android:name="com.cite.newscoopup.EditProfileActivity"
             android:exported="false"
             android:label="Profile" />
         <activity
-            android:name=".LoadingActivity"
+            android:name="com.cite.newscoopup.LoadingActivity"
             android:exported="true"
             android:noHistory="true"
             android:theme="@style/Theme.AppCompat.NoActionBar">
@@ -667,26 +667,26 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EditNewsActivity"
+            android:name="com.cite.newscoopup.EditNewsActivity"
             android:exported="false"
             android:label="Edit Post" />
         <activity
-            android:name=".AddNewsActivity"
+            android:name="com.cite.newscoopup.AddNewsActivity"
             android:exported="false"
             android:label="Add Post" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.cite.newscoopup.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.cite.newscoopup.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.cite.newscoopup.MainActivity"
             android:exported="false"
             android:hardwareAccelerated="true"
             android:label="News/Events" />
         <activity
-            android:name=".ApiUser"
+            android:name="com.cite.newscoopup.ApiUser"
             android:exported="false"
             android:hardwareAccelerated="true"
             android:label="Global News" />
