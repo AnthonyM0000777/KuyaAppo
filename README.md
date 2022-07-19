@@ -1,7 +1,7 @@
 # KuyaAppo Mobile Application
 
-## QR Code
-![](KuyaAppo_QR_Code.png)
+
+
 
 ## Documentation
 ##### KuyaAppo is mobile application, Mdrrmo Risk Reduction Management System for Cuyapo Nueva Ecija.
